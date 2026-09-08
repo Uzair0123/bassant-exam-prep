@@ -141,14 +141,16 @@ export default function Quiz() {
         {currentIndex === questions.length - 1 ? (
           <button 
             onClick={handleSubmit}
-            className="flex items-center gap-2 px-8 py-3 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 font-bold transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            disabled={answers[currentIndex] === undefined}
+            className="flex items-center gap-2 px-8 py-3 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Submit Exam <CheckCircle className="w-5 h-5" />
           </button>
         ) : (
           <button 
             onClick={() => setCurrentIndex(prev => Math.min(questions.length - 1, prev + 1))}
-            className="flex items-center gap-2 px-8 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 font-bold transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            disabled={answers[currentIndex] === undefined}
+            className="flex items-center gap-2 px-8 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next Question <ChevronRight className="w-5 h-5" />
           </button>
