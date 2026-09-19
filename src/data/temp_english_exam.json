@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eng_exam_0",
+    "question": "If the flight had not been delayed, the connecting passengers _______ their next flight.",
+    "options": ["would have caught", "will catch", "would catch", "caught"],
+    "correct": 0,
+    "explanation": "Third conditional is used for unreal past situations, requiring 'would have + past participle'.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_1",
+    "question": "Please ensure that all baggage is stowed _______ the seat in front of you.",
+    "options": ["underneath", "beneath of", "under", "below of"],
+    "correct": 2,
+    "explanation": "'Under' is the standard preposition used when referring to stowing baggage below the seat.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_2",
+    "question": "The passengers were informed that boarding would commence _______ gate 24.",
+    "options": ["at", "on", "in", "by"],
+    "correct": 0,
+    "explanation": "We use 'at' to specify a specific location or point like a gate.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_3",
+    "question": "We apologize for the inconvenience, but we are currently experiencing a _______ with the baggage carousel.",
+    "options": ["malfunction", "disaster", "ruin", "breakage"],
+    "correct": 0,
+    "explanation": "'Malfunction' is the professional term for mechanical equipment failure.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_exam_4",
+    "question": "Ground staff must _______ the manifest before closing the aircraft doors.",
+    "options": ["verify", "verifying", "verified", "to verify"],
+    "correct": 0,
+    "explanation": "'Must' is a modal verb that is followed by the base form of the verb.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_exam_5",
+    "question": "If a passenger appears intoxicated, ground staff _______ deny them boarding.",
+    "options": ["should", "might have", "would be", "are to"],
+    "correct": 0,
+    "explanation": "'Should' expresses obligation or recommendation in this first conditional sentence.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_6",
+    "question": "Could you please tell me where the _______ lounge is located?",
+    "options": ["departure", "depart", "departing", "departed"],
+    "correct": 0,
+    "explanation": "'Departure lounge' is the correct compound noun used in aviation.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_exam_7",
+    "question": "A passenger asks, 'What time does boarding start?' What is the most appropriate response?",
+    "options": ["Boarding will commence in approximately 15 minutes, sir.", "Wait 15 minutes.", "It starts soon.", "I don't know, check the screen."],
+    "correct": 0,
+    "explanation": "A polite, professional response providing accurate information is required in passenger communication.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_exam_8",
+    "question": "The flight is heavily booked; therefore, we are asking for volunteers to check their hand luggage _______ the hold.",
+    "options": ["into", "onto", "in", "at"],
+    "correct": 0,
+    "explanation": "'Into' suggests movement towards the inside of a container, such as the aircraft hold.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_9",
+    "question": "Neither the pilot _______ the co-pilot was aware of the minor mechanical issue until the pre-flight check.",
+    "options": ["nor", "or", "and", "but"],
+    "correct": 0,
+    "explanation": "The correlative conjunction 'neither...nor' is used to link two negative alternatives.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_exam_10",
+    "question": "Due to the severe snowstorm, all outbound flights have been temporarily _______.",
+    "options": ["grounded", "landed", "parked", "stopped"],
+    "correct": 0,
+    "explanation": "'Grounded' is the specific aviation term for flights that are not allowed to take off due to weather or technical issues.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_exam_11",
+    "question": "If you _______ the visa requirements earlier, you wouldn't have been denied boarding.",
+    "options": ["had checked", "checked", "have checked", "were checking"],
+    "correct": 0,
+    "explanation": "Third conditional requires 'had + past participle' in the if-clause.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_12",
+    "question": "We need to ensure that all oversized items are tagged and placed _______ the oversized baggage belt.",
+    "options": ["on", "in", "over", "above"],
+    "correct": 0,
+    "explanation": "Items are placed 'on' a surface, such as a conveyor belt.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_13",
+    "question": "The term 'ETA' stands for Estimated Time of _______.",
+    "options": ["Arrival", "Action", "Altitude", "Aircraft"],
+    "correct": 0,
+    "explanation": "ETA is standard aviation terminology for 'Estimated Time of Arrival'.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_exam_14",
+    "question": "Please remain seated _______ the seatbelt sign has been switched off.",
+    "options": ["until", "unless", "while", "during"],
+    "correct": 0,
+    "explanation": "'Until' indicates that an action should continue up to a specific point in time.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_exam_15",
+    "question": "A passenger is upset because their flight was cancelled. Which response is best?",
+    "options": ["I completely understand your frustration. Let's see how we can rebook you.", "It's not my fault, the weather is bad.", "Calm down, there's another flight later.", "There is nothing I can do."],
+    "correct": 0,
+    "explanation": "Acknowledging feelings and offering immediate assistance is key in professional passenger communication.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_exam_16",
+    "question": "The new security regulations require all liquids to be placed _______ a clear plastic bag.",
+    "options": ["in", "on", "at", "by"],
+    "correct": 0,
+    "explanation": "'In' is used when something is enclosed within a container like a bag.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_17",
+    "question": "If a piece of luggage _______ an explosive trace detection test, the security protocol is immediately activated.",
+    "options": ["fails", "failed", "will fail", "failing"],
+    "correct": 0,
+    "explanation": "First conditional uses the present simple in the if-clause for real, possible situations.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_18",
+    "question": "Passengers needing special assistance will board the aircraft _______.",
+    "options": ["first", "firstly", "in the first", "at first"],
+    "correct": 0,
+    "explanation": "'First' functions as an adverb here, indicating the order of boarding.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_exam_19",
+    "question": "It is crucial to handle fragile items with _______.",
+    "options": ["care", "careful", "carefully", "caring"],
+    "correct": 0,
+    "explanation": "A noun is required after the preposition 'with'. 'Care' is the appropriate noun.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_exam_20",
+    "question": "A 'layover' refers to a _______.",
+    "options": ["connection between flights", "cancelled flight", "direct flight", "type of luggage"],
+    "correct": 0,
+    "explanation": "A layover is standard terminology for a period of waiting between connecting flights.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_exam_21",
+    "question": "Please direct the passenger _______ the transit desk for their onward journey.",
+    "options": ["to", "at", "for", "in"],
+    "correct": 0,
+    "explanation": "The verb 'direct' is followed by the preposition 'to' when indicating a destination.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_22",
+    "question": "If you need an upgrade, you _______ speak with the airline representative at the ticketing counter.",
+    "options": ["should", "would", "might", "could have"],
+    "correct": 0,
+    "explanation": "In this type 1 conditional, 'should' acts to give advice or instruction.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_23",
+    "question": "By the time the aircraft arrived, the connecting passengers _______ for three hours.",
+    "options": ["had been waiting", "have waited", "were waiting", "waited"],
+    "correct": 0,
+    "explanation": "Past perfect continuous is used for an action that started in the past and continued up to another point in the past.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_exam_24",
+    "question": "How should you respond to a passenger who cannot find their passport at check-in?",
+    "options": ["Please take your time to check your bags, sir. We can wait a moment.", "Next in line, please!", "You can't fly without it.", "Go look for it over there."],
+    "correct": 0,
+    "explanation": "Maintaining a calm and helpful demeanor is essential in stressful situations.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_exam_25",
+    "question": "Any unaccompanied minors must be escorted _______ ground staff to the aircraft.",
+    "options": ["by", "with", "from", "through"],
+    "correct": 0,
+    "explanation": "'By' is used to identify the agent performing an action in a passive sentence.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_26",
+    "question": "The term 'turbulent' is most closely related to which situation?",
+    "options": ["Rough air causing bumpy flight conditions", "A fast boarding process", "Clear weather", "A calm passenger"],
+    "correct": 0,
+    "explanation": "'Turbulence' or being 'turbulent' refers to irregular atmospheric motion affecting the aircraft.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_exam_27",
+    "question": "If the crew _______ their duty hours, the flight will be legally required to be postponed.",
+    "options": ["exceed", "exceeds", "exceeded", "will exceed"],
+    "correct": 0,
+    "explanation": "'Crew' is treated as a collective noun taking a plural verb in this context, and first conditional requires present tense.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_exam_28",
+    "question": "Make sure the priority tags are clearly visible _______ the handles of the premium bags.",
+    "options": ["on", "in", "above", "at"],
+    "correct": 0,
+    "explanation": "Tags are attached and displayed 'on' the handles.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_exam_29",
+    "question": "The boarding process was delayed _______ a last-minute technical inspection.",
+    "options": ["due to", "because", "since", "as"],
+    "correct": 0,
+    "explanation": "'Due to' is a prepositional phrase used before a noun phrase to indicate reason.",
+    "tag": "Grammar"
+  }
+]

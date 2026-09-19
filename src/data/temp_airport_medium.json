@@ -1,0 +1,242 @@
+[
+  {
+    "id": "air_medium_0",
+    "question": "What does the term 'Turnaround Time' refer to in ground operations?",
+    "options": ["The time taken for a passenger to complete check-in", "The time an aircraft spends on the ground between arrival and departure", "The time required to refuel the aircraft", "The time taken to load all baggage onto the aircraft"],
+    "correct": 1,
+    "explanation": "Turnaround time is the total time an aircraft spends on the ground between arriving at the gate and departing for its next flight.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_medium_1",
+    "question": "Which of the following IATA codes represents John F. Kennedy International Airport?",
+    "options": ["JFK", "JFKIA", "JFI", "JFKIN"],
+    "correct": 0,
+    "explanation": "JFK is the standard IATA 3-letter code for John F. Kennedy International Airport in New York.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_medium_2",
+    "question": "In airline ticketing, what does 'PNR' stand for?",
+    "options": ["Passenger Name Record", "Primary Number Registration", "Passenger National Registration", "Personal Name Record"],
+    "correct": 0,
+    "explanation": "PNR stands for Passenger Name Record, which is a digital certificate allowing passengers to do online check-in or manage their bookings.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_medium_3",
+    "question": "What is the purpose of a 'Rush Tag' in baggage handling?",
+    "options": ["To identify fragile items", "To prioritize delayed or mishandled baggage", "To mark bags that contain hazardous materials", "To tag bags belonging to VIPs"],
+    "correct": 1,
+    "explanation": "A Rush Tag (or Expedite Tag) is used for baggage that has been delayed or mishandled, ensuring it is forwarded to the passenger as quickly as possible.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_medium_4",
+    "question": "During the boarding process, which passengers are typically invited to board first?",
+    "options": ["Economy class passengers seated at the front", "Passengers with special needs and families with small children", "Passengers without carry-on baggage", "Standby passengers"],
+    "correct": 1,
+    "explanation": "Airlines generally offer pre-boarding to passengers requiring extra time, such as those with disabilities, special needs, or families traveling with small children.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_medium_5",
+    "question": "What is a 'Transit Visa'?",
+    "options": ["A visa required for working at the airport", "A visa allowing a passenger to stay in a country for an extended vacation", "A temporary visa allowing a traveler to pass through a country en route to their final destination", "A visa specifically for flight crew members"],
+    "correct": 2,
+    "explanation": "A transit visa allows a traveler to pass through a country to reach their ultimate destination, often required when changing planes in certain countries.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_medium_6",
+    "question": "Which of the following items is generally considered a 'Dangerous Good' and prohibited in checked baggage?",
+    "options": ["Laptop computers", "Lithium metal batteries", "Perfume", "Empty water bottles"],
+    "correct": 1,
+    "explanation": "Spare lithium metal and lithium-ion batteries are prohibited in checked baggage due to the risk of fire and must be carried in the cabin.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_medium_7",
+    "question": "What is the function of the 'Load Sheet' in ground operations?",
+    "options": ["To list the in-flight meals", "To document the weight and balance of the aircraft", "To record the duty hours of the crew", "To track passenger complaints"],
+    "correct": 1,
+    "explanation": "A load sheet contains essential information about the aircraft's weight and balance, ensuring it is safely loaded for flight.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_medium_8",
+    "question": "The IATA code 'DXB' refers to which airport?",
+    "options": ["Doha Hamad International", "Dubai International", "Delhi Indira Gandhi International", "Dallas/Fort Worth"],
+    "correct": 1,
+    "explanation": "DXB is the official IATA three-letter code for Dubai International Airport in the UAE.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_medium_9",
+    "question": "What does an 'Open Jaw' ticket mean?",
+    "options": ["A ticket with no fixed return date", "A round-trip ticket where the passenger returns from a different city than the destination", "A ticket that can be transferred to another passenger", "A ticket purchased on the day of departure"],
+    "correct": 1,
+    "explanation": "An open-jaw itinerary is a round-trip ticket where the destination and/or the origin are not the same in both directions (e.g., flying A to B, then returning C to A).",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_medium_10",
+    "question": "What does 'DPR' stand for in baggage tracing?",
+    "options": ["Delayed Passenger Report", "Damage Property Record", "Damage and Pilferage Report", "Direct Passenger Routing"],
+    "correct": 2,
+    "explanation": "DPR stands for Damage and Pilferage Report, which is filed when a passenger's baggage is damaged or items are missing upon arrival.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_medium_11",
+    "question": "What is 'Zone Boarding'?",
+    "options": ["Boarding passengers based on their frequent flyer status only", "Boarding passengers in groups or zones based on their seat location", "Boarding all passengers simultaneously", "Boarding passengers alphabetically by last name"],
+    "correct": 1,
+    "explanation": "Zone boarding divides the aircraft into sections (zones) and boards passengers by these zones to expedite the boarding process and reduce aisle congestion.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_medium_12",
+    "question": "If a passenger is 'INAD', what does this mean?",
+    "options": ["In Transit", "Inadmissible Passenger", "Invalid Ticket", "Infant Addition"],
+    "correct": 1,
+    "explanation": "INAD stands for Inadmissible Passenger, referring to someone refused entry into a country by immigration authorities.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_medium_13",
+    "question": "How are Class 3 Dangerous Goods categorized?",
+    "options": ["Explosives", "Gases", "Flammable Liquids", "Radioactive Materials"],
+    "correct": 2,
+    "explanation": "In the UN classification system used by IATA, Class 3 dangerous goods are Flammable Liquids.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_medium_14",
+    "question": "What role does a 'Dispatcher' play in ground operations?",
+    "options": ["Selling tickets at the counter", "Loading bags into the aircraft hold", "Coordinating all turnaround activities around the aircraft", "Serving food to passengers in the lounge"],
+    "correct": 2,
+    "explanation": "The dispatcher (or turnaround coordinator) oversees and coordinates all ground handling activities (fueling, catering, loading) to ensure an on-time departure.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_medium_15",
+    "question": "What is the IATA code for London Heathrow Airport?",
+    "options": ["LHR", "LGW", "LCY", "LTN"],
+    "correct": 0,
+    "explanation": "LHR is the standard IATA 3-letter code for London Heathrow Airport.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_medium_16",
+    "question": "What is an 'Endorsement' in airline ticketing?",
+    "options": ["A complimentary upgrade to first class", "Written authorization allowing a ticket issued by one airline to be used on another", "A stamp indicating baggage has been checked", "A boarding pass given at the gate"],
+    "correct": 1,
+    "explanation": "An endorsement is the authority from the issuing airline allowing the ticket to be used for travel on another airline.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_medium_17",
+    "question": "What is a 'Baggage Reconciliation System' (BRS)?",
+    "options": ["A machine that X-rays baggage", "A system that ensures only bags of boarded passengers are loaded onto the aircraft", "A scale used to weigh oversized bags", "A conveyor belt system at the check-in desk"],
+    "correct": 1,
+    "explanation": "BRS uses barcode scanning to match bags with boarded passengers, ensuring that if a passenger does not board, their bag is not transported (for security reasons).",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_medium_18",
+    "question": "What does a 'Final Call' announcement mean?",
+    "options": ["The flight has been cancelled", "The gate is closing and remaining passengers must board immediately", "Boarding will commence in 10 minutes", "The aircraft has landed at the destination"],
+    "correct": 1,
+    "explanation": "A 'Final Call' warns remaining passengers that the boarding gate is about to close and they must proceed to the gate immediately to avoid missing their flight.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_medium_19",
+    "question": "What document is typically required for a minor traveling without parents internationally?",
+    "options": ["A driver's license", "An Unaccompanied Minor form and consent letter from parents", "Only a valid passport", "A student ID card"],
+    "correct": 1,
+    "explanation": "Immigration and airlines require an Unaccompanied Minor form and a notarized consent letter from parents/guardians to prevent child abduction and ensure the child's safety.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_medium_20",
+    "question": "Why is Dry Ice considered a Dangerous Good in aviation?",
+    "options": ["It is highly flammable", "It is radioactive", "It sublimates into carbon dioxide gas which can displace oxygen", "It is corrosive to aircraft metals"],
+    "correct": 2,
+    "explanation": "Dry ice (solid carbon dioxide) sublimates into CO2 gas, which in an enclosed space like an aircraft cabin or hold can displace oxygen and cause asphyxiation.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_medium_21",
+    "question": "What is the primary function of an 'Airbridge' or 'Jetbridge'?",
+    "options": ["To refuel the aircraft", "To provide an enclosed, movable connector for passengers to board the aircraft directly from the terminal", "To tow the aircraft away from the gate", "To transport baggage to the cargo hold"],
+    "correct": 1,
+    "explanation": "An airbridge (or jetbridge/jetway) is an enclosed, movable walkway that connects the airport terminal directly to the aircraft, protecting passengers from the weather.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_medium_22",
+    "question": "Which airport uses the IATA code 'CDG'?",
+    "options": ["Chicago O'Hare", "Copenhagen Airport", "Charles de Gaulle Airport", "Chengdu Shuangliu Airport"],
+    "correct": 2,
+    "explanation": "CDG is the standard IATA code for Paris Charles de Gaulle Airport in France.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_medium_23",
+    "question": "In ticketing, what is a 'No-Show'?",
+    "options": ["A passenger who misses their flight without canceling their reservation in advance", "An airline that cancels a scheduled flight", "A ticket that has not yet been issued", "A flight that does not appear on the departure board"],
+    "correct": 0,
+    "explanation": "A 'no-show' refers to a passenger who fails to arrive for a flight they are booked on without canceling the booking beforehand.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_medium_24",
+    "question": "What does an 'Oversized Baggage' counter handle?",
+    "options": ["Bags belonging to frequent flyers", "Luggage that exceeds the standard size or weight limits, such as sports equipment", "Duty-free shopping bags", "Carry-on luggage that needs to be checked"],
+    "correct": 1,
+    "explanation": "The oversized (or out-of-gauge) baggage counter is specifically designed to handle items that are too large, heavy, or oddly shaped for the standard conveyor belts.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_medium_25",
+    "question": "What action should gate staff take if a passenger is extremely intoxicated prior to boarding?",
+    "options": ["Serve them coffee on board", "Allow them to board but seat them at the back", "Deny boarding to ensure the safety and comfort of the flight", "Assign them an exit row seat"],
+    "correct": 2,
+    "explanation": "Airlines have a legal obligation to deny boarding to passengers who appear intoxicated as they pose a safety risk and could disrupt the flight.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_medium_26",
+    "question": "What is an API (Advance Passenger Information) system used for?",
+    "options": ["To order in-flight meals in advance", "To send passenger details to destination immigration authorities before the flight departs", "To book hotel rooms for transit passengers", "To track aircraft maintenance schedules"],
+    "correct": 1,
+    "explanation": "API involves transmitting passenger biographical data to destination border control agencies prior to departure to enhance security and speed up immigration checks.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_medium_27",
+    "question": "Under IATA Dangerous Goods Regulations, how must a passenger carry e-cigarettes?",
+    "options": ["In checked baggage only", "In carry-on baggage or on their person only", "They are completely banned on all flights", "In a special locked container in the cargo hold"],
+    "correct": 1,
+    "explanation": "E-cigarettes must be carried in the cabin (carry-on or on the person) to prevent accidental activation and fire in the cargo hold. Charging them on board is strictly prohibited.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_medium_28",
+    "question": "What does 'FOD' stand for in airport ground operations?",
+    "options": ["Flight Operations Desk", "Foreign Object Debris", "Fuel Oil Delivery", "First Officer Departure"],
+    "correct": 1,
+    "explanation": "FOD stands for Foreign Object Debris, referring to any object on the tarmac (like stones, tools, or trash) that could damage an aircraft, especially engines.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_medium_29",
+    "question": "Which of the following describes a 'Code-Share' flight?",
+    "options": ["A flight operated by the military", "A flight carrying only cargo", "A flight operated by one airline but marketed and sold by another airline under its own flight number", "A chartered flight for a private group"],
+    "correct": 2,
+    "explanation": "A codeshare agreement allows airlines to sell seats on each other's flights, meaning a passenger might buy a ticket from Airline A but actually fly on an aircraft operated by Airline B.",
+    "tag": "Ticketing"
+  }
+]

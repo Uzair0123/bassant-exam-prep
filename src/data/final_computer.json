@@ -1,0 +1,1570 @@
+{
+  "easy": [
+    {
+      "id": "com_easy_0",
+      "question": "Which keyboard shortcut is used to save a document in Microsoft Word?",
+      "options": [
+        "Ctrl + S",
+        "Ctrl + O",
+        "Ctrl + P",
+        "Ctrl + N"
+      ],
+      "correct": 0,
+      "explanation": "Ctrl + S is the universal shortcut for saving the current document or file in most Microsoft applications.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_easy_1",
+      "question": "In Microsoft Excel, every formula must begin with which symbol?",
+      "options": [
+        "#",
+        "@",
+        "=",
+        "+"
+      ],
+      "correct": 2,
+      "explanation": "All formulas and functions in MS Excel must start with an equals sign (=) so Excel knows to calculate the cell.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_easy_2",
+      "question": "What does the 'Bcc' field stand for when composing an email in Outlook?",
+      "options": [
+        "Blind Carbon Copy",
+        "Basic Carbon Copy",
+        "Blank Carbon Copy",
+        "Background Carbon Copy"
+      ],
+      "correct": 0,
+      "explanation": "Bcc stands for Blind Carbon Copy, which hides the recipient's email address from others in the email thread.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_easy_3",
+      "question": "Which key is used to start a presentation from the beginning in Microsoft PowerPoint?",
+      "options": [
+        "F2",
+        "F5",
+        "F7",
+        "F12"
+      ],
+      "correct": 1,
+      "explanation": "Pressing the F5 key starts the PowerPoint slide show from the very first slide.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_easy_4",
+      "question": "What does 'Phishing' refer to in cybersecurity?",
+      "options": [
+        "Upgrading software",
+        "A fraudulent attempt to obtain sensitive information",
+        "Connecting to a secure network",
+        "Scanning a computer for viruses"
+      ],
+      "correct": 1,
+      "explanation": "Phishing is a cyber attack that uses disguised email as a weapon to trick recipients into revealing personal information.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_easy_5",
+      "question": "In the aviation industry, what does 'PNR' stand for?",
+      "options": [
+        "Passenger Name Record",
+        "Personal Number Record",
+        "Passenger New Route",
+        "Primary Network Router"
+      ],
+      "correct": 0,
+      "explanation": "A Passenger Name Record (PNR) is a record in the database of a computer reservation system that contains the itinerary for a passenger.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_easy_6",
+      "question": "What is the primary function of a router in a computer network?",
+      "options": [
+        "To display websites",
+        "To print documents",
+        "To connect different networks and forward data packets",
+        "To store passenger data"
+      ],
+      "correct": 2,
+      "explanation": "A router connects two or more packet-switched networks or subnetworks, directing traffic between them.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_easy_7",
+      "question": "Which shortcut adds a new slide in Microsoft PowerPoint?",
+      "options": [
+        "Ctrl + N",
+        "Ctrl + M",
+        "Ctrl + S",
+        "Ctrl + Z"
+      ],
+      "correct": 1,
+      "explanation": "Ctrl + M inserts a new slide into the current presentation, whereas Ctrl + N creates a brand new presentation file.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_easy_8",
+      "question": "Which characteristic is essential for a strong password?",
+      "options": [
+        "Using only lowercase letters",
+        "Including your first name",
+        "Being short and easy to remember",
+        "Using a mix of uppercase, lowercase, numbers, and symbols"
+      ],
+      "correct": 3,
+      "explanation": "A strong password includes a variety of character types (upper/lowercase, numbers, and symbols) to prevent brute-force attacks.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_easy_9",
+      "question": "How many letters make up an IATA airport code, commonly used in Amadeus?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "IATA airport codes are 3-letter codes used globally to identify airports (e.g., LHR for London Heathrow).",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_easy_10",
+      "question": "What is a LAN?",
+      "options": [
+        "Local Area Network",
+        "Large Area Network",
+        "Local Aviation Node",
+        "Linked Access Network"
+      ],
+      "correct": 0,
+      "explanation": "LAN stands for Local Area Network, which connects computers within a limited area such as an airport terminal or office.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_easy_11",
+      "question": "In MS Word, which alignment option spreads text evenly between the left and right margins?",
+      "options": [
+        "Align Left",
+        "Center",
+        "Align Right",
+        "Justify"
+      ],
+      "correct": 3,
+      "explanation": "Justify alignment adjusts the spacing between words so that both the left and right edges of the text block are straight.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_easy_12",
+      "question": "How do you identify a single cell in MS Excel?",
+      "options": [
+        "By its row number only",
+        "By its column letter only",
+        "By its column letter followed by its row number",
+        "By its row number followed by its column letter"
+      ],
+      "correct": 2,
+      "explanation": "A cell reference in Excel consists of the column letter followed by the row number, such as A1 or B4.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_easy_13",
+      "question": "What is the purpose of the 'Reply All' button in Outlook?",
+      "options": [
+        "Replies only to the sender",
+        "Sends the message to a new recipient",
+        "Replies to the sender and all other recipients in the To and Cc fields",
+        "Deletes the email automatically"
+      ],
+      "correct": 2,
+      "explanation": "Reply All ensures that everyone who received the original message will also receive your response.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_easy_14",
+      "question": "Why is it important to lock your computer screen when leaving the ticketing desk?",
+      "options": [
+        "To save electricity",
+        "To prevent unauthorized access to the GDS and passenger data",
+        "To let the computer run updates",
+        "To improve network speed"
+      ],
+      "correct": 1,
+      "explanation": "Locking the screen is a basic cybersecurity measure to protect sensitive passenger and company data from unauthorized access.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_easy_15",
+      "question": "What does SSR mean in the context of an airline reservation system?",
+      "options": [
+        "Standard System Request",
+        "Special Service Request",
+        "Secure Seat Reservation",
+        "System Security Review"
+      ],
+      "correct": 1,
+      "explanation": "SSR stands for Special Service Request, used to inform airlines of specific passenger needs like a wheelchair or special meal.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_easy_16",
+      "question": "What does an IP address do?",
+      "options": [
+        "It increases internet speed",
+        "It provides a unique identification for a device on a network",
+        "It blocks viruses",
+        "It encrypts emails"
+      ],
+      "correct": 1,
+      "explanation": "An IP address is a unique string of numbers that identifies each computer communicating over a network.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_easy_17",
+      "question": "In MS Excel, what is a workbook?",
+      "options": [
+        "A single spreadsheet page",
+        "A file containing one or more worksheets",
+        "A printed copy of the data",
+        "A formula used for calculation"
+      ],
+      "correct": 1,
+      "explanation": "A workbook is the entire Excel file, which can contain multiple individual worksheets (tabs).",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_easy_18",
+      "question": "Which MS Outlook feature helps you keep track of meetings and appointments?",
+      "options": [
+        "Contacts",
+        "Tasks",
+        "Calendar",
+        "Notes"
+      ],
+      "correct": 2,
+      "explanation": "The Calendar feature in Outlook is used for scheduling appointments, organizing meetings, and viewing schedules.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_easy_19",
+      "question": "What does 2FA stand for in security?",
+      "options": [
+        "Two-File Access",
+        "Two-Factor Authentication",
+        "Two-Folder Analysis",
+        "Two-Format Authorization"
+      ],
+      "correct": 1,
+      "explanation": "Two-Factor Authentication (2FA) adds an extra layer of security by requiring two forms of identification to log in.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_easy_20",
+      "question": "In Amadeus, what is an e-ticket?",
+      "options": [
+        "A paper ticket printed at the counter",
+        "An electronic record of the ticket in the airline's database",
+        "A meal voucher for delayed flights",
+        "An emergency boarding pass"
+      ],
+      "correct": 1,
+      "explanation": "An electronic ticket (e-ticket) exists only as a digital record in the airline's computer system, replacing physical paper tickets.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_easy_21",
+      "question": "What does URL stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Routing Link",
+        "Unified Request Language",
+        "Unique Reference Location"
+      ],
+      "correct": 0,
+      "explanation": "A URL (Uniform Resource Locator) is the address of a given unique resource on the Web.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_easy_22",
+      "question": "Which tool in Word checks for spelling and grammatical errors?",
+      "options": [
+        "Find and Replace",
+        "Mail Merge",
+        "Spelling & Grammar",
+        "Word Count"
+      ],
+      "correct": 2,
+      "explanation": "The Spelling & Grammar tool scans the document to highlight and correct language errors.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_easy_23",
+      "question": "What is the fastest way to add a column of numbers in Excel?",
+      "options": [
+        "Type them in a calculator",
+        "Use the AutoSum button",
+        "Write a complex macro",
+        "Sort the column"
+      ],
+      "correct": 1,
+      "explanation": "AutoSum automatically enters the SUM function to add up a selected range of cells.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_easy_24",
+      "question": "In PowerPoint, what is a slide layout?",
+      "options": [
+        "The design template for the presentation",
+        "The arrangement of placeholders on a slide",
+        "The animation applied to text",
+        "The transition between slides"
+      ],
+      "correct": 1,
+      "explanation": "Slide layouts contain formatting, positioning, and placeholders for all of the content that appears on a slide.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_easy_25",
+      "question": "What should you do if you receive an email from an unknown sender with a suspicious attachment?",
+      "options": [
+        "Open the attachment to see what it is",
+        "Forward it to all your colleagues",
+        "Do not open the attachment and report it to IT",
+        "Reply asking who they are"
+      ],
+      "correct": 2,
+      "explanation": "Suspicious attachments can contain malware; they should never be opened and must be reported to IT security.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_easy_26",
+      "question": "What is OSI in an airline reservation context?",
+      "options": [
+        "Open System Interconnection",
+        "Other Service Information",
+        "Operational Safety Instruction",
+        "Outbound Seat Inventory"
+      ],
+      "correct": 1,
+      "explanation": "OSI stands for Other Service Information, used to send informational messages to the airline that do not require an action or reply (e.g., VIP passenger).",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_easy_27",
+      "question": "Wi-Fi is a technology that allows devices to connect to a network using what?",
+      "options": [
+        "Ethernet cables",
+        "Radio waves",
+        "Fiber optics",
+        "Bluetooth only"
+      ],
+      "correct": 1,
+      "explanation": "Wi-Fi uses radio frequencies to send signals between devices and a router, enabling wireless network access.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_easy_28",
+      "question": "Which shortcut allows you to undo the last action in MS Office applications?",
+      "options": [
+        "Ctrl + Y",
+        "Ctrl + X",
+        "Ctrl + Z",
+        "Ctrl + C"
+      ],
+      "correct": 2,
+      "explanation": "Ctrl + Z is the standard keyboard shortcut to undo a previous action.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_easy_29",
+      "question": "In Amadeus, what is the basic entry to check flight availability?",
+      "options": [
+        "AN",
+        "SN",
+        "PN",
+        "TN"
+      ],
+      "correct": 0,
+      "explanation": "In the Amadeus GDS, the entry 'AN' (Availability Neutral) is used to display flight availability between two cities.",
+      "tag": "Amadeus/GDS"
+    }
+  ],
+  "medium": [
+    {
+      "id": "com_medium_0",
+      "question": "In Microsoft Word, what is the purpose of the Mail Merge feature?",
+      "options": [
+        "To combine multiple documents into one",
+        "To send personalized letters or emails to multiple recipients using a data source",
+        "To track changes made by different authors",
+        "To merge table cells together"
+      ],
+      "correct": 1,
+      "explanation": "Mail Merge allows users to create a batch of documents that are personalized for each recipient using a data source like an Excel list.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_medium_1",
+      "question": "Which Excel function searches for a value in the first column of a table array and returns a value in the same row from another column?",
+      "options": [
+        "HLOOKUP",
+        "XMATCH",
+        "VLOOKUP",
+        "INDEX"
+      ],
+      "correct": 2,
+      "explanation": "VLOOKUP (Vertical Lookup) is used to find specific information in a large table by searching vertically down the first column.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_medium_2",
+      "question": "What is the primary function of the Slide Master in PowerPoint?",
+      "options": [
+        "To play animations automatically",
+        "To control the overall design and layout of all slides in the presentation",
+        "To broadcast the presentation online",
+        "To add speaker notes"
+      ],
+      "correct": 1,
+      "explanation": "The Slide Master stores information about the theme and slide layouts, ensuring consistency across the entire presentation.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_medium_3",
+      "question": "In Outlook, what feature would you use to automatically move emails from a specific sender into a designated folder?",
+      "options": [
+        "Quick Steps",
+        "Rules",
+        "Search Folders",
+        "Categories"
+      ],
+      "correct": 1,
+      "explanation": "Rules allow you to automate actions on incoming or outgoing messages, such as moving them to specific folders based on criteria.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_medium_4",
+      "question": "What type of malware restricts access to the infected computer system and demands payment to remove the restriction?",
+      "options": [
+        "Spyware",
+        "Adware",
+        "Ransomware",
+        "Trojan Horse"
+      ],
+      "correct": 2,
+      "explanation": "Ransomware encrypts the victim's files and demands a ransom payment to restore access.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_5",
+      "question": "What is the purpose of a VPN in a corporate network?",
+      "options": [
+        "To speed up internet connection",
+        "To create a secure, encrypted connection over a less secure network like the internet",
+        "To block all incoming emails",
+        "To monitor employee keystrokes"
+      ],
+      "correct": 1,
+      "explanation": "A Virtual Private Network (VPN) encrypts data traffic, providing secure access to the corporate network for remote workers.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_6",
+      "question": "In the Amadeus system, what entry is typically used to price an itinerary without creating a PNR?",
+      "options": [
+        "FXX",
+        "FXP",
+        "FQQ",
+        "FQC"
+      ],
+      "correct": 0,
+      "explanation": "FXX is the entry to price an itinerary without storing the fare or requiring a booked PNR, often used for quoting.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_medium_7",
+      "question": "What does DNS stand for, and what does it do?",
+      "options": [
+        "Dynamic Network System; assigns IP addresses",
+        "Domain Name System; translates domain names into IP addresses",
+        "Data Network Security; blocks malicious traffic",
+        "Digital Node Server; stores website data"
+      ],
+      "correct": 1,
+      "explanation": "DNS translates human-readable domain names (like www.airline.com) into IP addresses that computers use to identify each other.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_medium_8",
+      "question": "In MS Excel, what does the $ symbol do in a cell reference (e.g., $A$1)?",
+      "options": [
+        "Formats the cell as currency",
+        "Makes the cell reference absolute, so it doesn't change when copied",
+        "Hides the cell from printing",
+        "Multiplies the value by 100"
+      ],
+      "correct": 1,
+      "explanation": "The $ symbol creates an absolute reference, locking the row and/or column so it remains constant when dragged or copied to other cells.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_medium_9",
+      "question": "In MS Word, how do Section Breaks differ from Page Breaks?",
+      "options": [
+        "Section Breaks only work in landscape orientation",
+        "Section Breaks allow you to have different formatting (like margins or headers) in different parts of the document",
+        "Page Breaks are invisible, Section Breaks are not",
+        "There is no difference"
+      ],
+      "correct": 1,
+      "explanation": "Section Breaks divide a document into sections, allowing unique formatting (e.g., different headers or columns) for each section.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_medium_10",
+      "question": "What is the difference between Transitions and Animations in PowerPoint?",
+      "options": [
+        "Transitions apply to objects on a slide; Animations apply to how the slide moves onto the screen",
+        "Transitions apply to how a slide moves onto the screen; Animations apply to individual objects on the slide",
+        "They are exactly the same",
+        "Transitions are for text; Animations are for images"
+      ],
+      "correct": 1,
+      "explanation": "Slide transitions dictate how one slide moves to the next, while animations control the movement of elements within a single slide.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_medium_11",
+      "question": "What is Outlook's Scheduling Assistant used for?",
+      "options": [
+        "To write automated replies",
+        "To check attendees' free/busy times before sending a meeting invite",
+        "To calculate flight times",
+        "To manage email folders"
+      ],
+      "correct": 1,
+      "explanation": "The Scheduling Assistant shows the calendar availability of attendees, helping you find a time when everyone is free to meet.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_medium_12",
+      "question": "What is 'Social Engineering' in the context of cybersecurity?",
+      "options": [
+        "Designing user-friendly software",
+        "Manipulating people into giving up confidential information",
+        "Analyzing social media data",
+        "Creating a network architecture"
+      ],
+      "correct": 1,
+      "explanation": "Social engineering relies on human psychology rather than technical hacking techniques to deceive individuals into revealing sensitive data.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_13",
+      "question": "In networking, what does the 'ping' command do?",
+      "options": [
+        "Downloads a file from a server",
+        "Tests the reachability of a host on an IP network",
+        "Encrypts a message",
+        "Clears the browser cache"
+      ],
+      "correct": 1,
+      "explanation": "The ping command sends a small packet of data to a specific IP address and measures the time it takes to get a response, verifying connectivity.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_medium_14",
+      "question": "How do you split a PNR when one passenger from a group needs a different itinerary in Amadeus?",
+      "options": [
+        "Use the SP (Split PNR) entry",
+        "Cancel the entire PNR and rebuild it",
+        "Change the name directly",
+        "It is not possible to split a PNR"
+      ],
+      "correct": 0,
+      "explanation": "The SP (Split) entry is used to divide a PNR, allowing you to separate one or more passengers into a new booking record.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_medium_15",
+      "question": "What does 'HTTPS' indicate when viewing a website?",
+      "options": [
+        "The website uses a HyperText Transfer Protocol that is Secure (encrypted)",
+        "The website is hosted on a high-speed server",
+        "The website is safe from all viruses",
+        "The website is restricted to airline staff"
+      ],
+      "correct": 0,
+      "explanation": "The 'S' in HTTPS stands for Secure, meaning the communication between the browser and website is encrypted.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_16",
+      "question": "What is the primary function of a network firewall?",
+      "options": [
+        "To prevent overheating of server racks",
+        "To monitor and control incoming and outgoing network traffic based on security rules",
+        "To boost the Wi-Fi signal",
+        "To store backup data"
+      ],
+      "correct": 1,
+      "explanation": "A firewall acts as a barrier between a trusted internal network and an untrusted external network, blocking malicious traffic.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_medium_17",
+      "question": "In MS Excel, what is Conditional Formatting?",
+      "options": [
+        "Formatting that changes based on the value of the cell",
+        "Formatting that only applies to text",
+        "A tool to merge cells conditionally",
+        "A way to lock the spreadsheet"
+      ],
+      "correct": 0,
+      "explanation": "Conditional formatting automatically applies formatting (like colors or icons) to cells that meet specific criteria or conditions.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_medium_18",
+      "question": "What feature in MS Word allows you to see all insertions, deletions, and formatting changes made to a document?",
+      "options": [
+        "Version History",
+        "Document Inspector",
+        "Track Changes",
+        "Compare Documents"
+      ],
+      "correct": 2,
+      "explanation": "Track Changes highlights edits made by anyone reviewing the document, allowing the author to accept or reject them.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_medium_19",
+      "question": "In PowerPoint, what does Presenter View allow you to do?",
+      "options": [
+        "Edit slides while presenting",
+        "View speaker notes and upcoming slides on one screen while the audience sees only the current slide",
+        "Record the presentation",
+        "Broadcast the presentation live"
+      ],
+      "correct": 1,
+      "explanation": "Presenter View provides a dashboard for the speaker, showing notes and timers, while the audience sees only the slide show.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_medium_20",
+      "question": "How can you grant an assistant the ability to manage your calendar and respond to meeting requests on your behalf in Outlook?",
+      "options": [
+        "Share your password with them",
+        "Use the Delegate Access feature",
+        "Forward all emails to them manually",
+        "Create a Quick Step"
+      ],
+      "correct": 1,
+      "explanation": "Delegate Access allows another person to manage your calendar and act on your behalf securely without sharing passwords.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_medium_21",
+      "question": "What is Spear Phishing?",
+      "options": [
+        "A mass email sent to millions of users",
+        "A targeted phishing attack directed at a specific individual or organization",
+        "A physical attack on a server",
+        "A method of securing a database"
+      ],
+      "correct": 1,
+      "explanation": "Unlike broad phishing attempts, spear phishing uses tailored information to deceive a specific target.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_22",
+      "question": "In Amadeus, what is the purpose of Revalidation?",
+      "options": [
+        "To change the passenger's name",
+        "To update the electronic ticket coupon status when a minor change occurs (like a flight time change) without reissuing the ticket",
+        "To cancel a booking",
+        "To upgrade a passenger to Business Class"
+      ],
+      "correct": 1,
+      "explanation": "Revalidation updates the e-ticket for minor changes (like date or flight number on the same routing) without needing a full ticket reissue.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_medium_23",
+      "question": "What is the difference between IPv4 and IPv6?",
+      "options": [
+        "IPv6 is faster than IPv4",
+        "IPv6 uses a 128-bit address structure providing vastly more IP addresses than the 32-bit IPv4",
+        "IPv4 is for wired networks, IPv6 is for wireless",
+        "There is no functional difference"
+      ],
+      "correct": 1,
+      "explanation": "IPv6 was developed to replace IPv4 because the 32-bit structure of IPv4 was running out of available unique addresses.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_medium_24",
+      "question": "What is the purpose of an Excel PivotTable?",
+      "options": [
+        "To summarize, analyze, explore, and present large amounts of data",
+        "To create a 3D pie chart",
+        "To run complex macros",
+        "To translate text into different languages"
+      ],
+      "correct": 0,
+      "explanation": "A PivotTable is a powerful data summarization tool that can automatically sort, count, and total the data stored in a spreadsheet.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_medium_25",
+      "question": "What is a Zero-Day Vulnerability?",
+      "options": [
+        "A virus that deletes everything at midnight",
+        "A software flaw that is unknown to the vendor and has no patch available when it is discovered by attackers",
+        "A security system that never fails",
+        "An expired antivirus subscription"
+      ],
+      "correct": 1,
+      "explanation": "It is called a zero-day because the software developer has had zero days to fix the flaw before it is actively exploited.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_medium_26",
+      "question": "How do you add an infant (under 2 years old) to an adult passenger's booking in Amadeus?",
+      "options": [
+        "Book a separate seat for the infant",
+        "Add an INFT name element associated with the adult passenger",
+        "Use a wheelchair SSR",
+        "Infants cannot be added to a GDS"
+      ],
+      "correct": 1,
+      "explanation": "Infants without a seat are added as an element to the adult's name field (e.g., NM1SMITH/JOHN MR(INF/JANE/15JAN25)).",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_medium_27",
+      "question": "What does a Subnet Mask do in networking?",
+      "options": [
+        "Hides the IP address from hackers",
+        "Divides an IP address into network and host portions",
+        "Boosts the download speed",
+        "Blocks unauthorized users"
+      ],
+      "correct": 1,
+      "explanation": "The subnet mask is used by a device to determine which part of an IP address represents the network and which part represents the host.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_medium_28",
+      "question": "How can you quickly apply the formatting of one section of text to another in MS Word?",
+      "options": [
+        "Copy and paste",
+        "Use the Format Painter tool",
+        "Retype the text",
+        "Use the Replace tool"
+      ],
+      "correct": 1,
+      "explanation": "Format Painter allows you to copy all formatting from one object or text block and apply it to another.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_medium_29",
+      "question": "In Amadeus, what command allows you to view the fare rules and conditions for a specific pricing?",
+      "options": [
+        "FQN",
+        "FXR",
+        "FXX",
+        "FQQ"
+      ],
+      "correct": 0,
+      "explanation": "FQN (Fare Quote Notes) is used to display the detailed rules, conditions, and penalties associated with a specific fare.",
+      "tag": "Amadeus/GDS"
+    }
+  ],
+  "hard": [
+    {
+      "id": "com_hard_0",
+      "question": "In Microsoft Word, what is a Macro?",
+      "options": [
+        "A large font style",
+        "A tool for creating complex tables",
+        "A recorded series of commands and instructions grouped together as a single command to automate tasks",
+        "A default template for resumes"
+      ],
+      "correct": 2,
+      "explanation": "Macros automate repetitive tasks by recording your keystrokes and clicks so they can be played back later with a single command.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_hard_1",
+      "question": "What is the primary advantage of using the INDEX and MATCH combination over VLOOKUP in Excel?",
+      "options": [
+        "It is easier to learn",
+        "It uses less memory",
+        "It can look up values to the left of the lookup column, whereas VLOOKUP only searches to the right",
+        "It automatically formats the data as currency"
+      ],
+      "correct": 2,
+      "explanation": "INDEX/MATCH is more flexible than VLOOKUP because it doesn't require the return value to be in a column to the right of the lookup array.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_hard_2",
+      "question": "In PowerPoint, what is a 'Custom Show'?",
+      "options": [
+        "A presentation created by a third-party designer",
+        "A sub-presentation within a presentation that shows only a specific sequence of slides",
+        "A tool to create animations",
+        "A feature that translates the slides into another language"
+      ],
+      "correct": 1,
+      "explanation": "Custom Shows allow you to adapt a single presentation for different audiences by selecting only certain slides to display.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_hard_3",
+      "question": "What is the difference between OST and PST data files in MS Outlook?",
+      "options": [
+        "OST files are for emails, PST files are for calendar events",
+        "OST is an offline folder file synced with an Exchange server; PST is a personal storage file saved locally",
+        "OST files cannot be backed up, PST files can",
+        "There is no difference; they are interchangeable"
+      ],
+      "correct": 1,
+      "explanation": "An OST file stores a synchronized copy of mailbox information from an Exchange server, while a PST file is typically used for local archiving.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_hard_4",
+      "question": "What constitutes a DDoS (Distributed Denial of Service) attack?",
+      "options": [
+        "Stealing a user's password using a fake website",
+        "Multiple compromised computer systems attacking a single target to overwhelm its bandwidth or resources",
+        "Encrypting a server's files for ransom",
+        "Exploiting a zero-day vulnerability to gain root access"
+      ],
+      "correct": 1,
+      "explanation": "A DDoS attack floods a network or server with artificial traffic from multiple sources, making it unavailable to legitimate users.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_5",
+      "question": "What is the primary function of Asymmetric Encryption?",
+      "options": [
+        "It uses the exact same key to encrypt and decrypt data",
+        "It uses a public key for encryption and a private key for decryption",
+        "It compresses files before sending them",
+        "It only encrypts email attachments"
+      ],
+      "correct": 1,
+      "explanation": "Asymmetric encryption uses a pair of mathematical keys (one public, one private) ensuring that only the intended recipient can decrypt the message.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_6",
+      "question": "In Amadeus, what does TST stand for?",
+      "options": [
+        "Temporary System Transfer",
+        "Transitional Stored Ticket",
+        "Total Seat Tracking",
+        "Ticket Security Token"
+      ],
+      "correct": 1,
+      "explanation": "A TST (Transitional Stored Ticket) is a record that holds fare and tax calculation details before an electronic ticket is issued.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_7",
+      "question": "What is the purpose of an EMD (Electronic Miscellaneous Document) in the airline industry?",
+      "options": [
+        "To issue an electronic boarding pass",
+        "To process payment for ancillary services like extra baggage, seat selection, or penalty fees",
+        "To request a special meal",
+        "To cancel a flight"
+      ],
+      "correct": 1,
+      "explanation": "EMDs are industry-standard electronic documents used to fulfill and track sales of travel-related optional services.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_8",
+      "question": "Which of the following best describes the DHCP protocol in networking?",
+      "options": [
+        "It securely transfers files between servers",
+        "It translates domain names into IP addresses",
+        "It dynamically assigns IP addresses and network configuration parameters to devices",
+        "It routes packets across the internet"
+      ],
+      "correct": 2,
+      "explanation": "The Dynamic Host Configuration Protocol (DHCP) automatically provides an IP address and other related configuration info to devices on a network.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_hard_9",
+      "question": "What is the fundamental difference between TCP and UDP protocols?",
+      "options": [
+        "TCP is wireless; UDP is wired",
+        "TCP is a connection-oriented, reliable protocol; UDP is a connectionless, faster protocol without guaranteed delivery",
+        "TCP is for emails; UDP is for websites",
+        "UDP encrypts data; TCP does not"
+      ],
+      "correct": 1,
+      "explanation": "TCP ensures all data packets arrive in order and intact, while UDP sends packets quickly without checking for lost data (ideal for streaming).",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_hard_10",
+      "question": "In MS Excel, what is the purpose of Data Validation?",
+      "options": [
+        "To restrict the type of data or the values that users enter into a cell",
+        "To automatically correct spelling errors",
+        "To password protect the workbook",
+        "To encrypt specific cells"
+      ],
+      "correct": 0,
+      "explanation": "Data Validation controls what users can input into a cell, such as requiring a date or selecting from a dropdown list.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_hard_11",
+      "question": "How does 'Salting' improve password security?",
+      "options": [
+        "It encrypts the password twice",
+        "It adds random data to the password before hashing it, preventing dictionary and rainbow table attacks",
+        "It forces users to change their password every 30 days",
+        "It blocks IP addresses after three failed login attempts"
+      ],
+      "correct": 1,
+      "explanation": "A cryptographic salt is random data added to a password hash so that two users with the same password will have different hashes.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_12",
+      "question": "In Amadeus, what does the status code 'HL' indicate on a flight segment?",
+      "options": [
+        "Confirmed",
+        "Cancelled",
+        "Waitlisted",
+        "Flown"
+      ],
+      "correct": 2,
+      "explanation": "The code 'HL' means 'Have Listed' or Waitlisted, indicating the passenger is on the waitlist for that specific flight.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_13",
+      "question": "In MS Word, how is a Table of Contents generated automatically?",
+      "options": [
+        "By typing 'TOC' at the top of the page",
+        "By using built-in Heading Styles (Heading 1, Heading 2, etc.) throughout the document",
+        "By inserting a SmartArt graphic",
+        "It is not possible to generate one automatically"
+      ],
+      "correct": 1,
+      "explanation": "Word builds an automatic Table of Contents by scanning the document for text formatted with specific Heading styles.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_hard_14",
+      "question": "What is the purpose of 'Embedding Fonts' in a PowerPoint presentation?",
+      "options": [
+        "To make the file size smaller",
+        "To ensure the presentation looks exactly the same on another computer that might not have those fonts installed",
+        "To animate the text automatically",
+        "To translate the text"
+      ],
+      "correct": 1,
+      "explanation": "Embedding fonts saves the font files within the presentation, preventing formatting issues when opened on a different machine.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_hard_15",
+      "question": "What is an SQL Injection?",
+      "options": [
+        "A virus that deletes databases",
+        "A technique where malicious SQL statements are inserted into entry fields for execution by a database",
+        "A method to compress large amounts of data",
+        "An update to a database server"
+      ],
+      "correct": 1,
+      "explanation": "SQL Injection attacks allow hackers to interfere with the queries that an application makes to its database, potentially exposing sensitive data.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_16",
+      "question": "In Amadeus, what is TIMATIC used for?",
+      "options": [
+        "Booking rental cars",
+        "Pricing complex itineraries",
+        "Checking passport, visa, and health requirements for international travel",
+        "Assigning seats automatically"
+      ],
+      "correct": 2,
+      "explanation": "TIMATIC (Travel Information Manual Automatic) is the industry standard database used by airlines to verify passenger travel document requirements.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_17",
+      "question": "How many layers are in the OSI (Open Systems Interconnection) model?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "The OSI model consists of 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_hard_18",
+      "question": "What is the key difference between a MAC address and an IP address?",
+      "options": [
+        "MAC is used for websites, IP is for hardware",
+        "A MAC address is a physical, permanent address tied to hardware; an IP address is a logical address that can change",
+        "IP addresses are 48-bit, MAC addresses are 32-bit",
+        "MAC addresses are used on the internet, IP addresses are used on LANs"
+      ],
+      "correct": 1,
+      "explanation": "A MAC address is burned into the network interface card (NIC) by the manufacturer, while an IP address is assigned by the network.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_hard_19",
+      "question": "In Excel, what does the 'Goal Seek' tool do?",
+      "options": [
+        "Finds lost files on the hard drive",
+        "Searches the workbook for specific text",
+        "Calculates the necessary input value to achieve a specific desired output (target result) in a formula",
+        "Creates a chart based on selected data"
+      ],
+      "correct": 2,
+      "explanation": "Goal Seek is a What-If Analysis tool that determines what a specific value needs to be to achieve a predetermined result in a formula.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_hard_20",
+      "question": "What is a 'Man-in-the-Middle' (MitM) attack?",
+      "options": [
+        "An attacker intercepting and possibly altering communications between two parties who believe they are communicating directly",
+        "A hacker physically stealing a server",
+        "An attack that targets the central router of a network",
+        "A type of ransomware"
+      ],
+      "correct": 0,
+      "explanation": "In a MitM attack, the perpetrator secretly relays and alters the communication between two parties, often to steal credentials.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_21",
+      "question": "In Amadeus, which format is used to input Advanced Passenger Information (API) such as passport details?",
+      "options": [
+        "SR DOCS",
+        "NM1",
+        "OSI API",
+        "FXP"
+      ],
+      "correct": 0,
+      "explanation": "The SR DOCS (Special Request Documents) entry is used to add secure flight and passport data to a PNR required by border control agencies.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_22",
+      "question": "What is BGP (Border Gateway Protocol)?",
+      "options": [
+        "A protocol for securing Wi-Fi networks",
+        "The routing protocol that manages how packets are routed across the internet through the exchange of routing and reachability info",
+        "A protocol for assigning IP addresses",
+        "An email protocol"
+      ],
+      "correct": 1,
+      "explanation": "BGP is essentially the 'postal service' of the internet, making routing decisions to direct traffic between autonomous systems.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_hard_23",
+      "question": "In MS Outlook, what is the primary benefit of the AutoArchive feature?",
+      "options": [
+        "It automatically deletes all emails older than a week",
+        "It translates emails into different languages",
+        "It moves older items to an archive file to reduce the size of the active mailbox and improve performance",
+        "It forwards emails to a backup server automatically"
+      ],
+      "correct": 2,
+      "explanation": "AutoArchive helps manage mailbox space by moving or deleting old emails, calendar items, and tasks based on specified age criteria.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_hard_24",
+      "question": "What is a Honeypot in cybersecurity?",
+      "options": [
+        "A secure server containing highly sensitive data",
+        "A decoy system designed to attract attackers in order to monitor their methods and deflect them from legitimate targets",
+        "A type of firewall configuration",
+        "An encrypted folder for passwords"
+      ],
+      "correct": 1,
+      "explanation": "A honeypot appears to be a vulnerable target but is actually closely monitored to study attacker behavior and gather threat intelligence.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_hard_25",
+      "question": "In Amadeus, what does the FO element represent in a PNR?",
+      "options": [
+        "Flight Operations",
+        "Form of Payment",
+        "Original Issue (used for ticket reissues and exchanges)",
+        "Frequent Flyer Options"
+      ],
+      "correct": 2,
+      "explanation": "The FO line is required during an automated ticket exchange to reference the details of the original ticket being reissued.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_hard_26",
+      "question": "What is the purpose of an Array Formula in Excel?",
+      "options": [
+        "To perform multiple calculations on one or more items in an array, returning either a single result or multiple results",
+        "To create a 3D bar chart",
+        "To connect Excel to an external database",
+        "To validate email addresses"
+      ],
+      "correct": 0,
+      "explanation": "Array formulas (often entered with Ctrl+Shift+Enter in older Excel versions) can perform complex calculations involving multiple ranges simultaneously.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_hard_27",
+      "question": "What is a Cross-reference in MS Word?",
+      "options": [
+        "A citation to an external website",
+        "A link that points to another location within the same document, such as a heading, figure, or table",
+        "A tool that translates text",
+        "A way to compare two different documents"
+      ],
+      "correct": 1,
+      "explanation": "Cross-references allow you to dynamically link text like 'See Table 1' to the actual table; if the table moves, the reference updates.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_hard_28",
+      "question": "In PowerPoint, what are Action Buttons used for?",
+      "options": [
+        "To start a macro",
+        "Built-in button shapes you can add to a presentation and set to link to another slide, play a sound, or perform a similar action",
+        "To shut down the computer",
+        "To connect to a projector"
+      ],
+      "correct": 1,
+      "explanation": "Action Buttons are ready-made shapes used to create interactive presentations, allowing users to jump to specific slides or external files.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_hard_29",
+      "question": "Which Amadeus entry is used to display the flight history of a specific PNR?",
+      "options": [
+        "RH",
+        "RT",
+        "RL",
+        "RHA"
+      ],
+      "correct": 0,
+      "explanation": "The RH (Retrieve History) entry allows an agent to view all historical changes, cancellations, and updates made to a specific PNR.",
+      "tag": "Amadeus/GDS"
+    }
+  ],
+  "exam": [
+    {
+      "id": "com_exam_0",
+      "question": "If you need an Excel formula to return 'Eligible' if an employee's age is over 18 AND their score is greater than 80, which function structure is correct?",
+      "options": [
+        "=IF(AND(Age>18, Score>80), 'Eligible', 'Not Eligible')",
+        "=AND(IF(Age>18), IF(Score>80), 'Eligible')",
+        "=IF(Age>18 + Score>80, 'Eligible')",
+        "=IF(OR(Age>18, Score>80), 'Eligible', 'Not Eligible')"
+      ],
+      "correct": 0,
+      "explanation": "The IF function combined with the AND function checks if all conditions are met before returning the specified true value.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_exam_1",
+      "question": "In a corporate environment, what is the first critical step an employee should take upon suspecting a data breach or clicking a malicious link?",
+      "options": [
+        "Run a standard antivirus scan",
+        "Turn off the computer and go home",
+        "Immediately disconnect the machine from the network (Wi-Fi/LAN) and report to the IT Helpdesk",
+        "Forward the suspicious email to all colleagues as a warning"
+      ],
+      "correct": 2,
+      "explanation": "Disconnecting the machine prevents malware or ransomware from spreading laterally across the corporate network while IT investigates.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_2",
+      "question": "To create a valid PNR in Amadeus, the acronym PRINT represents the mandatory elements. What does the 'T' stand for?",
+      "options": [
+        "Terminal",
+        "Ticketing arrangement (TK)",
+        "Total fare",
+        "Time of departure"
+      ],
+      "correct": 1,
+      "explanation": "The PRINT acronym stands for Phone, Received from, Itinerary, Name, and Ticketing arrangement; all must be present to end and save a PNR.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_3",
+      "question": "Which networking utility traces the route and measures transit delays of packets across an IP network to a specific destination?",
+      "options": [
+        "Ping",
+        "Ipconfig",
+        "Traceroute (tracert)",
+        "Netstat"
+      ],
+      "correct": 2,
+      "explanation": "Traceroute maps the journey a data packet takes from the source to the destination, showing every router hop along the way.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_exam_4",
+      "question": "What is the primary benefit of using 'Cached Exchange Mode' in Microsoft Outlook?",
+      "options": [
+        "It completely prevents spam",
+        "It downloads a copy of your mailbox to your computer, allowing you to access previously viewed emails when offline or on a slow connection",
+        "It encrypts all outbound emails automatically",
+        "It increases the maximum attachment size limit"
+      ],
+      "correct": 1,
+      "explanation": "Cached Exchange Mode creates a local OST file, providing faster access to data and offline capabilities without constantly querying the Exchange server.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_exam_5",
+      "question": "How does XLOOKUP improve upon the traditional VLOOKUP function in Excel?",
+      "options": [
+        "It only searches numerical data",
+        "It requires the data to be sorted",
+        "It defaults to an exact match and can look up data in any direction (left or right)",
+        "It can only return values from adjacent columns"
+      ],
+      "correct": 2,
+      "explanation": "XLOOKUP replaces VLOOKUP by fixing its major flaws: it searches left or right, defaults to exact match, and handles missing data natively.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_exam_6",
+      "question": "In Amadeus, what is the command to create a group PNR for 15 passengers traveling under the name 'DELTA TOUR'?",
+      "options": [
+        "NM15 DELTA TOUR",
+        "NG15DELTA TOUR",
+        "NM DELTA TOUR 15",
+        "GRP15 DELTA TOUR"
+      ],
+      "correct": 1,
+      "explanation": "The NG (Name Group) entry is used to create group bookings, followed by the number of seats and the group name.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_7",
+      "question": "In MS Word, the 'Protect Document' feature can be configured to allow only which of the following actions?",
+      "options": [
+        "Printing in black and white",
+        "Filling in forms and adding comments, while restricting other editing",
+        "Changing the font size",
+        "Accessing the document during business hours"
+      ],
+      "correct": 1,
+      "explanation": "Document Protection can restrict editing entirely or selectively allow users to only add comments or fill out form fields.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_exam_8",
+      "question": "What is the critical difference between Phishing and Pharming?",
+      "options": [
+        "Phishing uses emails; Pharming redirects users to a fraudulent website even if they type the correct URL by compromising DNS",
+        "Phishing targets individuals; Pharming targets hardware",
+        "Pharming is a physical attack; Phishing is digital",
+        "There is no difference"
+      ],
+      "correct": 0,
+      "explanation": "While phishing relies on deceptive emails, pharming attacks the DNS server or host file, covertly redirecting legitimate traffic to a fake site.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_9",
+      "question": "In networking, what is the primary purpose of a VLAN (Virtual Local Area Network)?",
+      "options": [
+        "To increase the range of a Wi-Fi signal",
+        "To logically segment a physical network into multiple distinct broadcast domains for security and performance",
+        "To connect computers via Bluetooth",
+        "To replace hardware routers"
+      ],
+      "correct": 1,
+      "explanation": "VLANs allow network administrators to group hosts together logically, regardless of their physical location, improving security and reducing broadcast traffic.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_exam_10",
+      "question": "Which Amadeus entry is used to ignore the current PNR workspace and clear the screen without saving?",
+      "options": [
+        "IG",
+        "ER",
+        "IR",
+        "XI"
+      ],
+      "correct": 0,
+      "explanation": "IG (Ignore) clears the PNR from the active workspace without saving any changes made since the last save.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_11",
+      "question": "What does a 'Rootkit' malware aim to achieve on a compromised computer?",
+      "options": [
+        "Encrypt user files for a ransom",
+        "Gain unauthorized, continuous, privileged access (root-level) while hiding its presence from the OS and antivirus software",
+        "Flood the network with spam emails",
+        "Delete the operating system entirely"
+      ],
+      "correct": 1,
+      "explanation": "Rootkits are designed to provide persistent, undetected administrative access to a computer by subverting the operating system itself.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_12",
+      "question": "In Excel, if cell A1 contains 'Aviation' and B1 contains 'Ground Staff', which formula combines them to say 'Aviation Ground Staff'?",
+      "options": [
+        "=A1 + B1",
+        "=CONCATENATE(A1, \" \", B1)",
+        "=MERGE(A1, B1)",
+        "=A1 * B1"
+      ],
+      "correct": 1,
+      "explanation": "The CONCATENATE function (or the & operator) joins two or more text strings into one string. The \" \" adds a space between them.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_exam_13",
+      "question": "What is the primary function of the 'Spam' or 'Junk Email' filter in Outlook?",
+      "options": [
+        "To permanently delete all emails with attachments",
+        "To automatically evaluate incoming messages and send suspected unsolicited or malicious emails to a separate folder",
+        "To organize emails by date",
+        "To block all emails from unknown senders"
+      ],
+      "correct": 1,
+      "explanation": "Junk email filters use algorithms to detect spam and phishing attempts, isolating them from the main Inbox to protect the user.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_exam_14",
+      "question": "What does the Amadeus entry 'RTR' accomplish?",
+      "options": [
+        "Retrieves a PNR by record locator",
+        "Cancels the entire itinerary",
+        "Retrieves a ticket record/electronic ticket",
+        "Reissues a ticket"
+      ],
+      "correct": 0,
+      "explanation": "In Amadeus, 'RT' followed by the record locator (e.g., RTABCD12) is the standard command to Retrieve a specific PNR.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_15",
+      "question": "In the context of network security, what is the principle of 'Least Privilege'?",
+      "options": [
+        "Users should share passwords to ensure work continues if someone is absent",
+        "A user should be given only the minimum levels of access or permissions necessary to perform their specific job functions",
+        "All users should have admin rights to fix their own computers",
+        "Networks should have the least amount of encryption to improve speed"
+      ],
+      "correct": 1,
+      "explanation": "The principle of least privilege limits access rights for users to the bare minimum permissions they need, minimizing potential damage from breaches or errors.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_16",
+      "question": "How do you insert a hyperlink in a Word document or Outlook email using a keyboard shortcut?",
+      "options": [
+        "Ctrl + H",
+        "Ctrl + L",
+        "Ctrl + K",
+        "Ctrl + P"
+      ],
+      "correct": 2,
+      "explanation": "Ctrl + K is the universal shortcut in Microsoft Office applications to open the 'Insert Hyperlink' dialog box.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_exam_17",
+      "question": "What is the primary purpose of a Proxy Server in a corporate network architecture?",
+      "options": [
+        "To generate IP addresses via DHCP",
+        "To act as an intermediary for requests from clients seeking resources from other servers, often providing caching and web filtering",
+        "To host the company's main website",
+        "To store physical backups of data"
+      ],
+      "correct": 1,
+      "explanation": "Proxy servers evaluate outbound requests, provide security by masking internal IP addresses, block malicious sites, and cache frequent requests to save bandwidth.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_exam_18",
+      "question": "In Amadeus, when modifying an itinerary, what command is used to cancel segment number 3?",
+      "options": [
+        "XX3",
+        "XE3",
+        "DL3",
+        "CX3"
+      ],
+      "correct": 1,
+      "explanation": "XE (Cancel Element) followed by the line number is used to cancel a specific segment or element in an Amadeus PNR.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_19",
+      "question": "What is the function of the 'Format as Table' tool in Excel?",
+      "options": [
+        "It only adds color to the cells",
+        "It converts a range of data into an official Excel Table, automatically providing filtering, sorting, and structured references",
+        "It merges all cells into one",
+        "It exports the data to a Word document"
+      ],
+      "correct": 1,
+      "explanation": "Formatting as a Table unlocks advanced data management features, such as automatic expansion, banded rows, and total rows.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_exam_20",
+      "question": "Which of the following is an example of Multi-Factor Authentication (MFA)?",
+      "options": [
+        "Entering a password twice",
+        "Providing a password, and then entering a code sent via SMS or generated by an authenticator app",
+        "Using a password that contains both letters and numbers",
+        "Logging in from two different computers"
+      ],
+      "correct": 1,
+      "explanation": "MFA requires verification from at least two different categories: something you know (password) and something you have (SMS code or token).",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_21",
+      "question": "In PowerPoint, what is the function of the 'Eyedropper' tool?",
+      "options": [
+        "To blur an image",
+        "To extract text from a picture",
+        "To pick up a specific color from an object or image and apply it elsewhere for consistent branding",
+        "To resize the slide"
+      ],
+      "correct": 2,
+      "explanation": "The Eyedropper tool allows users to sample an exact color from anywhere on the screen and apply it to text or shapes.",
+      "tag": "MS PowerPoint"
+    },
+    {
+      "id": "com_exam_22",
+      "question": "What role does a MAC address play in a Local Area Network (LAN)?",
+      "options": [
+        "It identifies the operating system being used",
+        "It routes traffic across the global internet",
+        "It uniquely identifies a specific network interface controller (hardware) for communication on the local physical network segment",
+        "It blocks unauthorized websites"
+      ],
+      "correct": 2,
+      "explanation": "Switches use MAC addresses to forward data frames to the correct specific device within a local network.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_exam_23",
+      "question": "Which Amadeus command is used to add a Frequent Flyer number to a booking?",
+      "options": [
+        "FFN",
+        "FFA",
+        "FFD",
+        "FFM"
+      ],
+      "correct": 0,
+      "explanation": "FFN (Frequent Flyer Number) followed by the airline code and the membership number is used to add loyalty details to a PNR.",
+      "tag": "Amadeus/GDS"
+    },
+    {
+      "id": "com_exam_24",
+      "question": "In MS Word, what is a 'Drop Cap'?",
+      "options": [
+        "A tool to reduce the file size",
+        "A large capital letter used as a decorative element at the beginning of a paragraph or section",
+        "A shortcut to drop the capital lock",
+        "A formatting error"
+      ],
+      "correct": 1,
+      "explanation": "A Drop Cap is a styling feature where the first letter of a paragraph is enlarged to drop down across two or more lines of text.",
+      "tag": "MS Word"
+    },
+    {
+      "id": "com_exam_25",
+      "question": "What is 'Spoofing' in the context of cyber attacks?",
+      "options": [
+        "Making a system faster by bypassing security",
+        "The act of disguising a communication from an unknown source as being from a known, trusted source",
+        "Encrypting a hard drive",
+        "Deleting log files"
+      ],
+      "correct": 1,
+      "explanation": "Spoofing involves falsifying data (like an email address, caller ID, or IP address) to gain a victim's trust and bypass security measures.",
+      "tag": "Cybersecurity"
+    },
+    {
+      "id": "com_exam_26",
+      "question": "Which Excel feature allows you to combine data from multiple worksheets into a single master worksheet summarizing the totals?",
+      "options": [
+        "Consolidate",
+        "Flash Fill",
+        "Text to Columns",
+        "Data Validation"
+      ],
+      "correct": 0,
+      "explanation": "The Data Consolidate feature lets you gather together data from separate worksheets and summarize it (e.g., sum, average) in a single sheet.",
+      "tag": "MS Excel"
+    },
+    {
+      "id": "com_exam_27",
+      "question": "What is the purpose of the 'Out of Office' (Automatic Replies) feature in Outlook?",
+      "options": [
+        "To automatically forward all emails to your manager",
+        "To send an automated response notifying senders that you are away and indicating when you will return or who to contact",
+        "To delete emails while you are on vacation",
+        "To log you out of the computer"
+      ],
+      "correct": 1,
+      "explanation": "Automatic Replies manage expectations by immediately informing senders of your absence and providing alternative contacts for urgent matters.",
+      "tag": "MS Outlook"
+    },
+    {
+      "id": "com_exam_28",
+      "question": "In Networking, what is Port 443 typically used for?",
+      "options": [
+        "File Transfer Protocol (FTP)",
+        "Simple Mail Transfer Protocol (SMTP)",
+        "Secure Web Traffic (HTTPS)",
+        "Domain Name System (DNS)"
+      ],
+      "correct": 2,
+      "explanation": "Port 443 is the standard port for HTTPS, allowing secure, encrypted web browsing.",
+      "tag": "Networking"
+    },
+    {
+      "id": "com_exam_29",
+      "question": "In Amadeus, what does an OSI (Other Service Information) element do that an SSR (Special Service Request) does not?",
+      "options": [
+        "OSI guarantees a wheelchair; SSR does not",
+        "OSI is purely informational and does not require an action or reply from the airline, whereas SSRs often require confirmation",
+        "OSI is used only for baggage; SSR is for meals",
+        "There is no difference"
+      ],
+      "correct": 1,
+      "explanation": "OSI messages provide information to the airline (e.g., OSI BA VIP PAX) without needing a response, while SSRs (like meals or wheelchairs) require action and confirmation from the carrier.",
+      "tag": "Amadeus/GDS"
+    }
+  ]
+}

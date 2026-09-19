@@ -1,0 +1,392 @@
+[
+  {
+    "id": "air_easy_0",
+    "question": "What does the abbreviation ETA stand for in aviation terminology?",
+    "options": [
+      "Estimated Time of Arrival",
+      "Exact Time of Arrival",
+      "Expected Target Altitude",
+      "Estimated Taxi Area"
+    ],
+    "correct": 0,
+    "explanation": "ETA stands for Estimated Time of Arrival, indicating when an aircraft is expected to arrive at a specific location.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_easy_1",
+    "question": "Which of the following is the standard IATA 3-letter code for John F. Kennedy International Airport?",
+    "options": [
+      "JFK",
+      "JNY",
+      "NYK",
+      "KEN"
+    ],
+    "correct": 0,
+    "explanation": "JFK is the universally recognized IATA code for John F. Kennedy International Airport in New York.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_easy_2",
+    "question": "What document is primarily issued to a passenger to confirm their reserved seat on a flight?",
+    "options": [
+      "Boarding Pass",
+      "Itinerary Receipt",
+      "E-Ticket",
+      "Baggage Tag"
+    ],
+    "correct": 2,
+    "explanation": "An E-Ticket confirms the purchase and reservation of a seat, whereas a boarding pass is issued later during check-in.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_easy_3",
+    "question": "Which tag is used to route checked luggage to its final destination?",
+    "options": [
+      "Cabin Tag",
+      "Name Tag",
+      "Priority Tag",
+      "Baggage Destination Tag"
+    ],
+    "correct": 3,
+    "explanation": "A Baggage Destination Tag (or routing tag) contains barcodes and destination details to correctly route checked luggage.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_easy_4",
+    "question": "During the boarding process, which passengers are typically invited to board first?",
+    "options": [
+      "Passengers in Economy Class",
+      "Passengers requiring special assistance",
+      "Standby passengers",
+      "Employees on leisure travel"
+    ],
+    "correct": 1,
+    "explanation": "Passengers needing special assistance (like wheelchair users or families with infants) are usually boarded first for convenience and safety.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_easy_5",
+    "question": "What is the primary purpose of an immigration check upon arrival?",
+    "options": [
+      "To check for dangerous goods",
+      "To weigh the passenger's luggage",
+      "To verify the passenger's right to enter the country",
+      "To issue a boarding pass for the next flight"
+    ],
+    "correct": 2,
+    "explanation": "Immigration checks are conducted to verify a passenger's identity and ensure they have the legal right (such as a valid visa) to enter the country.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_easy_6",
+    "question": "Which item is generally strictly prohibited in both carry-on and checked baggage?",
+    "options": [
+      "Laptop computer",
+      "Lithium-ion power bank",
+      "Explosives or fireworks",
+      "Small scissors"
+    ],
+    "correct": 2,
+    "explanation": "Explosives and fireworks are classified as dangerous goods and are strictly prohibited on passenger aircraft for safety reasons.",
+    "tag": "Security"
+  },
+  {
+    "id": "air_easy_7",
+    "question": "What is a 'chock' used for in ground operations?",
+    "options": [
+      "To secure the aircraft wheels and prevent movement",
+      "To load baggage onto the aircraft",
+      "To connect the aircraft to ground power",
+      "To tow the aircraft from the gate"
+    ],
+    "correct": 0,
+    "explanation": "Chocks are wedge-shaped blocks placed against an aircraft's wheels to prevent accidental rolling while parked at the gate.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_easy_8",
+    "question": "What is the IATA code for Los Angeles International Airport?",
+    "options": [
+      "LAA",
+      "LAX",
+      "LOS",
+      "LSA"
+    ],
+    "correct": 1,
+    "explanation": "LAX is the official IATA airport code for Los Angeles International Airport.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_easy_9",
+    "question": "What does PNR stand for in the airline ticketing system?",
+    "options": [
+      "Passenger Name Record",
+      "Personal Number Reference",
+      "Primary Network Route",
+      "Passenger Navigation Route"
+    ],
+    "correct": 0,
+    "explanation": "PNR stands for Passenger Name Record, a digital file containing a passenger's itinerary and reservation details.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_easy_10",
+    "question": "What should a ground staff member do if a checked bag exceeds the maximum allowed weight?",
+    "options": [
+      "Load it without telling the passenger",
+      "Charge an excess baggage fee",
+      "Discard the items in the bag",
+      "Ask the pilot for permission"
+    ],
+    "correct": 1,
+    "explanation": "Bags exceeding the weight limit are subject to an excess baggage fee according to airline policy.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_easy_11",
+    "question": "What document must a passenger present at the gate to board the aircraft?",
+    "options": [
+      "Passport only",
+      "E-Ticket",
+      "Boarding Pass",
+      "Baggage Receipt"
+    ],
+    "correct": 2,
+    "explanation": "A Boarding Pass, which shows the flight details, gate, and seat number, is required to board the aircraft.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_easy_12",
+    "question": "Which document is essential for international travel to prove citizenship?",
+    "options": [
+      "Driver's License",
+      "Birth Certificate",
+      "Passport",
+      "National ID Card"
+    ],
+    "correct": 2,
+    "explanation": "A passport is the universally accepted document used to prove identity and citizenship for international travel.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_easy_13",
+    "question": "Where should a passenger pack a spare lithium-ion power bank?",
+    "options": [
+      "Checked baggage only",
+      "Carry-on baggage only",
+      "Either checked or carry-on",
+      "It is not allowed on flights"
+    ],
+    "correct": 1,
+    "explanation": "For safety reasons, spare lithium batteries and power banks must be carried in the cabin (carry-on) and are prohibited in checked baggage.",
+    "tag": "Security"
+  },
+  {
+    "id": "air_easy_14",
+    "question": "What does the term 'Turnaround Time' refer to in aviation?",
+    "options": [
+      "The time an aircraft takes to turn on the runway",
+      "The duration between an aircraft's arrival and its next departure",
+      "The time a passenger takes to clear security",
+      "The time it takes to print a boarding pass"
+    ],
+    "correct": 1,
+    "explanation": "Turnaround time is the total time an aircraft spends on the ground between arriving at the gate and departing for its next flight.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_easy_15",
+    "question": "What is the IATA code for London Heathrow Airport?",
+    "options": [
+      "LON",
+      "HTW",
+      "LHR",
+      "LND"
+    ],
+    "correct": 2,
+    "explanation": "LHR is the 3-letter IATA code representing London Heathrow Airport.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_easy_16",
+    "question": "Which of the following is considered a 'No-Show'?",
+    "options": [
+      "A passenger who arrives late but boards the flight",
+      "A passenger who cancels their ticket a week in advance",
+      "A passenger with a confirmed booking who fails to arrive for the flight",
+      "A passenger who upgrades their seat at the counter"
+    ],
+    "correct": 2,
+    "explanation": "A 'No-Show' is a passenger who has a confirmed reservation but fails to show up for the flight without prior cancellation.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_easy_17",
+    "question": "What is a 'fragile' tag used for?",
+    "options": [
+      "To identify bags belonging to VIPs",
+      "To mark bags that contain delicate items requiring careful handling",
+      "To indicate heavy bags",
+      "To show that a bag is lost"
+    ],
+    "correct": 1,
+    "explanation": "A fragile tag is attached to luggage containing delicate or easily breakable items so baggage handlers know to treat it with extra care.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_easy_18",
+    "question": "What does the boarding sequence usually depend on?",
+    "options": [
+      "The passenger's age",
+      "The passenger's seat assignment or loyalty status",
+      "The color of the passenger's luggage",
+      "The passenger's gender"
+    ],
+    "correct": 1,
+    "explanation": "Boarding is often conducted in zones or groups based on seat assignment (e.g., back to front) and frequent flyer or cabin class status.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_easy_19",
+    "question": "What is a visa in the context of international travel?",
+    "options": [
+      "A credit card used for booking flights",
+      "An endorsement on a passport granting permission to enter a country",
+      "A type of baggage tag",
+      "A medical certificate for traveling"
+    ],
+    "correct": 1,
+    "explanation": "A visa is an official document or stamp issued by a foreign country that allows a traveler to enter for a specific purpose and duration.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_easy_20",
+    "question": "Why is it important to ask security questions during check-in?",
+    "options": [
+      "To find out what the passenger packed for vacation",
+      "To ensure the passenger has packed their own bags and left them unattended",
+      "To ensure no prohibited items or unknown packages were placed in the luggage",
+      "To check the weight of the baggage"
+    ],
+    "correct": 2,
+    "explanation": "Security questions verify that the passenger has had control over their luggage to prevent unauthorized or dangerous items from being loaded.",
+    "tag": "Security"
+  },
+  {
+    "id": "air_easy_21",
+    "question": "What is a 'Marshaller' responsible for on the apron?",
+    "options": [
+      "Loading the baggage",
+      "Checking passenger tickets",
+      "Guiding the aircraft to its parking stand using hand signals",
+      "Refueling the aircraft"
+    ],
+    "correct": 2,
+    "explanation": "A Marshaller provides visual hand signals to pilots to safely guide the aircraft into its designated parking position on the apron.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_easy_22",
+    "question": "Which airport is represented by the IATA code 'DXB'?",
+    "options": [
+      "Dubai International Airport",
+      "Doha Hamad International",
+      "Dallas/Fort Worth",
+      "Dublin Airport"
+    ],
+    "correct": 0,
+    "explanation": "DXB is the official IATA code for Dubai International Airport in the UAE.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_easy_23",
+    "question": "What happens if a flight is overbooked?",
+    "options": [
+      "The airline buys a new plane",
+      "Volunteers are usually asked to take a later flight in exchange for compensation",
+      "Passengers must stand in the aisles",
+      "The flight is cancelled entirely"
+    ],
+    "correct": 1,
+    "explanation": "In an overbooked situation, airlines typically seek volunteers to give up their seats in exchange for travel vouchers or other compensation.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_easy_24",
+    "question": "What does a 'Rush' or 'Expedite' baggage tag signify?",
+    "options": [
+      "The bag belongs to a staff member",
+      "The bag contains hazardous materials",
+      "The bag is being rushed to catch up with a passenger (often due to mishandling)",
+      "The bag is extremely heavy"
+    ],
+    "correct": 2,
+    "explanation": "Rush or expedite tags are placed on delayed or mishandled baggage to prioritize its loading and transport to reunite it with the passenger.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_easy_25",
+    "question": "What is meant by the 'Final Call' announcement at the boarding gate?",
+    "options": [
+      "The flight is cancelled",
+      "The gate is closing soon and remaining passengers must board immediately",
+      "The flight has just landed",
+      "Passengers can take their time to board"
+    ],
+    "correct": 1,
+    "explanation": "A 'Final Call' warns remaining ticketed passengers that the boarding process is nearly complete and the gate will close imminently.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_easy_26",
+    "question": "What does a transit passenger typically do upon arrival?",
+    "options": [
+      "Clear customs and leave the airport",
+      "Collect all their checked baggage and go home",
+      "Proceed to a designated transit area to wait for their onward connecting flight",
+      "Re-apply for a new passport"
+    ],
+    "correct": 2,
+    "explanation": "Transit passengers are those who are stopping at an airport temporarily on their way to a final destination, staying in a secure transit area.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_easy_27",
+    "question": "What is the main reason for prohibiting flammable liquids in checked baggage?",
+    "options": [
+      "They might stain other passengers' luggage",
+      "They pose a severe fire hazard in the aircraft's cargo hold",
+      "They make the aircraft too heavy",
+      "They smell bad"
+    ],
+    "correct": 1,
+    "explanation": "Flammable liquids are dangerous goods that pose a significant risk of ignition and fire in the unpressurized or pressurized cargo compartments.",
+    "tag": "Security"
+  },
+  {
+    "id": "air_easy_28",
+    "question": "What is a 'GPU' in the context of aircraft ground handling?",
+    "options": [
+      "General Passenger Unit",
+      "Ground Power Unit",
+      "Gate Pass Update",
+      "Ground Personnel Uniform"
+    ],
+    "correct": 1,
+    "explanation": "A Ground Power Unit (GPU) supplies electrical power to an aircraft parked on the ground when its engines are turned off.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_easy_29",
+    "question": "What IATA code is used for Sydney Kingsford Smith Airport?",
+    "options": [
+      "SYD",
+      "SNA",
+      "SFO",
+      "SIN"
+    ],
+    "correct": 0,
+    "explanation": "SYD is the standard IATA code for Sydney Airport in Australia.",
+    "tag": "IATA Codes"
+  }
+]

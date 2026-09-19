@@ -1,0 +1,392 @@
+[
+  {
+    "id": "eng_medium_0",
+    "question": "What is the most professional way to inform a passenger that their flight has been delayed due to weather?",
+    "options": [
+      "The flight is postponed because of rain.",
+      "Your flight is delayed due to adverse weather conditions.",
+      "We are late because it's storming outside.",
+      "Weather is bad, so no flight now."
+    ],
+    "correct": 1,
+    "explanation": "Option B uses professional aviation terminology ('adverse weather conditions') and is polite.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_medium_1",
+    "question": "If the passenger _____ their boarding pass, they will not be allowed to board.",
+    "options": [
+      "loses",
+      "lose",
+      "lost",
+      "will lose"
+    ],
+    "correct": 0,
+    "explanation": "This is a first conditional sentence describing a real possibility, requiring the present simple tense ('loses') in the if-clause.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_medium_2",
+    "question": "Please place your cabin baggage _____ the seat in front of you.",
+    "options": [
+      "over",
+      "under",
+      "on",
+      "beside"
+    ],
+    "correct": 1,
+    "explanation": "The correct preposition for stowage in this context is 'under' the seat in front.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_medium_3",
+    "question": "The area where passengers wait before boarding the aircraft is called the _____.",
+    "options": [
+      "departure lounge",
+      "check-in counter",
+      "baggage claim",
+      "arrivals hall"
+    ],
+    "correct": 0,
+    "explanation": "The departure lounge (or gate area) is the designated waiting zone post-security before boarding.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_medium_4",
+    "question": "The ground staff _____ handling the delayed passengers right now.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correct": 1,
+    "explanation": "'Ground staff' is typically treated as a plural noun in British English and airline contexts when referring to the individuals collectively.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_medium_5",
+    "question": "What does the term 'layover' mean in aviation?",
+    "options": [
+      "A direct flight with no stops",
+      "A connection point where passengers wait for their next flight",
+      "The final destination of a journey",
+      "The process of boarding the aircraft"
+    ],
+    "correct": 1,
+    "explanation": "A layover is a scheduled stop between flights on a journey.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_medium_6",
+    "question": "If a flight is overbooked, the airline _____ ask for volunteers to take a later flight.",
+    "options": [
+      "would",
+      "might",
+      "had to",
+      "is"
+    ],
+    "correct": 1,
+    "explanation": "'Might' correctly indicates a possibility depending on the specific situation of the overbooked flight.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_medium_7",
+    "question": "Passengers travelling _____ children may board the aircraft first.",
+    "options": [
+      "for",
+      "by",
+      "with",
+      "to"
+    ],
+    "correct": 2,
+    "explanation": "The preposition 'with' is used to indicate accompaniment.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_medium_8",
+    "question": "How should you respond to a passenger asking for a complimentary upgrade?",
+    "options": [
+      "No, you can't have one.",
+      "I'm sorry, sir. Upgrades are only available for frequent flyer members or subject to availability.",
+      "Only rich people get upgrades.",
+      "Why do you want an upgrade?"
+    ],
+    "correct": 1,
+    "explanation": "This response is polite, informative, and states airline policy clearly without offending the passenger.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_medium_9",
+    "question": "The document required for international travel, along with a ticket, is a _____.",
+    "options": [
+      "driver's license",
+      "passport",
+      "boarding pass",
+      "itinerary"
+    ],
+    "correct": 1,
+    "explanation": "A passport is the official government document required for international travel identification.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_medium_10",
+    "question": "Neither the pilot nor the flight attendants _____ aware of the technical issue initially.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "are"
+    ],
+    "correct": 1,
+    "explanation": "In 'neither/nor' constructions, the verb agrees with the noun closest to it ('flight attendants', which is plural).",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_medium_11",
+    "question": "The aviation term 'ETA' stands for _____.",
+    "options": [
+      "Estimated Time of Arrival",
+      "Expected Travel Area",
+      "Emergency Terminal Access",
+      "Early Transit Announcement"
+    ],
+    "correct": 0,
+    "explanation": "ETA stands for Estimated Time of Arrival, a standard acronym in transport and logistics.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_medium_12",
+    "question": "If you had arrived at the gate on time, you _____ your flight.",
+    "options": [
+      "won't miss",
+      "wouldn't have missed",
+      "don't miss",
+      "didn't miss"
+    ],
+    "correct": 1,
+    "explanation": "This is a third conditional sentence, used for unreal past situations, requiring 'would have + past participle'.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_medium_13",
+    "question": "All passengers must proceed _____ gate 14 immediately.",
+    "options": [
+      "at",
+      "for",
+      "to",
+      "in"
+    ],
+    "correct": 2,
+    "explanation": "The verb 'proceed' is followed by the preposition 'to' when indicating a destination.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_medium_14",
+    "question": "A passenger is upset about a lost bag. What is the best initial response?",
+    "options": [
+      "That's not my department.",
+      "I apologize for the inconvenience. Let's fill out a Property Irregularity Report.",
+      "You should have carried it with you.",
+      "Bags get lost all the time."
+    ],
+    "correct": 1,
+    "explanation": "This response shows empathy and immediately offers a constructive solution (the PIR).",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_medium_15",
+    "question": "Excess baggage means luggage that is _____.",
+    "options": [
+      "left behind",
+      "over the allowed weight or size limit",
+      "carried in the cabin",
+      "lost in transit"
+    ],
+    "correct": 1,
+    "explanation": "Excess baggage incurs extra fees because it exceeds the passenger's free baggage allowance.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_medium_16",
+    "question": "Every passenger _____ required to show their ID before boarding.",
+    "options": [
+      "are",
+      "is",
+      "be",
+      "am"
+    ],
+    "correct": 1,
+    "explanation": "The word 'every' makes the subject singular, so the singular verb 'is' is required.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_medium_17",
+    "question": "What is a 'carousel' at an airport?",
+    "options": [
+      "A circular conveyor belt from which passengers claim their checked luggage.",
+      "The vehicle that tows the aircraft.",
+      "The revolving door at the entrance.",
+      "The seating area in the departure lounge."
+    ],
+    "correct": 0,
+    "explanation": "A baggage carousel is the device in the arrivals hall used to deliver checked luggage to passengers.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_medium_18",
+    "question": "If the runway is clear, the aircraft _____ take off.",
+    "options": [
+      "would",
+      "will",
+      "might have",
+      "is to"
+    ],
+    "correct": 1,
+    "explanation": "First conditional uses present simple in the if-clause and future simple ('will') in the main clause.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_medium_19",
+    "question": "Please have your boarding pass ready _____ inspection.",
+    "options": [
+      "by",
+      "in",
+      "for",
+      "with"
+    ],
+    "correct": 2,
+    "explanation": "The preposition 'for' indicates the purpose of having the boarding pass ready.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_medium_20",
+    "question": "How do you address a passenger who is smoking in a non-smoking area?",
+    "options": [
+      "Stop smoking now!",
+      "Excuse me, sir/madam, this is a non-smoking area. Please extinguish your cigarette.",
+      "Can't you read the sign?",
+      "I will call the police if you don't stop."
+    ],
+    "correct": 1,
+    "explanation": "This response is assertive yet polite and professional, clearly stating the rule and the required action.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_medium_21",
+    "question": "The flight has been _____, meaning it will not operate today.",
+    "options": [
+      "delayed",
+      "rescheduled",
+      "cancelled",
+      "diverted"
+    ],
+    "correct": 2,
+    "explanation": "A cancelled flight is one that will not take place at all.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_medium_22",
+    "question": "The manager, along with the ground crew, _____ working overtime to manage the disruption.",
+    "options": [
+      "is",
+      "are",
+      "have been",
+      "were"
+    ],
+    "correct": 0,
+    "explanation": "Phrases like 'along with' do not change the number of the main subject ('The manager'), which remains singular.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_medium_23",
+    "question": "What does a 'diverted flight' mean?",
+    "options": [
+      "The flight was cancelled.",
+      "The flight landed at an alternative airport due to unforeseen circumstances.",
+      "The flight is delayed.",
+      "The flight is boarding early."
+    ],
+    "correct": 1,
+    "explanation": "A diversion occurs when an aircraft must land somewhere other than its intended destination (e.g., due to weather or medical emergencies).",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_medium_24",
+    "question": "If I _____ you, I would check with the transfer desk for your connection details.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "correct": 2,
+    "explanation": "In second conditional sentences giving advice, 'were' is the correct subjunctive form for all persons.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_medium_25",
+    "question": "The flight is scheduled to depart _____ 14:30.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correct": 2,
+    "explanation": "The preposition 'at' is used for specific times on the clock.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_medium_26",
+    "question": "When making a boarding announcement, which phrase is most appropriate?",
+    "options": [
+      "Everyone get on the plane now.",
+      "We would now like to invite our First Class and Business Class passengers to board.",
+      "Only rich passengers first.",
+      "Boarding is happening."
+    ],
+    "correct": 1,
+    "explanation": "This is standard, polite aviation public address phraseology for priority boarding.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_medium_27",
+    "question": "A passenger who requires wheelchair assistance is often referred to by the acronym _____.",
+    "options": [
+      "PRM",
+      "VIP",
+      "UM",
+      "CIP"
+    ],
+    "correct": 0,
+    "explanation": "PRM stands for Passenger with Reduced Mobility.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_medium_28",
+    "question": "By this time tomorrow, the new boarding system _____ fully operational.",
+    "options": [
+      "is",
+      "will be",
+      "has been",
+      "was"
+    ],
+    "correct": 1,
+    "explanation": "'By this time tomorrow' indicates a future state, requiring the future tense 'will be'.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_medium_29",
+    "question": "What does 'standby' mean for a passenger?",
+    "options": [
+      "They are waiting for a confirmed seat if one becomes available.",
+      "They are standing by the gate.",
+      "They have missed their flight.",
+      "They are boarding first."
+    ],
+    "correct": 0,
+    "explanation": "Standby passengers do not have a confirmed reservation and only travel if there are unsold or no-show seats available.",
+    "tag": "Aviation English"
+  }
+]

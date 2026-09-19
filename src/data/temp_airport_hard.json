@@ -1,0 +1,392 @@
+[
+  {
+    "id": "air_hard_0",
+    "question": "During a turnaround, if the aircraft's APU (Auxiliary Power Unit) is inoperative, which combination of ground support equipment must the ground staff ensure is available before shutting down the engines?",
+    "options": [
+      "Ground Power Unit (GPU) and Pre-Conditioned Air (PCA)",
+      "Ground Power Unit (GPU) and Air Start Unit (ASU)",
+      "Air Start Unit (ASU) and Pre-Conditioned Air (PCA)",
+      "Aircraft Tug and Ground Power Unit (GPU)"
+    ],
+    "correct": 1,
+    "explanation": "If the APU is inoperative, the aircraft requires a GPU to supply electrical power on the ground, and an ASU to provide compressed air to start the engines prior to departure.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_hard_1",
+    "question": "Which of the following IATA airport codes correctly matches the multi-airport city code for Tokyo (TYO)?",
+    "options": [
+      "HND and NRT",
+      "ITM and KIX",
+      "NRT and NGO",
+      "HND and ITM"
+    ],
+    "correct": 0,
+    "explanation": "TYO is the metropolitan area code for Tokyo, which encompasses both Tokyo Haneda (HND) and Tokyo Narita (NRT) airports.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_hard_2",
+    "question": "A passenger presents a ticket with the endorsement 'NON-END/NON-RTE'. What restriction does this place on the ticket?",
+    "options": [
+      "The ticket is non-refundable and non-upgradable.",
+      "The ticket cannot be used on peak dates and has no frequent flyer accrual.",
+      "The ticket cannot be transferred to another carrier and the routing cannot be changed.",
+      "The ticket is standby only and non-reroutable."
+    ],
+    "correct": 2,
+    "explanation": "'NON-END' stands for Non-Endorsable (cannot be transferred to another airline) and 'NON-RTE' stands for Non-Reroutable (the specified routing cannot be altered).",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_hard_3",
+    "question": "What is the primary function of a Baggage Reconciliation System (BRS) utilized by ground handlers?",
+    "options": [
+      "To automatically weigh baggage and calculate excess baggage fees.",
+      "To ensure no checked baggage is loaded onto an aircraft without its corresponding passenger on board.",
+      "To screen baggage for dangerous goods and explosives using X-ray.",
+      "To transport baggage directly from the check-in counter to the aircraft hold."
+    ],
+    "correct": 1,
+    "explanation": "A BRS matches baggage to boarded passengers, complying with international security regulations (such as positive passenger bag match) to prevent unauthorized bags on flights.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_hard_4",
+    "question": "What is the primary purpose of issuing an 'LMC' (Last Minute Change) on a loadsheet before departure?",
+    "options": [
+      "To change the designated runway for takeoff due to weather conditions.",
+      "To adjust the flight plan routing for better fuel efficiency.",
+      "To account for late baggage, cargo, or passenger changes that alter the final weight and balance.",
+      "To notify air traffic control of a delayed pushback time."
+    ],
+    "correct": 2,
+    "explanation": "An LMC is documented on the loadsheet to reflect any late additions or removals of passengers, baggage, or cargo without needing to generate a completely new loadsheet, provided it stays within allowable limits.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_hard_5",
+    "question": "A transit passenger arriving from a non-Schengen country and departing to another non-Schengen country via a Schengen airport requires which type of visa if their nationality is not exempt?",
+    "options": [
+      "Schengen Tourist Visa (Type C)",
+      "National Visa (Type D)",
+      "Airport Transit Visa (ATV)",
+      "Electronic Travel Authorization (ETA)"
+    ],
+    "correct": 2,
+    "explanation": "An Airport Transit Visa (ATV) is required for citizens of certain countries to transit through the international zone of a Schengen airport without entering the Schengen territory.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_hard_6",
+    "question": "According to IATA Dangerous Goods Regulations, how must a passenger's 'smart luggage' with non-removable lithium-ion batteries exceeding 0.3g lithium metal or 2.7Wh be handled?",
+    "options": [
+      "It can be checked in if the battery is turned off.",
+      "It must be carried in the cabin as carry-on baggage only.",
+      "It must be denied as both carry-on and checked baggage.",
+      "It can be checked in if placed inside a fire-proof containment bag."
+    ],
+    "correct": 2,
+    "explanation": "Smart luggage with non-removable lithium batteries exceeding the allowable limits poses a severe fire risk and is strictly forbidden as both cabin and checked baggage.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_hard_7",
+    "question": "What is the standard legacy communication network and messaging format used globally for sending loadsheets and passenger manifests between ground handlers and airlines?",
+    "options": [
+      "Type B messages via SITA/ARINC networks",
+      "SMTP via public internet protocols",
+      "VHF ACARS data link",
+      "EDIFACT over secure FTP"
+    ],
+    "correct": 0,
+    "explanation": "Type B messaging via networks like SITA or ARINC is the traditional, highly reliable teletype standard used for operational airline communications, including loadsheets (AHM 560/565).",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_hard_8",
+    "question": "Which of these codes represents the airport for Washington Dulles, and what is its corresponding metropolitan city code?",
+    "options": [
+      "DCA and WAS",
+      "IAD and WAS",
+      "BWI and DWA",
+      "WAS and IAD"
+    ],
+    "correct": 1,
+    "explanation": "IAD is the IATA airport code for Washington Dulles International Airport, and it falls under the WAS metropolitan city code for Washington D.C.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_hard_9",
+    "question": "What does the ticket status 'SA' indicate on a staff or standby passenger's boarding pass?",
+    "options": [
+      "Special Assistance required",
+      "Seat Assigned",
+      "Space Available / Subject to Load",
+      "Security Approved"
+    ],
+    "correct": 2,
+    "explanation": "'SA' stands for Space Available (or Subject to Load), indicating that the passenger will only be boarded if there are unsold seats remaining after all revenue passengers are accommodated.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_hard_10",
+    "question": "In standard aviation terminology, what does 'Rush' or 'Expedite' baggage refer to?",
+    "options": [
+      "Priority baggage belonging to First Class passengers.",
+      "Baggage carrying perishable items that must be unloaded first.",
+      "Mishandled or delayed baggage being forwarded to the passenger on the next available flight without the passenger on board.",
+      "Baggage that requires immediate secondary security screening."
+    ],
+    "correct": 2,
+    "explanation": "Rush or Expedite tags are placed on mishandled or delayed bags to route them quickly to the passenger's location. Because they are unaccompanied, they undergo strict security screening before loading.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_hard_11",
+    "question": "When dealing with an oversold flight, what is the mandatory first step before denying boarding to passengers involuntarily, according to most international passenger rights regulations?",
+    "options": [
+      "Upgrade the most frequent flyers to business class.",
+      "Solicit volunteers to surrender their seats in exchange for compensation or alternative flights.",
+      "Deny boarding to the last passengers who checked in.",
+      "Offload the baggage of non-status economy passengers."
+    ],
+    "correct": 1,
+    "explanation": "Regulations such as US DOT rules and EU261 mandate that airlines must first ask for volunteers to give up their reservations in exchange for benefits before involuntarily bumping any passenger.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_hard_12",
+    "question": "What is the primary function of the TIMATIC (Travel Information Manual Automatic) system used by check-in agents?",
+    "options": [
+      "To calculate the maximum allowable takeoff weight for the aircraft.",
+      "To track mishandled baggage across global airline networks.",
+      "To verify passport, visa, and health requirements for international travel.",
+      "To process credit card transactions for excess baggage fees."
+    ],
+    "correct": 2,
+    "explanation": "TIMATIC is an IATA database used by airlines to cross-check a passenger's travel documents against the destination and transit country's entry regulations to ensure compliance.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_hard_13",
+    "question": "According to IATA DGR, dry ice (solid carbon dioxide) used to pack perishables in checked baggage is permitted without prior airline approval up to what maximum quantity per passenger?",
+    "options": [
+      "1.5 kg",
+      "2.5 kg",
+      "5.0 kg",
+      "It is strictly forbidden without airline approval."
+    ],
+    "correct": 1,
+    "explanation": "Passengers are allowed to carry up to 2.5 kg (5.5 lbs) of dry ice in checked or carry-on baggage to pack non-dangerous perishables, provided the packaging permits the release of carbon dioxide gas.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_hard_14",
+    "question": "When marshaling an aircraft into a parking bay, if the marshaller crosses their wands above their head, what specific action must the flight crew execute?",
+    "options": [
+      "Slow down and prepare to turn.",
+      "Engage the parking brake.",
+      "Stop immediately.",
+      "Cut the engines."
+    ],
+    "correct": 2,
+    "explanation": "Crossed wands above the head is the universal marshaling signal for 'Stop'. It is critical for the flight crew to halt the aircraft immediately to prevent collisions.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_hard_15",
+    "question": "A passenger's itinerary is routed LHR-DXB-BKK. Which cities do these IATA codes represent in sequential order?",
+    "options": [
+      "London, Doha, Beijing",
+      "London, Dubai, Bangkok",
+      "Liverpool, Dubai, Bangalore",
+      "London, Delhi, Bangkok"
+    ],
+    "correct": 1,
+    "explanation": "LHR is London Heathrow, DXB is Dubai International, and BKK is Suvarnabhumi Airport in Bangkok.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_hard_16",
+    "question": "In the context of fare construction and ticket calculation, what does the acronym 'MPM' stand for?",
+    "options": [
+      "Minimum Passenger Minimums",
+      "Maximum Permitted Mileage",
+      "Multiple Pricing Model",
+      "Mandatory Price Markup"
+    ],
+    "correct": 1,
+    "explanation": "MPM stands for Maximum Permitted Mileage, which is the maximum distance a passenger can travel between two points for a specific fare without incurring a surcharge.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_hard_17",
+    "question": "What does a 10-digit number on a standard IATA baggage tag denote?",
+    "options": [
+      "The passenger's frequent flyer number.",
+      "The flight number and date combined.",
+      "The License Plate Number (LPN) for global baggage tracking.",
+      "The exact weight and dimensions of the bag."
+    ],
+    "correct": 2,
+    "explanation": "The 10-digit barcode on a baggage tag is known as the License Plate. It uniquely identifies the bag across all airlines and airports globally, linked to a specific Baggage Source Message (BSM).",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_hard_18",
+    "question": "During the boarding sequence, what does the designation 'UMNR' or 'UM' indicate on the passenger manifest?",
+    "options": [
+      "Unaccompanied Minor",
+      "Unmatched Name Record",
+      "Upgraded Member",
+      "Unrestricted Mileage"
+    ],
+    "correct": 0,
+    "explanation": "'UMNR' or 'UM' stands for Unaccompanied Minor, a child traveling without an adult who requires specific supervision and handover procedures by ground and cabin crew.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_hard_19",
+    "question": "If a passenger is denied entry by immigration at their destination and designated as an INAD (Inadmissible Passenger), who is primarily responsible for the cost and logistics of their return flight?",
+    "options": [
+      "The destination country's government.",
+      "The passenger's embassy or consulate.",
+      "The transporting airline that brought them to the destination.",
+      "The departure airport authority."
+    ],
+    "correct": 2,
+    "explanation": "Under ICAO regulations, if an airline transports a passenger who is inadmissible due to improper documentation, the airline is responsible for returning the passenger and may face heavy fines.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_hard_20",
+    "question": "Which class of dangerous goods includes flammable liquids such as aviation fuel, paints, or certain adhesives?",
+    "options": [
+      "Class 2",
+      "Class 3",
+      "Class 4",
+      "Class 8"
+    ],
+    "correct": 1,
+    "explanation": "According to the UN hazard classification system used by IATA, Class 3 denotes Flammable Liquids.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_hard_21",
+    "question": "What is the critical ramp safety acronym 'FOD' short for?",
+    "options": [
+      "Flight Operations Director",
+      "Fuel Overflow Detection",
+      "Foreign Object Debris",
+      "Forward Operating Door"
+    ],
+    "correct": 2,
+    "explanation": "FOD stands for Foreign Object Debris, referring to loose items on the tarmac (trash, tools, hardware) that can be ingested by jet engines or damage aircraft tires.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_hard_22",
+    "question": "If a passenger's final destination tag reads YYZ, what major city are they traveling to?",
+    "options": [
+      "Calgary",
+      "Vancouver",
+      "Toronto",
+      "Montreal"
+    ],
+    "correct": 2,
+    "explanation": "YYZ is the IATA airport code for Toronto Pearson International Airport in Canada.",
+    "tag": "IATA Codes"
+  },
+  {
+    "id": "air_hard_23",
+    "question": "What does a 'Y' booking class typically represent on a standard legacy airline ticket?",
+    "options": [
+      "Discounted Economy Class",
+      "Full-fare, unrestricted Economy Class",
+      "Business Class upgrade",
+      "Youth or Student fare"
+    ],
+    "correct": 1,
+    "explanation": "In standard airline revenue management, the 'Y' class code is universally used to denote the highest, fully flexible, unrestricted Economy Class fare.",
+    "tag": "Ticketing"
+  },
+  {
+    "id": "air_hard_24",
+    "question": "In automated baggage handling systems, what is a 'BSM'?",
+    "options": [
+      "Baggage Security Measure",
+      "Baggage Source Message",
+      "Boarding System Malfunction",
+      "Belly Stowage Matrix"
+    ],
+    "correct": 1,
+    "explanation": "BSM (Baggage Source Message) is an automated teletype message sent from the DCS to the baggage handling system providing the required sorting and security info for a specific bag.",
+    "tag": "Baggage Handling"
+  },
+  {
+    "id": "air_hard_25",
+    "question": "Which of the following is a key strategy used during boarding to maintain aircraft weight and balance on a heavily loaded, tail-heavy turboprop aircraft?",
+    "options": [
+      "Board the rear zones first.",
+      "Board the forward zones first.",
+      "Board all window seats first.",
+      "Ensure all passengers board simultaneously."
+    ],
+    "correct": 1,
+    "explanation": "For an inherently tail-heavy aircraft on the ground, boarding the forward zones first helps prevent a 'tail-tip' incident by keeping the center of gravity forward.",
+    "tag": "Boarding"
+  },
+  {
+    "id": "air_hard_26",
+    "question": "Many countries enforce a strict passport validity rule for arriving tourists. What is the standard minimum validity typically required beyond the intended period of stay?",
+    "options": [
+      "1 month",
+      "3 months",
+      "6 months",
+      "12 months"
+    ],
+    "correct": 2,
+    "explanation": "A vast majority of countries require a passport to be valid for at least 6 months beyond the date of arrival or intended departure to grant entry.",
+    "tag": "Immigration"
+  },
+  {
+    "id": "air_hard_27",
+    "question": "Can a passenger legally pack a small can of self-defense pepper spray (mace) in their checked baggage according to standard IATA regulations?",
+    "options": [
+      "Yes, if it is placed in a transparent sealed bag.",
+      "Yes, limited to one 100ml can per person.",
+      "No, it is strictly forbidden on passenger aircraft.",
+      "Yes, if the airline is notified in advance."
+    ],
+    "correct": 2,
+    "explanation": "Pepper spray and mace contain disabling or incapacitating substances and are strictly forbidden in both carry-on and checked baggage under IATA Dangerous Goods Regulations.",
+    "tag": "Security (Dangerous Goods)"
+  },
+  {
+    "id": "air_hard_28",
+    "question": "What is the primary purpose of placing a 'chock' at the wheels of an aircraft on the ramp?",
+    "options": [
+      "To ground the aircraft and prevent static discharge.",
+      "To secure the aircraft wheels and prevent any unintended rolling movement while parked.",
+      "To indicate to the pilot exactly where to stop the nose wheel.",
+      "To elevate the tires for routine maintenance checks."
+    ],
+    "correct": 1,
+    "explanation": "Wheel chocks are heavy wedges placed against an aircraft's tires immediately after arrival to prevent it from rolling, acting as a physical fail-safe in addition to parking brakes.",
+    "tag": "Ground Operations"
+  },
+  {
+    "id": "air_hard_29",
+    "question": "If a passenger's electric wheelchair is powered by a spillable wet-cell battery and cannot be loaded upright in the cargo hold, what action must the ground staff take?",
+    "options": [
+      "Drain the battery fluid completely before loading.",
+      "Remove the battery, package it in strong, rigid packaging, and stow it securely.",
+      "Refuse the wheelchair entirely as spillable batteries are forbidden.",
+      "Wrap the entire wheelchair in a heavy-duty plastic cover."
+    ],
+    "correct": 1,
+    "explanation": "If a wheelchair with a spillable battery cannot be kept upright, IATA DGR dictates that the battery must be removed, protected against short circuits, packed in specific rigid, leak-proof packaging, and secured in the cargo hold.",
+    "tag": "Security (Dangerous Goods)"
+  }
+]

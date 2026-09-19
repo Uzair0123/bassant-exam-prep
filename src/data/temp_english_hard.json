@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eng_hard_0",
+    "question": "Had the ground crew ________ the impending storm, they would have secured the catering trucks earlier.",
+    "options": ["foreseen", "foresaw", "been foreseeing", "had foreseen"],
+    "correct": 0,
+    "explanation": "This is a third conditional sentence with subject-auxiliary inversion ('Had the ground crew foreseen...'). 'Foreseen' is the correct past participle.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_hard_1",
+    "question": "The passengers were growing increasingly irate; ________, the gate agent maintained a placid demeanor throughout the ordeal.",
+    "options": ["consequently", "nevertheless", "furthermore", "otherwise"],
+    "correct": 1,
+    "explanation": "'Nevertheless' effectively introduces a contrast between the passengers' anger and the agent's calmness.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_hard_2",
+    "question": "Which phrase is most appropriate when attempting to de-escalate a situation with a passenger who is furious about a missed connection due to a delay?",
+    "options": ["I understand you're upset, but the weather delay isn't our fault.", "Calm down; we'll rebook you on the next available flight.", "I can completely understand your frustration. Let's look at the options we have to get you to your destination as quickly as possible.", "There is no need to be angry; these things happen in aviation."],
+    "correct": 2,
+    "explanation": "Validating the passenger's feelings and immediately shifting focus to solutions is the best de-escalation technique.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_hard_3",
+    "question": "The pilot requested clearance to push back, citing that all baggage had been loaded ________ the aircraft.",
+    "options": ["onto", "in", "at", "towards"],
+    "correct": 0,
+    "explanation": "'Onto' implies movement to a position on a surface, which is standard when referring to loading baggage into the hold of an aircraft.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_4",
+    "question": "In the context of aviation security, the term 'sterile area' refers to:",
+    "options": ["The medical facility located within the terminal.", "The portion of an airport that provides passengers access to boarding aircraft and to which access generally is controlled.", "The runway and taxiway surfaces that must be kept clear of Foreign Object Debris (FOD).", "The designated quarantine zone for passengers showing symptoms of infectious diseases."],
+    "correct": 1,
+    "explanation": "The 'sterile area' is the secured zone past security checkpoints where screened passengers wait to board.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_hard_5",
+    "question": "Choose the correct prepositional phrase: The revised boarding procedure will be implemented ________ next Monday.",
+    "options": ["effective as of", "effective from", "effective at", "effective by"],
+    "correct": 1,
+    "explanation": "'Effective from' (or simply 'effective') is the standard formal way to state when a new rule or procedure begins.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_6",
+    "question": "If the APU (Auxiliary Power Unit) is inoperative, the ground staff ________ provide a GPU (Ground Power Unit).",
+    "options": ["may have to", "must necessarily", "will be required to", "would have been needing to"],
+    "correct": 2,
+    "explanation": "This is a first conditional structure expressing a future necessity based on a present condition. 'Will be required to' is structurally and semantically correct.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_hard_7",
+    "question": "What does the abbreviation 'UMNR' stand for in passenger handling?",
+    "options": ["Unidentified Missing National Record", "Unaccompanied Minor", "Unscheduled Maintenance Needs Required", "Urgent Medical Needs Requested"],
+    "correct": 1,
+    "explanation": "UMNR is the standard airline code for an Unaccompanied Minor.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_hard_8",
+    "question": "The baggage handler noticed that the container was damaged and ________ reported it to the ramp supervisor.",
+    "options": ["expeditiously", "exhaustively", "extensively", "exorbitantly"],
+    "correct": 0,
+    "explanation": "'Expeditiously' means with speed and efficiency, which is vital in aviation reporting.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_hard_9",
+    "question": "When addressing a passenger who is visually impaired, which approach is most appropriate?",
+    "options": ["Speak louder so they can hear you clearly.", "Address their traveling companion instead of them directly.", "Identify yourself clearly and ask if they would like assistance before touching them or their mobility aids.", "Take their arm firmly and guide them to the check-in desk."],
+    "correct": 2,
+    "explanation": "It is essential to identify yourself and ask for permission before providing physical assistance to a visually impaired passenger.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_hard_10",
+    "question": "Scarcely ________ the boarding gates closed when the final passenger arrived breathless at the desk.",
+    "options": ["were", "did", "had", "have"],
+    "correct": 2,
+    "explanation": "This uses negative inversion. 'Scarcely had [subject] [past participle]' is the correct structure.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_hard_11",
+    "question": "The aircraft is scheduled to undergo a C-check, which entails a comprehensive inspection ________ its structural integrity.",
+    "options": ["for", "of", "about", "regarding"],
+    "correct": 1,
+    "explanation": "'Inspection of' is the correct prepositional pairing for examining a specific component or quality.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_12",
+    "question": "In aviation terminology, what does 'chocks away' signify?",
+    "options": ["The aircraft is clear of all ground equipment and ready to taxi.", "The baggage has been completely loaded.", "The catering service has finished.", "The aircraft's engines have been shut down."],
+    "correct": 0,
+    "explanation": "'Chocks away' means the blocks (chocks) securing the wheels have been removed, indicating readiness to move.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_hard_13",
+    "question": "If you ________ more attentive to the passenger's initial complaint, the situation wouldn't have escalated so rapidly.",
+    "options": ["were", "had been", "are", "would have been"],
+    "correct": 1,
+    "explanation": "This is a mixed conditional (past condition, past/present result). The condition in the past requires the past perfect 'had been'.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_hard_14",
+    "question": "The term 'ETA' is commonly used. What is its counterpart for an aircraft leaving the gate?",
+    "options": ["ETD", "ATD", "ETO", "ATC"],
+    "correct": 0,
+    "explanation": "ETD stands for Estimated Time of Departure, which pairs with ETA (Estimated Time of Arrival).",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_hard_15",
+    "question": "The new regulations strictly prohibit the transport of undeclared hazardous materials ________ passenger aircraft.",
+    "options": ["aboard", "inside", "within", "among"],
+    "correct": 0,
+    "explanation": "'Aboard' is the most precise and formal preposition for being on or in an aircraft.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_16",
+    "question": "Not only ________ the flight delayed, but the luggage was also misplaced.",
+    "options": ["was", "did", "is", "had"],
+    "correct": 0,
+    "explanation": "Negative inversion requires the auxiliary verb to precede the subject. 'Was the flight delayed' is correct.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_hard_17",
+    "question": "A passenger demands an immediate upgrade to business class because the flight is delayed. The most professional response is:",
+    "options": ["I'm afraid we only upgrade frequent flyers, which you are not.", "Unfortunately, upgrades are not granted for delays, but I can offer you a complimentary lounge pass if you're eligible.", "No, that's not our policy for delayed flights.", "I understand the delay is frustrating. While I cannot offer a complimentary upgrade, I can check if there are seats available for purchase, or assist you with other accommodations."],
+    "correct": 3,
+    "explanation": "This response acknowledges the frustration, clearly states what cannot be done, and offers viable alternatives without sounding dismissive.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_hard_18",
+    "question": "The term 'FOD' is critical on the apron. It stands for:",
+    "options": ["Flight Operations Directorate", "Foreign Object Debris", "Fuel Order Document", "First Officer's Duty"],
+    "correct": 1,
+    "explanation": "FOD stands for Foreign Object Debris, referring to any loose item on the tarmac that could damage an aircraft.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_hard_19",
+    "question": "Should the passenger manifest ________ with the boarding passes scanned, please notify the gate supervisor immediately.",
+    "options": ["not tallying", "failed to tally", "fail to tally", "fails to tally"],
+    "correct": 2,
+    "explanation": "This uses formal inversion for the first conditional ('If the passenger manifest should fail...'). The base form 'fail' is required after 'Should [subject]'.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_hard_20",
+    "question": "The airline's liability for lost baggage is strictly limited ________ the terms outlined in the Montreal Convention.",
+    "options": ["with", "by", "under", "from"],
+    "correct": 1,
+    "explanation": "'Limited by' is the correct prepositional phrasing when referring to restrictions imposed by a document or law.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_21",
+    "question": "The word 'manifest' in aviation mostly refers to:",
+    "options": ["To show clearly or demonstrate.", "A comprehensive list of passengers or cargo on an aircraft.", "The pilot's pre-flight checklist.", "A declaration of intent by the airline."],
+    "correct": 1,
+    "explanation": "In an aviation context, a manifest is a document listing the cargo, passengers, and crew of an aircraft.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_hard_22",
+    "question": "Which sentence demonstrates the correct use of a participle clause?",
+    "options": ["Having checked the boarding passes, the gate was closed by the agent.", "Having checked the boarding passes, the agent closed the gate.", "Checking the boarding passes, the gate was closed.", "The boarding passes checked, the gate closing."],
+    "correct": 1,
+    "explanation": "Option 1 and 3 are dangling modifiers. Option 2 correctly matches the subject 'the agent' with the action of checking the passes.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_hard_23",
+    "question": "A passenger asks, 'Is there any chance I can make my connection?' You know they likely won't. Best response:",
+    "options": ["Honestly, no. You'll miss it.", "It is highly unlikely, but I am rebooking you on the next flight right now so you won't be stranded.", "Don't worry, these things happen. We'll sort it out eventually.", "I can't say for sure, just run when you land."],
+    "correct": 1,
+    "explanation": "It provides an honest assessment while immediately offering a concrete solution to mitigate anxiety.",
+    "tag": "Passenger Communication"
+  },
+  {
+    "id": "eng_hard_24",
+    "question": "The instruction 'hold short of' when communicating with ground vehicles means:",
+    "options": ["Stop and wait just before reaching a specified runway or taxiway.", "Wait for a short duration before proceeding.", "Maintain current speed but prepare to stop.", "Proceed cautiously across the intersection."],
+    "correct": 0,
+    "explanation": "'Hold short' is a strict command to stop before a clearance line and wait for permission to cross.",
+    "tag": "Aviation English"
+  },
+  {
+    "id": "eng_hard_25",
+    "question": "If they had strictly adhered to the turnaround schedule, the subsequent delays ________.",
+    "options": ["would have been avoided", "were avoided", "had been avoided", "would be avoided"],
+    "correct": 0,
+    "explanation": "This is a third conditional sentence. The 'if' clause uses past perfect, so the result clause needs 'would have + past participle'.",
+    "tag": "Conditionals"
+  },
+  {
+    "id": "eng_hard_26",
+    "question": "The supervisor insisted that the new recruit ________ the safety protocol manual thoroughly.",
+    "options": ["reads", "read", "reading", "will read"],
+    "correct": 1,
+    "explanation": "The verb 'insist' triggers the subjunctive mood in the subordinate clause, requiring the base form of the verb 'read'.",
+    "tag": "Grammar"
+  },
+  {
+    "id": "eng_hard_27",
+    "question": "The term 'deadheading' refers to:",
+    "options": ["An aircraft flying without cargo to save fuel.", "Crew members traveling as passengers on company business to or from a duty assignment.", "The process of emptying the lavatory waste tanks.", "Passengers who do not show up for their flights."],
+    "correct": 1,
+    "explanation": "Deadheading is the practice of airline crew members traveling as passengers for work-related reasons.",
+    "tag": "Vocabulary"
+  },
+  {
+    "id": "eng_hard_28",
+    "question": "Please ensure that the fragile items are stowed ________ the overhead bin with care.",
+    "options": ["into", "inside of", "in", "within"],
+    "correct": 2,
+    "explanation": "'In' is the standard and most concise preposition for placement inside an overhead bin. 'Stowed in' is the common collocation.",
+    "tag": "Prepositions"
+  },
+  {
+    "id": "eng_hard_29",
+    "question": "A disruptive passenger is refusing to comply with hand baggage regulations at the gate. After politely explaining the rule twice, your next step should be:",
+    "options": ["Physically take the bag from them and check it in.", "Ignore them and let them board to avoid delaying the flight.", "Inform them firmly that compliance is mandatory for boarding, and involve a supervisor or security if they continue to refuse.", "Shout at them to assert authority."],
+    "correct": 2,
+    "explanation": "Firmly stating the requirement and escalating to higher authority/security is the correct protocol for non-compliance after polite requests fail.",
+    "tag": "Passenger Communication"
+  }
+]
