@@ -97,22 +97,23 @@ export default function ReportCard() {
     <div className="max-w-6xl mx-auto space-y-8 animate-in slide-in-from-bottom-4 duration-500 pb-12">
       
       {/* Header */}
-      <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm text-center">
-        <Award className={`w-20 h-20 mx-auto mb-4 ${percentage >= 80 ? 'text-yellow-500' : 'text-slate-400'}`} />
-        <h1 className="text-3xl font-bold text-slate-800 mb-2">Advanced Analytics: Bassant Reda Salim</h1>
-        <p className="text-slate-500 uppercase tracking-widest text-sm mb-8 font-semibold">{section} - {mode} Mode</p>
+      <div className="bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-xl text-center text-white relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -z-10"></div>
+        <Award className={`w-24 h-24 mx-auto mb-6 ${percentage >= 80 ? 'text-yellow-400' : 'text-slate-400'}`} />
+        <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-2 tracking-tight">AeroPrep Training Report</h1>
+        <p className="text-blue-300 uppercase tracking-widest text-sm mb-10 font-bold">{section} Module - {mode} Mode</p>
         
-        <div className="flex justify-center items-center gap-12 mb-8">
+        <div className="flex justify-center items-center gap-12 mb-8 relative z-10">
           <div className="text-center">
-            <div className={`text-6xl font-black mb-1 ${percentage >= 80 ? 'text-emerald-600' : percentage >= 50 ? 'text-blue-600' : 'text-red-600'}`}>
+            <div className={`text-6xl font-black mb-1 ${percentage >= 80 ? 'text-emerald-400' : percentage >= 50 ? 'text-blue-400' : 'text-red-400'}`}>
               {percentage}%
             </div>
-            <div className="text-slate-500 font-medium">Final Score</div>
+            <div className="text-slate-300 font-medium">Final Score</div>
           </div>
-          <div className="w-px h-16 bg-slate-200"></div>
+          <div className="w-px h-16 bg-slate-700"></div>
           <div className="text-center">
-            <div className="text-6xl font-black text-slate-700 mb-1">{score}/{questions.length}</div>
-            <div className="text-slate-500 font-medium">Correct Answers</div>
+            <div className="text-6xl font-black text-white mb-1">{score}/{questions.length}</div>
+            <div className="text-slate-300 font-medium">Correct Answers</div>
           </div>
         </div>
       </div>

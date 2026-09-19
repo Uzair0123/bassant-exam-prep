@@ -59,28 +59,33 @@ export default function Quiz() {
   const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 animate-in fade-in">
+    <div className="max-w-4xl mx-auto space-y-6 animate-in fade-in duration-500">
       
       {/* Top Bar with Progress */}
-      <div className="bg-white p-4 md:p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+      <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm space-y-5">
         <div className="flex justify-between items-center">
-          <div className="text-sm font-bold text-slate-500 uppercase tracking-wider bg-slate-100 px-3 py-1 rounded-md">
-            {section} <span className="text-blue-500 mx-1">•</span> {mode} Mode
+          <div className="flex items-center gap-3">
+            <button onClick={() => navigate('/')} className="p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-50 rounded-full transition-colors">
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <div className="text-sm font-bold text-slate-600 uppercase tracking-wider bg-slate-100 px-4 py-1.5 rounded-lg border border-slate-200">
+              {section} <span className="text-blue-500 mx-1">•</span> {mode} Mode
+            </div>
           </div>
           {timeLeft !== null && (
-            <div className={`flex items-center gap-2 font-mono text-xl font-bold bg-slate-50 px-4 py-2 rounded-lg border ${timeLeft < 300 ? 'text-red-600 border-red-200 bg-red-50' : 'text-slate-700 border-slate-200'}`}>
+            <div className={`flex items-center gap-2 font-mono text-xl font-bold px-4 py-2 rounded-xl border ${timeLeft < 300 ? 'text-red-600 border-red-200 bg-red-50 animate-pulse' : 'text-slate-700 border-slate-200 bg-slate-50'}`}>
               <Clock className="w-5 h-5" />
               {formatTime(timeLeft)}
             </div>
           )}
         </div>
         
-        <div className="space-y-1.5">
-          <div className="flex justify-between text-sm font-medium text-slate-600">
+        <div className="space-y-2 px-2">
+          <div className="flex justify-between text-sm font-semibold text-slate-500">
             <span>Question {currentIndex + 1} of {questions.length}</span>
-            <span>{Math.round(progressPercentage)}% Completed</span>
+            <span className="text-blue-600">{Math.round(progressPercentage)}% Completed</span>
           </div>
-          <div className="w-full bg-slate-100 h-3 rounded-full overflow-hidden">
+          <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden">
             <div 
               className="bg-blue-600 h-full rounded-full transition-all duration-500 ease-out" 
               style={{ width: `${progressPercentage}%` }}
@@ -90,20 +95,19 @@ export default function Quiz() {
       </div>
 
       {/* Question Card */}
-      <div className="bg-white p-6 md:p-10 rounded-3xl border border-slate-200 shadow-sm relative overflow-hidden">
-        {/* Decorative corner */}
-        <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -z-10 opacity-50"></div>
+      <div className="bg-white p-8 md:p-12 rounded-3xl border border-slate-200 shadow-md relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-to-bl from-blue-50 to-transparent rounded-bl-full -z-10 opacity-70"></div>
         
-        <div className="flex justify-between items-start mb-8">
-          <h2 className="text-2xl font-semibold text-slate-800 leading-relaxed max-w-2xl">
+        <div className="flex justify-between items-start mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 leading-snug max-w-2xl">
             {currentQ.question}
           </h2>
           <button 
             onClick={toggleFlag}
-            className={`p-3 rounded-xl transition-all shadow-sm ${flags[currentIndex] ? 'bg-amber-100 text-amber-600 border border-amber-200' : 'bg-white border border-slate-200 text-slate-400 hover:border-slate-300'}`}
+            className={`p-3 rounded-2xl transition-all shadow-sm ${flags[currentIndex] ? 'bg-amber-100 text-amber-600 border border-amber-200 ring-2 ring-amber-100' : 'bg-white border border-slate-200 text-slate-400 hover:border-slate-300 hover:bg-slate-50'}`}
             title="Flag for review"
           >
-            <Flag className="w-5 h-5" />
+            <Flag className="w-6 h-6" />
           </button>
         </div>
 
@@ -114,13 +118,13 @@ export default function Quiz() {
               <button
                 key={idx}
                 onClick={() => handleSelect(idx)}
-                className={`w-full text-left p-5 rounded-2xl border-2 transition-all group ${isSelected ? 'border-blue-500 bg-blue-50/50 text-blue-900 font-semibold shadow-md transform -translate-y-0.5' : 'border-slate-100 hover:border-blue-200 bg-white hover:bg-slate-50 text-slate-700 shadow-sm'}`}
+                className={`w-full text-left p-5 md:p-6 rounded-2xl border-2 transition-all group ${isSelected ? 'border-blue-500 bg-blue-50/80 text-blue-900 font-semibold shadow-md transform -translate-y-0.5 ring-4 ring-blue-50' : 'border-slate-200 hover:border-blue-300 bg-white hover:bg-slate-50/50 text-slate-700 shadow-sm'}`}
               >
-                <div className="flex items-center gap-4">
-                  <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${isSelected ? 'border-blue-500 bg-blue-500' : 'border-slate-300 group-hover:border-blue-300'}`}>
-                    {isSelected && <div className="w-2 h-2 bg-white rounded-full" />}
+                <div className="flex items-center gap-5">
+                  <div className={`w-7 h-7 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${isSelected ? 'border-blue-500 bg-blue-500' : 'border-slate-300 group-hover:border-blue-400'}`}>
+                    {isSelected && <div className="w-2.5 h-2.5 bg-white rounded-full" />}
                   </div>
-                  <span className="text-lg">{opt}</span>
+                  <span className="text-lg md:text-xl">{opt}</span>
                 </div>
               </button>
             )
@@ -129,20 +133,20 @@ export default function Quiz() {
       </div>
 
       {/* Navigation */}
-      <div className="flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+      <div className="flex justify-between items-center bg-white p-5 rounded-3xl border border-slate-200 shadow-sm">
         <button 
           onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
           disabled={currentIndex === 0}
-          className="flex items-center gap-2 px-5 py-3 text-slate-600 disabled:opacity-30 hover:bg-slate-50 rounded-xl font-bold transition-colors"
+          className="flex items-center gap-2 px-6 py-3 text-slate-600 disabled:opacity-30 hover:bg-slate-100 rounded-2xl font-bold transition-colors"
         >
-          <ChevronLeft className="w-5 h-5" /> Back
+          <ChevronLeft className="w-5 h-5" /> Previous
         </button>
 
         {currentIndex === questions.length - 1 ? (
           <button 
             onClick={handleSubmit}
             disabled={answers[currentIndex] === undefined}
-            className="flex items-center gap-2 px-8 py-3 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-2xl hover:bg-slate-800 font-bold transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:-translate-y-0.5"
           >
             Submit Exam <CheckCircle className="w-5 h-5" />
           </button>
@@ -150,7 +154,7 @@ export default function Quiz() {
           <button 
             onClick={() => setCurrentIndex(prev => Math.min(questions.length - 1, prev + 1))}
             disabled={answers[currentIndex] === undefined}
-            className="flex items-center gap-2 px-8 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl hover:bg-blue-700 font-bold transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:-translate-y-0.5"
           >
             Next Question <ChevronRight className="w-5 h-5" />
           </button>

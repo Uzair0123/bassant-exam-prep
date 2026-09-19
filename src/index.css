@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased selection:bg-blue-200 selection:text-blue-900;
+    background-image: radial-gradient(circle at 100% 0%, #e0f2fe 0%, transparent 25%),
+                      radial-gradient(circle at 0% 100%, #f0fdf4 0%, transparent 25%);
+    background-attachment: fixed;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
