@@ -1,25 +1,18 @@
-# Project State
+# Project State: Airport Staff Exam Simulator (v2)
 
-**Current Phase:** Phase 6 (Retrospective) completed.
-**SDLC Model:** AI-Augmented Spiral-Incremental
+## Current Phase: Phase 5 (Testing & QA) completed. Moving to Phase 6 (Retrospective) and Deployment.
+- **Model Selection:** AI-Augmented Spiral-Incremental.
 
-## Completed Work
-- Inspected existing project structure.
-- Drafted Phase 1 Research & Discovery (`docs/01-research.md`).
-- Drafted Phase 2 Risks & Tradeoffs (`docs/02-risks-and-tradeoffs.md`).
-- Drafted Phase 3 Architecture and Module Plan (`docs/03-architecture.md`, `docs/04-module-plan.md`).
-- Executed Phase 4 Implementation:
-  - Created `generate_data_v2.py` which dynamically generates 360 unique, completely new questions using a template mutation system tailored to Airport Ground Staff.
-  - Redesigned `index.html` and `index.css` to add Google Fonts (Inter) and a professional background.
-  - Redesigned `App.jsx`, `Dashboard.jsx`, `Quiz.jsx`, and `ReportCard.jsx` to adopt the "AeroPrep" styling with deep blues, slate tones, and a premium LMS feel.
-- Executed Phase 5 Testing:
-  - Ran `npm run build` to verify that the app bundles without compilation errors.
-- Executed Phase 6 Retrospective:
-  - Replaced the hardcoded repetitive Python script with a much more powerful Python generator.
-  - Successfully elevated the UX from a generic quiz to a professional Aviation Prep platform.
+## Active Tasks
+- [x] Complete Phase 3 (Architecture & Planning)
+- [x] Complete Phase 4 (Implementation)
+- [x] Complete Phase 5 (Testing & QA)
+- [ ] Deploy to GitHub Pages
+- [ ] Complete Phase 6 (Retrospective)
+- [ ] Hand over to User
 
-## Pending Tasks
-- None.
+## Known Problems & Blockers
+- The primary identified risk from the prompt is data integrity: "when we add the Question, they are mostly incorrect and messy, and repeatable." A robust data architecture will be needed to prevent this.
 
-## Known Problems
-- None.
+## Decisions
+- Using a new git branch (`v2-airport-exam`) to avoid touching the original application while allowing easy deployment/git pushes.

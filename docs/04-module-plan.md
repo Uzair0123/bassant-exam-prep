@@ -1,37 +1,37 @@
-# Module Plan — Bassant Exam Prep Upgrade
+# Module Plan — Airport Staff Exam Simulator (v2)
 
 ## Build order
-1. **Data Module (`mockData.js`)** — Because everything else depends on the new 90 unique questions. We will use an LLM (agent) to generate 30 high-quality Airport Customer Service questions for English, Computer, and Airport Knowledge.
-2. **Dashboard UI Module** — Redesign to a modern LMS look.
-3. **Quiz Engine UI** — Upgrade the question cards, typography, and progress tracking.
-4. **Report Card UI** — Improve the charts and review screens.
+1. **Data Model & Validator** — because if the data is wrong, the app fails the core requirement.
+2. **State Manager (`useExamSession`)** — because the UI needs this to function.
+3. **Dashboard & Results UI** — simple views.
+4. **Exam Runner UI** — the most complex view (timer, pagination, layout).
 
 ## Module contracts
 
-### Data Module (`mockData.js`)
-- Responsibility: Provide the static array of exam questions per section and difficulty.
-- Public interface: `getQuestions(section, mode)` returning an array of `{ id, question, options, correct, explanation, tag }` objects.
-- Depends on: None.
-- Owns data: All question data.
-- Status: not started
+### Data Model & Validator
+- **Responsibility:** Define the JSON schema for English and Computer questions and validate it.
+- **Public interface:** `questions.json` and a `validateData.js` script.
+- **Depends on:** Nothing.
+- **Owns data:** The actual question content, options, correct answers, and explanations.
+- **Status:** done
 
-### Dashboard Module (`Dashboard.jsx`)
-- Responsibility: Serve as the entry point, allowing users to select a section and difficulty.
-- Public interface: React Component.
-- Depends on: React Router (for navigation).
-- Owns data: Local selection state.
-- Status: not started
+### State Manager (`useExamSession`)
+- **Responsibility:** Track user progress, timer, and answers during an active exam.
+- **Public interface:** `{ startExam, submitAnswer, endExam, currentQuestion, timer, score }`
+- **Depends on:** Data Model (to load questions).
+- **Owns data:** User's transient session state.
+- **Status:** done
 
-### Quiz Engine Module (`Quiz.jsx`)
-- Responsibility: Render questions one by one, handle timers, track user answers.
-- Public interface: React Component. Route params `:section` and `:mode`.
-- Depends on: Data Module, React Router.
-- Owns data: `answers` object, `timeLeft`.
-- Status: not started
+### Exam Runner UI
+- **Responsibility:** Render the beautiful, real-exam simulation interface for a single question.
+- **Public interface:** A React Component `<ExamRunner />`.
+- **Depends on:** State Manager, TailwindCSS.
+- **Owns data:** Internal UI state (like confirm dialogs).
+- **Status:** done
 
-### Report Card Module (`ReportCard.jsx`)
-- Responsibility: Show final score, analytics charts, and question review.
-- Public interface: React Component. Route state containing `questions`, `answers`.
-- Depends on: Recharts, Canvas Confetti.
-- Owns data: None (derives score from props).
-- Status: not started
+### Results Summary UI
+- **Responsibility:** Show the final score and detailed explanations for missed questions.
+- **Public interface:** A React Component `<ResultsSummary />`.
+- **Depends on:** State Manager.
+- **Owns data:** None.
+- **Status:** done

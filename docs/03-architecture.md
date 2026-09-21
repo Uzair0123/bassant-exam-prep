@@ -1,22 +1,23 @@
-# Architecture — Bassant Exam Prep Upgrade
+# Architecture — Airport Staff Exam Simulator (v2)
 
 ## SDLC shape
 AI-Augmented Spiral-Incremental.
 
 ## System overview
-The system is a static client-side Single Page Application (SPA) built with React and Vite. Data is bundled directly with the application to ensure it works fully offline and loads instantly. 
-
 ```mermaid
 flowchart TD
-    Data[mockData.js - 90 Unique Questions] --> App
-    App --> Dashboard[LMS Dashboard UI]
-    App --> QuizEngine[Quiz Component with Timer & State]
-    QuizEngine --> Report[Report Card & Analytics]
+    A[Question JSON Data] --> B[Data Validation/Loader]
+    B --> C[Exam State Manager]
+    C --> D[Exam Runner UI]
+    C --> E[Results Summary UI]
+    F[Dashboard UI] --> C
 ```
+**Data Flow:** The application loads static JSON files containing the question bank. A central Exam State Manager (React Context or Custom Hook) holds the active session (timer, current question index, user answers). The UI layers (Dashboard, Runner, Results) merely dispatch actions to this state manager and read from it to render.
 
 ## Key architectural decisions
 | Decision | Alternative(s) rejected | Reason |
 |---|---|---|
-| Hand-written JSON/JS data file | Python generator script | The Python script produced repetitive questions. A manual data file allows for highly bespoke, accurate, and truly unique Airport Ground Staff questions. |
-| React Context/Redux for State | Kept simple local state / `react-router` state | The app is small enough that passing state via `react-router-dom` `state` prop from Quiz to ReportCard is sufficient and reduces boilerplate. |
-| Taildwind Custom Theme | Pre-built UI library (e.g. MUI) | Tailwind is already installed and allows for faster "stunning" custom UI tweaks without adding heavy dependencies. |
+| Static JSON Question Bank | Backend API | No time to build a robust backend in 2 days. JSON ensures high performance and offline reliability during the exam. |
+| Custom Validation Script | Trusting AI generation blindly | The user flagged AI hallucination in questions as the #1 problem. We will write a small Node script to schema-validate the JSON before building. |
+| Vanilla React State (Hooks) | Redux / Zustand | Scope is small enough that a single `useExamSession` hook can manage timer, answers, and navigation without boilerplate. |
+| Full UI Rewrite in `v2-app` | Patching existing code | The user strictly requested "not touch the existing one" and "create the new one". We will clear out the existing `src/` to build fresh but keep Vite/Tailwind configuration. |

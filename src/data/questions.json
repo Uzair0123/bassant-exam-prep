@@ -1,0 +1,86 @@
+{
+  "english": [
+    {
+      "id": "eng_1",
+      "topic": "Articles",
+      "question": "Passengers must present ___ valid passport and boarding pass at the gate.",
+      "options": ["a", "an", "the", "no article"],
+      "correctAnswer": "a",
+      "explanation": "The word 'valid' starts with a consonant sound, so we use the indefinite article 'a'."
+    },
+    {
+      "id": "eng_2",
+      "topic": "Tenses",
+      "question": "The flight to London ___ at 10:30 AM every day.",
+      "options": ["depart", "is departing", "departs", "departed"],
+      "correctAnswer": "departs",
+      "explanation": "For scheduled events and timetables in the future or present, we use the present simple tense ('departs')."
+    },
+    {
+      "id": "eng_3",
+      "topic": "Job Vocabulary",
+      "question": "If a passenger's baggage exceeds the weight limit, they must pay an ___ baggage fee.",
+      "options": ["extra", "over", "excess", "additional"],
+      "correctAnswer": "excess",
+      "explanation": "The standard aviation term for baggage that is over the allowed weight or size is 'excess baggage'."
+    },
+    {
+      "id": "eng_4",
+      "topic": "Comparisons",
+      "question": "First class seats are generally much ___ than economy seats.",
+      "options": ["more wide", "wider", "widest", "more wider"],
+      "correctAnswer": "wider",
+      "explanation": "The adjective 'wide' is a one-syllable word, so its comparative form is made by adding '-r' to make 'wider'."
+    },
+    {
+      "id": "eng_5",
+      "topic": "Question Forms",
+      "question": "___ you like me to help you with your luggage?",
+      "options": ["Do", "Are", "Would", "Can"],
+      "correctAnswer": "Would",
+      "explanation": "'Would you like...' is the polite and standard way to offer help or service to a customer."
+    }
+  ],
+  "computer": [
+    {
+      "id": "comp_1",
+      "topic": "Microsoft Excel",
+      "question": "Which function in Excel is used to add all the numbers in a range of cells?",
+      "options": ["=TOTAL()", "=SUM()", "=ADD()", "=COUNT()"],
+      "correctAnswer": "=SUM()",
+      "explanation": "The =SUM() function is the standard Excel formula used to calculate the total of a given range of cells."
+    },
+    {
+      "id": "comp_2",
+      "topic": "Microsoft Word",
+      "question": "What is the keyboard shortcut to 'Undo' the last action in Microsoft Word?",
+      "options": ["Ctrl + Z", "Ctrl + Y", "Ctrl + C", "Ctrl + U"],
+      "correctAnswer": "Ctrl + Z",
+      "explanation": "Ctrl + Z is the universal shortcut in Microsoft Office to undo the previous action."
+    },
+    {
+      "id": "comp_3",
+      "topic": "Microsoft PowerPoint",
+      "question": "Which view in PowerPoint is best for sorting and rearranging the order of slides?",
+      "options": ["Normal View", "Slide Show", "Slide Sorter View", "Reading View"],
+      "correctAnswer": "Slide Sorter View",
+      "explanation": "Slide Sorter View displays all slides as thumbnails, making it easy to drag and drop them into a new sequence."
+    },
+    {
+      "id": "comp_4",
+      "topic": "Microsoft Excel",
+      "question": "How do you 'freeze' the top row in Excel so it remains visible when scrolling down a passenger manifest?",
+      "options": ["View > Freeze Panes > Freeze Top Row", "Home > Format > Lock Row", "Insert > Header", "Data > Keep Top"],
+      "correctAnswer": "View > Freeze Panes > Freeze Top Row",
+      "explanation": "To keep the header row visible while scrolling through large datasets, you use the 'Freeze Top Row' option under the View tab."
+    },
+    {
+      "id": "comp_5",
+      "topic": "Microsoft Outlook",
+      "question": "When sending an email to a large group of passengers, which field should you use to hide their email addresses from each other?",
+      "options": ["To", "Cc (Carbon Copy)", "Bcc (Blind Carbon Copy)", "Subject"],
+      "correctAnswer": "Bcc (Blind Carbon Copy)",
+      "explanation": "Bcc hides the recipients' email addresses from one another, which is crucial for privacy when emailing large groups."
+    }
+  ]
+}
