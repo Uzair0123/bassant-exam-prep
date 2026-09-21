@@ -1,0 +1,242 @@
+[
+  {
+    "id": "comp_beg_1",
+    "topic": "Microsoft Word",
+    "question": "What is the keyboard shortcut for copying selected text in Microsoft Word?",
+    "options": ["Ctrl + C", "Ctrl + V", "Ctrl + X", "Ctrl + P"],
+    "correctAnswer": "Ctrl + C",
+    "explanation": "Ctrl + C is the standard shortcut to copy selected text or items."
+  },
+  {
+    "id": "comp_beg_2",
+    "topic": "Microsoft Word",
+    "question": "Which keyboard shortcut is used to paste copied text?",
+    "options": ["Ctrl + C", "Ctrl + P", "Ctrl + V", "Ctrl + X"],
+    "correctAnswer": "Ctrl + V",
+    "explanation": "Ctrl + V is the shortcut used to paste items from the clipboard."
+  },
+  {
+    "id": "comp_beg_3",
+    "topic": "Microsoft Word",
+    "question": "What is the default file extension for a modern Microsoft Word document?",
+    "options": [".txt", ".docx", ".pdf", ".xlsx"],
+    "correctAnswer": ".docx",
+    "explanation": "Modern versions of Microsoft Word use the .docx extension by default."
+  },
+  {
+    "id": "comp_beg_4",
+    "topic": "Microsoft Word",
+    "question": "Which tool in Microsoft Word checks for spelling and grammatical errors?",
+    "options": ["Format Painter", "Thesaurus", "Spelling & Grammar", "Word Count"],
+    "correctAnswer": "Spelling & Grammar",
+    "explanation": "The Spelling & Grammar tool (often accessed via F7) helps identify and correct language errors."
+  },
+  {
+    "id": "comp_beg_5",
+    "topic": "Microsoft Word",
+    "question": "What does the 'Undo' function do?",
+    "options": ["Saves the document", "Deletes the entire document", "Reverses the last action performed", "Redoes an action"],
+    "correctAnswer": "Reverses the last action performed",
+    "explanation": "Undo (Ctrl + Z) allows you to revert your last change."
+  },
+  {
+    "id": "comp_beg_6",
+    "topic": "Microsoft Excel",
+    "question": "In Microsoft Excel, what must every formula begin with?",
+    "options": ["+", "-", "=", "*"],
+    "correctAnswer": "=",
+    "explanation": "All formulas in Excel must start with an equals sign (=) so Excel knows to calculate the result."
+  },
+  {
+    "id": "comp_beg_7",
+    "topic": "Microsoft Excel",
+    "question": "What is the intersection of a row and a column in an Excel worksheet called?",
+    "options": ["Table", "Cell", "Grid", "Box"],
+    "correctAnswer": "Cell",
+    "explanation": "A cell is the individual rectangular box where a row and column intersect."
+  },
+  {
+    "id": "comp_beg_8",
+    "topic": "Microsoft Excel",
+    "question": "Which function is used to add together a range of numbers in Excel?",
+    "options": ["AVERAGE", "COUNT", "SUM", "MAX"],
+    "correctAnswer": "SUM",
+    "explanation": "The SUM function adds all the numbers in a selected range of cells."
+  },
+  {
+    "id": "comp_beg_9",
+    "topic": "Microsoft Excel",
+    "question": "What is the default file extension for a modern Microsoft Excel workbook?",
+    "options": [".xlsx", ".docx", ".pptx", ".csv"],
+    "correctAnswer": ".xlsx",
+    "explanation": "Modern Excel workbooks use the .xlsx extension."
+  },
+  {
+    "id": "comp_beg_10",
+    "topic": "Microsoft Excel",
+    "question": "How are columns identified in an Excel worksheet?",
+    "options": ["By numbers (1, 2, 3...)", "By letters (A, B, C...)", "By symbols", "By colors"],
+    "correctAnswer": "By letters (A, B, C...)",
+    "explanation": "In Excel, columns are labeled with letters across the top, while rows are numbered down the side."
+  },
+  {
+    "id": "comp_beg_11",
+    "topic": "Microsoft PowerPoint",
+    "question": "Which keyboard shortcut starts a PowerPoint slide show from the very first slide?",
+    "options": ["F5", "Shift + F5", "F7", "Esc"],
+    "correctAnswer": "F5",
+    "explanation": "Pressing F5 starts the presentation from the beginning."
+  },
+  {
+    "id": "comp_beg_12",
+    "topic": "Microsoft PowerPoint",
+    "question": "What is a 'Slide Transition' in PowerPoint?",
+    "options": ["The way text appears on a slide", "The visual effect when moving from one slide to the next", "The background color of a slide", "A printed handout"],
+    "correctAnswer": "The visual effect when moving from one slide to the next",
+    "explanation": "Transitions are the animation-like effects that occur in Slide Show view when you move from one slide to the next."
+  },
+  {
+    "id": "comp_beg_13",
+    "topic": "Microsoft PowerPoint",
+    "question": "What is the keyboard shortcut to insert a new slide into a presentation?",
+    "options": ["Ctrl + N", "Ctrl + M", "Ctrl + S", "Ctrl + P"],
+    "correctAnswer": "Ctrl + M",
+    "explanation": "Ctrl + M inserts a new slide, whereas Ctrl + N creates a completely new presentation file."
+  },
+  {
+    "id": "comp_beg_14",
+    "topic": "Microsoft PowerPoint",
+    "question": "What is the default file extension for a modern Microsoft PowerPoint presentation?",
+    "options": [".ptx", ".docx", ".pptx", ".xlsx"],
+    "correctAnswer": ".pptx",
+    "explanation": "Modern PowerPoint files are saved with the .pptx extension."
+  },
+  {
+    "id": "comp_beg_15",
+    "topic": "Microsoft Outlook",
+    "question": "What is the primary function of Microsoft Outlook?",
+    "options": ["Creating spreadsheets", "Editing photos", "Managing emails, calendars, and contacts", "Building websites"],
+    "correctAnswer": "Managing emails, calendars, and contacts",
+    "explanation": "Outlook is a personal information manager mainly used as an email application, but it also includes a calendar, task manager, and contact manager."
+  },
+  {
+    "id": "comp_beg_16",
+    "topic": "Microsoft Outlook",
+    "question": "In an email, what does 'Bcc' stand for?",
+    "options": ["Blind Carbon Copy", "Blank Carbon Copy", "Basic Carbon Copy", "Backup Carbon Copy"],
+    "correctAnswer": "Blind Carbon Copy",
+    "explanation": "Bcc allows you to send an email to someone without the other recipients seeing their email address."
+  },
+  {
+    "id": "comp_beg_17",
+    "topic": "Microsoft Outlook",
+    "question": "Which action allows you to send an email you received to another person who was not originally included?",
+    "options": ["Reply", "Reply All", "Forward", "Attach"],
+    "correctAnswer": "Forward",
+    "explanation": "Forwarding an email sends the original message to a new recipient."
+  },
+  {
+    "id": "comp_beg_18",
+    "topic": "Microsoft Outlook",
+    "question": "What icon is typically used in Outlook (and most email clients) to indicate an attachment?",
+    "options": ["A magnifying glass", "A paperclip", "A folder", "A floppy disk"],
+    "correctAnswer": "A paperclip",
+    "explanation": "The paperclip icon is the universal symbol for attaching a file to an email."
+  },
+  {
+    "id": "comp_beg_19",
+    "topic": "Microsoft Word",
+    "question": "Which formatting option makes text appear thicker and darker?",
+    "options": ["Italic", "Underline", "Bold", "Strikethrough"],
+    "correctAnswer": "Bold",
+    "explanation": "Bold text is thicker and darker, typically used for emphasis."
+  },
+  {
+    "id": "comp_beg_20",
+    "topic": "Microsoft Word",
+    "question": "What is the keyboard shortcut for making selected text Italic?",
+    "options": ["Ctrl + I", "Ctrl + B", "Ctrl + U", "Ctrl + T"],
+    "correctAnswer": "Ctrl + I",
+    "explanation": "Ctrl + I applies italic formatting to the selected text."
+  },
+  {
+    "id": "comp_beg_21",
+    "topic": "Microsoft Word",
+    "question": "What is the keyboard shortcut to print a document?",
+    "options": ["Ctrl + D", "Ctrl + P", "Ctrl + S", "Ctrl + O"],
+    "correctAnswer": "Ctrl + P",
+    "explanation": "Ctrl + P opens the print dialog."
+  },
+  {
+    "id": "comp_beg_22",
+    "topic": "Microsoft Word",
+    "question": "What is the keyboard shortcut to select all text in a document?",
+    "options": ["Ctrl + A", "Ctrl + S", "Ctrl + C", "Ctrl + L"],
+    "correctAnswer": "Ctrl + A",
+    "explanation": "Ctrl + A selects everything in the active document or window."
+  },
+  {
+    "id": "comp_beg_23",
+    "topic": "Microsoft Excel",
+    "question": "Which feature in Excel allows you to quickly copy formatting from one cell to another?",
+    "options": ["Format Painter", "Copy Paste", "AutoFill", "Data Validation"],
+    "correctAnswer": "Format Painter",
+    "explanation": "Format Painter copies the formatting of a selected area to another area."
+  },
+  {
+    "id": "comp_beg_24",
+    "topic": "Microsoft Excel",
+    "question": "How are rows identified in an Excel worksheet?",
+    "options": ["By letters", "By numbers", "By colors", "By symbols"],
+    "correctAnswer": "By numbers",
+    "explanation": "Rows run horizontally and are identified by numbers (1, 2, 3...)."
+  },
+  {
+    "id": "comp_beg_25",
+    "topic": "Microsoft PowerPoint",
+    "question": "What view is best used for sorting and rearranging slides?",
+    "options": ["Normal View", "Slide Sorter View", "Reading View", "Slide Show View"],
+    "correctAnswer": "Slide Sorter View",
+    "explanation": "Slide Sorter view displays thumbnails of all slides, making it easy to rearrange them."
+  },
+  {
+    "id": "comp_beg_26",
+    "topic": "Microsoft PowerPoint",
+    "question": "Which shortcut key allows you to end a PowerPoint slide show early?",
+    "options": ["Enter", "Spacebar", "Esc", "Tab"],
+    "correctAnswer": "Esc",
+    "explanation": "Pressing the Escape (Esc) key will exit the slide show and return to the editing view."
+  },
+  {
+    "id": "comp_beg_27",
+    "topic": "Microsoft Outlook",
+    "question": "What does 'Reply All' do in an email?",
+    "options": ["Replies only to the sender", "Sends a reply to the sender and all other recipients in the To and Cc fields", "Forwards the email to a new person", "Deletes the email for everyone"],
+    "correctAnswer": "Sends a reply to the sender and all other recipients in the To and Cc fields",
+    "explanation": "Reply All ensures everyone involved in the email thread receives your response."
+  },
+  {
+    "id": "comp_beg_28",
+    "topic": "Microsoft Office Basics",
+    "question": "What is the keyboard shortcut to save a file?",
+    "options": ["Ctrl + S", "Ctrl + V", "Ctrl + P", "Ctrl + O"],
+    "correctAnswer": "Ctrl + S",
+    "explanation": "Ctrl + S is the universal shortcut to save a file in most applications."
+  },
+  {
+    "id": "comp_beg_29",
+    "topic": "Microsoft Office Basics",
+    "question": "What does the 'Find' function (Ctrl + F) do?",
+    "options": ["Searches for a specific word or phrase in the document", "Replaces a word with another word", "Changes the font style", "Finds lost files on the computer"],
+    "correctAnswer": "Searches for a specific word or phrase in the document",
+    "explanation": "Ctrl + F opens the search pane to help you find specific text within the active file."
+  },
+  {
+    "id": "comp_beg_30",
+    "topic": "Microsoft Office Basics",
+    "question": "Which tab on the ribbon usually contains the options to change font type, size, and color?",
+    "options": ["Insert", "Design", "Home", "View"],
+    "correctAnswer": "Home",
+    "explanation": "The Home tab generally contains the most commonly used formatting tools."
+  }
+]

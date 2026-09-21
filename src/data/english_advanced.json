@@ -1,0 +1,392 @@
+[
+  {
+    "id": "eng_adv_1",
+    "topic": "Articles",
+    "question": "The committee has reached _____ consensus on the new security protocols.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctAnswer": "a",
+    "explanation": "The noun 'consensus' typically takes the indefinite article 'a' when referring to reaching a general agreement."
+  },
+  {
+    "id": "eng_adv_2",
+    "topic": "Articles",
+    "question": "She possesses _____ unparalleled knowledge of aviation regulations.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctAnswer": "an",
+    "explanation": "The word 'unparalleled' begins with a vowel sound, requiring the indefinite article 'an'."
+  },
+  {
+    "id": "eng_adv_3",
+    "topic": "Articles",
+    "question": "_____ Red Sea is a major route for international shipping and flights.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correctAnswer": "The",
+    "explanation": "Names of seas and oceans require the definite article 'the'."
+  },
+  {
+    "id": "eng_adv_4",
+    "topic": "Articles",
+    "question": "He was appointed _____ CEO of the aviation company last year.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctAnswer": "no article",
+    "explanation": "When referring to a unique job title or position held by only one person at a time, no article (or sometimes 'the') is used, but 'no article' is standard in this structure."
+  },
+  {
+    "id": "eng_adv_5",
+    "topic": "Tenses",
+    "question": "By the time the aircraft touches down, the ground crew _____ all necessary preparations.",
+    "options": [
+      "will complete",
+      "completed",
+      "will have completed",
+      "are completing"
+    ],
+    "correctAnswer": "will have completed",
+    "explanation": "The future perfect tense is used for an action that will be completed before another specified time in the future."
+  },
+  {
+    "id": "eng_adv_6",
+    "topic": "Tenses",
+    "question": "The flight operations _____ heavily disrupted by the recent system outage.",
+    "options": [
+      "has been",
+      "have been",
+      "was being",
+      "is being"
+    ],
+    "correctAnswer": "have been",
+    "explanation": "'Flight operations' is plural, requiring the plural present perfect 'have been' for an action with present consequences."
+  },
+  {
+    "id": "eng_adv_7",
+    "topic": "Tenses",
+    "question": "He _____ for the airline for ten years before he was finally promoted to chief dispatcher.",
+    "options": [
+      "has worked",
+      "was working",
+      "had been working",
+      "works"
+    ],
+    "correctAnswer": "had been working",
+    "explanation": "The past perfect continuous describes an ongoing action in the past that led up to another past event."
+  },
+  {
+    "id": "eng_adv_8",
+    "topic": "Tenses",
+    "question": "If they _____ the updated maintenance manual, the mechanical failure would not have occurred.",
+    "options": [
+      "read",
+      "would read",
+      "had read",
+      "have read"
+    ],
+    "correctAnswer": "had read",
+    "explanation": "This is a third conditional sentence requiring the past perfect 'had read' in the 'if' clause."
+  },
+  {
+    "id": "eng_adv_9",
+    "topic": "Comparisons",
+    "question": "This new radar system is by far _____ of all the models we have tested this year.",
+    "options": [
+      "more efficient",
+      "the most efficient",
+      "efficient as",
+      "most efficient"
+    ],
+    "correctAnswer": "the most efficient",
+    "explanation": "The phrase 'by far' is used to emphasize a superlative adjective."
+  },
+  {
+    "id": "eng_adv_10",
+    "topic": "Comparisons",
+    "question": "The new terminal's capacity is _____ than that of the older facility.",
+    "options": [
+      "considerable larger",
+      "considerably larger",
+      "most large",
+      "more larger"
+    ],
+    "correctAnswer": "considerably larger",
+    "explanation": "'Considerably' acts as an adverb modifying the comparative adjective 'larger'."
+  },
+  {
+    "id": "eng_adv_11",
+    "topic": "Comparisons",
+    "question": "The more rigorous the training program is, _____ prepared the staff will be.",
+    "options": [
+      "the better",
+      "better",
+      "the best",
+      "as well as"
+    ],
+    "correctAnswer": "the better",
+    "explanation": "The correlative comparative structure 'the more..., the better...' is required here."
+  },
+  {
+    "id": "eng_adv_12",
+    "topic": "Comparisons",
+    "question": "Our current on-time departure rate is not quite _____ it was during the off-peak season.",
+    "options": [
+      "so high like",
+      "as high as",
+      "higher to",
+      "as higher as"
+    ],
+    "correctAnswer": "as high as",
+    "explanation": "To compare equality or inequality, the structure 'as + adjective + as' is used."
+  },
+  {
+    "id": "eng_adv_13",
+    "topic": "Question Forms",
+    "question": "Rarely _____ such a severe disruption to the international flight schedule.",
+    "options": [
+      "we have seen",
+      "have we seen",
+      "we saw",
+      "we did see"
+    ],
+    "correctAnswer": "have we seen",
+    "explanation": "When a sentence begins with a negative adverb like 'rarely', subject-auxiliary inversion is required."
+  },
+  {
+    "id": "eng_adv_14",
+    "topic": "Question Forms",
+    "question": "You wouldn't happen to know where the VIP lounge is, _____?",
+    "options": [
+      "would you",
+      "do you",
+      "wouldn't you",
+      "don't you"
+    ],
+    "correctAnswer": "would you",
+    "explanation": "A negative statement takes a positive tag question."
+  },
+  {
+    "id": "eng_adv_15",
+    "topic": "Question Forms",
+    "question": "Could you tell me exactly _____?",
+    "options": [
+      "what time the boarding starts",
+      "what time does the boarding start",
+      "when does the boarding start",
+      "what time starts the boarding"
+    ],
+    "correctAnswer": "what time the boarding starts",
+    "explanation": "Embedded questions use standard sentence word order (subject + verb) rather than question word order."
+  },
+  {
+    "id": "eng_adv_16",
+    "topic": "Question Forms",
+    "question": "Under no circumstances _____ to leave their baggage unattended in the terminal.",
+    "options": [
+      "passengers are allowed",
+      "allowed are passengers",
+      "are passengers allowed",
+      "do passengers allowed"
+    ],
+    "correctAnswer": "are passengers allowed",
+    "explanation": "The negative prepositional phrase 'Under no circumstances' at the beginning of a sentence requires inversion of subject and auxiliary verb."
+  },
+  {
+    "id": "eng_adv_17",
+    "topic": "Job Vocabulary",
+    "question": "The baggage _____ system broke down, causing widespread delays across multiple terminals.",
+    "options": [
+      "handling",
+      "managing",
+      "routing",
+      "delivering"
+    ],
+    "correctAnswer": "handling",
+    "explanation": "The standard industry term for the processing of luggage is 'baggage handling'."
+  },
+  {
+    "id": "eng_adv_18",
+    "topic": "Job Vocabulary",
+    "question": "A(n) _____ is responsible for coordinating the safe movement of aircraft on the ground and in the airspace.",
+    "options": [
+      "ground handler",
+      "dispatcher",
+      "air traffic controller",
+      "flight purser"
+    ],
+    "correctAnswer": "air traffic controller",
+    "explanation": "Air traffic controllers direct aircraft on the ground and through controlled airspace."
+  },
+  {
+    "id": "eng_adv_19",
+    "topic": "Job Vocabulary",
+    "question": "All international travelers must clear _____ before officially entering the country.",
+    "options": [
+      "security",
+      "customs",
+      "ticketing",
+      "check-in"
+    ],
+    "correctAnswer": "customs",
+    "explanation": "'Customs' is the official department that administers and collects duties levied by a government on imported goods."
+  },
+  {
+    "id": "eng_adv_20",
+    "topic": "Job Vocabulary",
+    "question": "The senior _____ ensures the safety and comfort of passengers and manages the cabin crew.",
+    "options": [
+      "purser",
+      "ramp agent",
+      "first officer",
+      "marshal"
+    ],
+    "correctAnswer": "purser",
+    "explanation": "The purser is the chief flight attendant on an aircraft, responsible for the cabin crew and passenger safety."
+  },
+  {
+    "id": "eng_adv_21",
+    "topic": "Prepositions",
+    "question": "The airline is not liable _____ any damage to fragile items packed in checked luggage.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "about"
+    ],
+    "correctAnswer": "for",
+    "explanation": "The adjective 'liable' is followed by the preposition 'for' when referring to legal responsibility."
+  },
+  {
+    "id": "eng_adv_22",
+    "topic": "Prepositions",
+    "question": "Passengers are strictly prohibited _____ carrying flammable liquids on board.",
+    "options": [
+      "to",
+      "against",
+      "from",
+      "of"
+    ],
+    "correctAnswer": "from",
+    "explanation": "The verb 'prohibit' is followed by the preposition 'from' and a gerund."
+  },
+  {
+    "id": "eng_adv_23",
+    "topic": "Prepositions",
+    "question": "The aviation authority insisted _____ reviewing the revised safety procedures personally.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "correctAnswer": "on",
+    "explanation": "The verb 'insist' is always followed by the preposition 'on'."
+  },
+  {
+    "id": "eng_adv_24",
+    "topic": "Prepositions",
+    "question": "Because of the dense fog, the incoming flight was diverted _____ a secondary airport.",
+    "options": [
+      "at",
+      "towards",
+      "to",
+      "in"
+    ],
+    "correctAnswer": "to",
+    "explanation": "The verb 'divert' takes the preposition 'to' when indicating the new destination."
+  },
+  {
+    "id": "eng_adv_25",
+    "topic": "Conjunctions",
+    "question": "_____ the severe weather conditions, the airport managed to keep two runways operational.",
+    "options": [
+      "Although",
+      "Despite",
+      "However",
+      "Even though"
+    ],
+    "correctAnswer": "Despite",
+    "explanation": "'Despite' is a preposition used before a noun phrase; 'although' and 'even though' require a subject and a verb."
+  },
+  {
+    "id": "eng_adv_26",
+    "topic": "Conjunctions",
+    "question": "Passengers will not be permitted to board the aircraft _____ they present a valid boarding pass and ID.",
+    "options": [
+      "if",
+      "provided that",
+      "unless",
+      "in case"
+    ],
+    "correctAnswer": "unless",
+    "explanation": "'Unless' means 'if not' and fits the conditional logic of the sentence."
+  },
+  {
+    "id": "eng_adv_27",
+    "topic": "Conjunctions",
+    "question": "The flight was heavily overbooked; _____, the airline offered travel vouchers for volunteers.",
+    "options": [
+      "furthermore",
+      "nevertheless",
+      "therefore",
+      "whereas"
+    ],
+    "correctAnswer": "therefore",
+    "explanation": "'Therefore' is a conjunctive adverb indicating a conclusion or result."
+  },
+  {
+    "id": "eng_adv_28",
+    "topic": "Idioms",
+    "question": "Because the negotiations are still ongoing, the final timeline for the terminal expansion is completely _____.",
+    "options": [
+      "up in the air",
+      "on the fly",
+      "under the radar",
+      "in the clouds"
+    ],
+    "correctAnswer": "up in the air",
+    "explanation": "The idiom 'up in the air' means unresolved or uncertain."
+  },
+  {
+    "id": "eng_adv_29",
+    "topic": "Idioms",
+    "question": "The sudden inspection by the regulatory board caught the station manager _____.",
+    "options": [
+      "red-handed",
+      "off guard",
+      "in the dark",
+      "by the book"
+    ],
+    "correctAnswer": "off guard",
+    "explanation": "To catch someone 'off guard' means to surprise them when they are not prepared."
+  },
+  {
+    "id": "eng_adv_30",
+    "topic": "Idioms",
+    "question": "To ensure the smooth rollout of the new software, we need all departments to be _____.",
+    "options": [
+      "in the same boat",
+      "on the same page",
+      "ahead of the curve",
+      "calling the shots"
+    ],
+    "correctAnswer": "on the same page",
+    "explanation": "To be 'on the same page' means to have a shared understanding of a situation or plan."
+  }
+]

@@ -1,18 +1,13 @@
 # Project State: Airport Staff Exam Simulator (v2)
 
-## Current Phase: Phase 5 (Testing & QA) completed. Moving to Phase 6 (Retrospective) and Deployment.
-- **Model Selection:** AI-Augmented Spiral-Incremental.
+## Current Phase: Iteration 2 - Feature Additions (Levels & Advanced Analytics)
 
 ## Active Tasks
-- [x] Complete Phase 3 (Architecture & Planning)
-- [x] Complete Phase 4 (Implementation)
-- [x] Complete Phase 5 (Testing & QA)
-- [ ] Deploy to GitHub Pages
-- [ ] Complete Phase 6 (Retrospective)
-- [ ] Hand over to User
+- [x] Update `validateData.js` to support nested levels (beginner, intermediate, advanced).
+- [ ] Generate 180 highly-curated questions (30 per level, per subject) using independent Subagents to prevent AI hallucination.
+- [ ] Update `useExamSession.js` to support level selection and track mistakes by topic.
+- [ ] Update Dashboard UI to allow selecting a Level.
+- [ ] Update Results UI to use Recharts (Pie Chart for correct/incorrect, Bar Chart for accuracy by topic) for stunning visual feedback.
 
 ## Known Problems & Blockers
-- The primary identified risk from the prompt is data integrity: "when we add the Question, they are mostly incorrect and messy, and repeatable." A robust data architecture will be needed to prevent this.
-
-## Decisions
-- Using a new git branch (`v2-airport-exam`) to avoid touching the original application while allowing easy deployment/git pushes.
+- Generating 180 flawless questions in one go is guaranteed to cause duplicates and errors. We will strictly use a divide-and-conquer strategy with subagents, each writing a small 30-question file, and then validating them before merging.

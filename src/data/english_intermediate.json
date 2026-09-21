@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eng_int_1",
+    "topic": "Articles",
+    "question": "Could you please pass me _____ boarding pass you are holding?",
+    "options": ["a", "an", "the", "no article"],
+    "correctAnswer": "the",
+    "explanation": "We use 'the' when referring to a specific item that both the speaker and listener are aware of."
+  },
+  {
+    "id": "eng_int_2",
+    "topic": "Articles",
+    "question": "He has been working as _____ air traffic controller for five years.",
+    "options": ["a", "an", "the", "no article"],
+    "correctAnswer": "an",
+    "explanation": "We use 'an' before singular countable nouns starting with a vowel sound, especially for jobs."
+  },
+  {
+    "id": "eng_int_3",
+    "topic": "Articles",
+    "question": "Passengers must present their passports at _____ customs.",
+    "options": ["a", "an", "the", "no article"],
+    "correctAnswer": "no article",
+    "explanation": "Normally, we don't use articles before 'customs' when referring to the checkpoint in an airport."
+  },
+  {
+    "id": "eng_int_4",
+    "topic": "Articles",
+    "question": "Cairo International Airport is _____ largest airport in Egypt.",
+    "options": ["a", "an", "the", "no article"],
+    "correctAnswer": "the",
+    "explanation": "We use 'the' before superlative adjectives like 'largest'."
+  },
+  {
+    "id": "eng_int_5",
+    "topic": "Tenses",
+    "question": "The flight to London _____ at 10:30 AM tomorrow.",
+    "options": ["depart", "departs", "departing", "has departed"],
+    "correctAnswer": "departs",
+    "explanation": "We use the present simple for scheduled events in the future, like flight times."
+  },
+  {
+    "id": "eng_int_6",
+    "topic": "Tenses",
+    "question": "I _____ for the security check when I realized my ID was missing.",
+    "options": ["waited", "have waited", "was waiting", "am waiting"],
+    "correctAnswer": "was waiting",
+    "explanation": "The past continuous 'was waiting' is used for an action in progress interrupted by another past action."
+  },
+  {
+    "id": "eng_int_7",
+    "topic": "Tenses",
+    "question": "By the time we reached the gate, the passengers _____ boarding.",
+    "options": ["started", "have started", "will start", "had started"],
+    "correctAnswer": "had started",
+    "explanation": "The past perfect 'had started' is used to show an action completed before another past action."
+  },
+  {
+    "id": "eng_int_8",
+    "topic": "Tenses",
+    "question": "She _____ at this airport since 2015.",
+    "options": ["works", "is working", "has been working", "worked"],
+    "correctAnswer": "has been working",
+    "explanation": "The present perfect continuous is used for actions that started in the past and continue up to the present."
+  },
+  {
+    "id": "eng_int_9",
+    "topic": "Comparisons",
+    "question": "The new terminal is much _____ than the old one.",
+    "options": ["spacious", "more spacious", "most spacious", "spaciouser"],
+    "correctAnswer": "more spacious",
+    "explanation": "For multi-syllable adjectives, we use 'more' to form the comparative degree."
+  },
+  {
+    "id": "eng_int_10",
+    "topic": "Comparisons",
+    "question": "This is _____ security check I have ever experienced.",
+    "options": ["fast", "faster", "the fastest", "the faster"],
+    "correctAnswer": "the fastest",
+    "explanation": "The superlative form 'the fastest' is used when comparing one thing to all others in a group."
+  },
+  {
+    "id": "eng_int_11",
+    "topic": "Comparisons",
+    "question": "Flying during the holidays is usually _____ expensive than flying off-season.",
+    "options": ["as", "less", "least", "more"],
+    "correctAnswer": "more",
+    "explanation": "We use 'more' with long adjectives in comparative sentences ending with 'than'."
+  },
+  {
+    "id": "eng_int_12",
+    "topic": "Comparisons",
+    "question": "The turbulence was not as bad _____ they predicted.",
+    "options": ["than", "that", "as", "like"],
+    "correctAnswer": "as",
+    "explanation": "We use the structure 'as ... as' to show similarity or equivalence."
+  },
+  {
+    "id": "eng_int_13",
+    "topic": "Question Forms",
+    "question": "_____ long is the layover in Dubai?",
+    "options": ["What", "How", "Which", "Why"],
+    "correctAnswer": "How",
+    "explanation": "'How long' is used to ask about the duration of time."
+  },
+  {
+    "id": "eng_int_14",
+    "topic": "Question Forms",
+    "question": "Could you tell me where _____?",
+    "options": ["is the baggage claim", "the baggage claim is", "does the baggage claim be", "the baggage claim be"],
+    "correctAnswer": "the baggage claim is",
+    "explanation": "In indirect questions, the word order is subject + verb, without the auxiliary 'do/does'."
+  },
+  {
+    "id": "eng_int_15",
+    "topic": "Question Forms",
+    "question": "_____ left their luggage unattended near the check-in desk?",
+    "options": ["Who", "Whose", "Whom", "Which"],
+    "correctAnswer": "Who",
+    "explanation": "'Who' is used as the subject of the question asking about a person."
+  },
+  {
+    "id": "eng_int_16",
+    "topic": "Question Forms",
+    "question": "What time _____ you supposed to report for your shift?",
+    "options": ["do", "have", "are", "will"],
+    "correctAnswer": "are",
+    "explanation": "The structure 'to be supposed to' requires the 'be' verb, which is 'are' for 'you'."
+  },
+  {
+    "id": "eng_int_17",
+    "topic": "Job Vocabulary",
+    "question": "The _____ is responsible for greeting passengers and serving meals on the flight.",
+    "options": ["pilot", "baggage handler", "flight attendant", "customs officer"],
+    "correctAnswer": "flight attendant",
+    "explanation": "A flight attendant's duties include passenger care and service during the flight."
+  },
+  {
+    "id": "eng_int_18",
+    "topic": "Job Vocabulary",
+    "question": "All passengers must declare goods over a certain value to the _____.",
+    "options": ["security guard", "travel agent", "ticket agent", "customs officer"],
+    "correctAnswer": "customs officer",
+    "explanation": "Customs officers handle the declaration of goods crossing borders."
+  },
+  {
+    "id": "eng_int_19",
+    "topic": "Job Vocabulary",
+    "question": "The _____ ensures the safe takeoff, navigation, and landing of the aircraft.",
+    "options": ["steward", "pilot", "mechanic", "dispatcher"],
+    "correctAnswer": "pilot",
+    "explanation": "The pilot is the person who operates the flying controls of an aircraft."
+  },
+  {
+    "id": "eng_int_20",
+    "topic": "Job Vocabulary",
+    "question": "A _____ issues boarding passes and checks in luggage at the airline desk.",
+    "options": ["ramp agent", "passenger service agent", "air traffic controller", "pilot"],
+    "correctAnswer": "passenger service agent",
+    "explanation": "A passenger service agent works at the check-in counter assisting passengers."
+  },
+  {
+    "id": "eng_int_21",
+    "topic": "Prepositions",
+    "question": "Please place your carry-on bags _____ the overhead compartment.",
+    "options": ["on", "in", "at", "to"],
+    "correctAnswer": "in",
+    "explanation": "'In' is used to indicate that something is enclosed within a space, like a compartment."
+  },
+  {
+    "id": "eng_int_22",
+    "topic": "Prepositions",
+    "question": "The flight is scheduled to arrive _____ 6:45 PM.",
+    "options": ["on", "in", "at", "by"],
+    "correctAnswer": "at",
+    "explanation": "We use 'at' for specific times."
+  },
+  {
+    "id": "eng_int_23",
+    "topic": "Prepositions",
+    "question": "Passengers traveling _____ international destinations must arrive three hours early.",
+    "options": ["for", "to", "at", "in"],
+    "correctAnswer": "to",
+    "explanation": "'Traveling to' indicates the destination of the journey."
+  },
+  {
+    "id": "eng_int_24",
+    "topic": "Prepositions",
+    "question": "You can find the lost and found office _____ the second floor.",
+    "options": ["on", "in", "at", "by"],
+    "correctAnswer": "on",
+    "explanation": "We use 'on' when referring to floors of a building."
+  },
+  {
+    "id": "eng_int_25",
+    "topic": "Conjunctions",
+    "question": "_____ the weather was poor, the flight departed on time.",
+    "options": ["Because", "Although", "However", "Therefore"],
+    "correctAnswer": "Although",
+    "explanation": "'Although' introduces a contrasting or unexpected result."
+  },
+  {
+    "id": "eng_int_26",
+    "topic": "Conjunctions",
+    "question": "You will not be allowed to board _____ you show a valid passport.",
+    "options": ["if", "unless", "provided", "since"],
+    "correctAnswer": "unless",
+    "explanation": "'Unless' means 'except if' and is used to state a necessary condition."
+  },
+  {
+    "id": "eng_int_27",
+    "topic": "Conjunctions",
+    "question": "Please wait in the lounge _____ your row is called.",
+    "options": ["until", "while", "during", "because"],
+    "correctAnswer": "until",
+    "explanation": "'Until' indicates the point in time when an action stops or changes."
+  },
+  {
+    "id": "eng_int_28",
+    "topic": "Conjunctions",
+    "question": "The flight was delayed _____ a technical issue.",
+    "options": ["due to", "because", "since", "as"],
+    "correctAnswer": "due to",
+    "explanation": "'Due to' is followed by a noun phrase to explain the cause of something."
+  },
+  {
+    "id": "eng_int_29",
+    "topic": "Tenses",
+    "question": "I _____ my boarding pass. I can't find it anywhere!",
+    "options": ["lost", "have lost", "had lost", "lose"],
+    "correctAnswer": "have lost",
+    "explanation": "The present perfect 'have lost' is used for a past action that has a result in the present."
+  },
+  {
+    "id": "eng_int_30",
+    "topic": "Job Vocabulary",
+    "question": "The _____ directs aircraft on the ground to prevent collisions.",
+    "options": ["baggage handler", "air traffic controller", "customs officer", "security guard"],
+    "correctAnswer": "air traffic controller",
+    "explanation": "Air traffic controllers manage the safe and orderly flow of aircraft on the ground and in the air."
+  }
+]

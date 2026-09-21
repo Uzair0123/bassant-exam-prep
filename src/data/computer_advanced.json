@@ -1,0 +1,242 @@
+[
+  {
+    "id": "comp_adv_1",
+    "topic": "Microsoft Word - Mail Merge",
+    "question": "When setting up a Mail Merge in Microsoft Word, which of the following rules allows you to print specific text based on a condition?",
+    "options": ["Fill-in", "Ask", "If...Then...Else", "Skip Record If"],
+    "correctAnswer": "If...Then...Else",
+    "explanation": "The 'If...Then...Else' rule in Word Mail Merge evaluates a condition in the data source and prints specified text if the condition is true, and different text if it is false."
+  },
+  {
+    "id": "comp_adv_2",
+    "topic": "Microsoft Word - Macros",
+    "question": "Which programming language is utilized behind the scenes when you record a macro in Microsoft Word?",
+    "options": ["Python", "Visual Basic for Applications (VBA)", "C#", "JavaScript"],
+    "correctAnswer": "Visual Basic for Applications (VBA)",
+    "explanation": "Microsoft Office applications use Visual Basic for Applications (VBA) to record, write, and execute macros."
+  },
+  {
+    "id": "comp_adv_3",
+    "topic": "Microsoft Word - Mail Merge",
+    "question": "What is the primary purpose of the 'Directory' document type in a Word Mail Merge?",
+    "options": ["To create individual emails for each recipient", "To create a single document containing a catalog or list of all records", "To print labels sequentially", "To generate envelopes automatically"],
+    "correctAnswer": "To create a single document containing a catalog or list of all records",
+    "explanation": "The 'Directory' type (previously called Catalog) creates a single document containing a list of items from the data source, rather than a new page or document for each record."
+  },
+  {
+    "id": "comp_adv_4",
+    "topic": "Microsoft Word - Macros",
+    "question": "How can you ensure a specific macro runs automatically every time a new document is created based on a template?",
+    "options": ["Name the macro 'AutoNew'", "Name the macro 'AutoOpen'", "Name the macro 'AutoExec'", "Name the macro 'AutoClose'"],
+    "correctAnswer": "Name the macro 'AutoNew'",
+    "explanation": "In Word, naming a macro 'AutoNew' causes it to run automatically whenever a new document is created based on the template containing the macro."
+  },
+  {
+    "id": "comp_adv_5",
+    "topic": "Microsoft Word - Mail Merge",
+    "question": "In a Mail Merge, what function does the 'Match Fields' feature serve?",
+    "options": ["It matches duplicate records in the data source to delete them.", "It maps custom column headers in your data source to standard Word merge fields.", "It ensures font formatting matches between the source and destination.", "It checks spelling based on the regional settings of the data."],
+    "correctAnswer": "It maps custom column headers in your data source to standard Word merge fields.",
+    "explanation": "Match Fields allows Word to recognize non-standard column names in your data source by mapping them to predefined standard address fields (like First Name, Last Name)."
+  },
+  {
+    "id": "comp_adv_6",
+    "topic": "Microsoft Word - Macros",
+    "question": "To edit an existing macro's code directly, which interface must you open in Microsoft Word?",
+    "options": ["Macro Code Editor", "Visual Basic Editor (VBE)", "Developer Console", "Script Manager"],
+    "correctAnswer": "Visual Basic Editor (VBE)",
+    "explanation": "The Visual Basic Editor (VBE) is the built-in development environment used to view, edit, and debug VBA code for macros."
+  },
+  {
+    "id": "comp_adv_7",
+    "topic": "Microsoft Word - Mail Merge",
+    "question": "Which of the following is NOT a valid data source for a Microsoft Word Mail Merge?",
+    "options": ["An Excel Worksheet", "An Access Database", "An Outlook Contacts list", "A PowerPoint Presentation"],
+    "correctAnswer": "A PowerPoint Presentation",
+    "explanation": "PowerPoint presentations are designed for slides and graphics; they do not have a structured tabular data format suitable for driving a mail merge."
+  },
+  {
+    "id": "comp_adv_8",
+    "topic": "Microsoft Excel - VLOOKUP",
+    "question": "What is the result if the 'range_lookup' argument in a VLOOKUP function is set to FALSE and an exact match is not found?",
+    "options": ["The function returns the closest smaller value.", "The function returns #N/A error.", "The function returns #VALUE! error.", "The function returns the closest larger value."],
+    "correctAnswer": "The function returns #N/A error.",
+    "explanation": "When range_lookup is FALSE, VLOOKUP requires an exact match. If no exact match is found, it returns the #N/A error."
+  },
+  {
+    "id": "comp_adv_9",
+    "topic": "Microsoft Excel - VLOOKUP",
+    "question": "Which of the following is a primary limitation of the standard VLOOKUP function?",
+    "options": ["It can only return numeric values.", "It cannot look up data across different worksheets.", "It only searches for a value in the leftmost column of the table array.", "It cannot handle table arrays larger than 100 rows."],
+    "correctAnswer": "It only searches for a value in the leftmost column of the table array.",
+    "explanation": "A fundamental limitation of VLOOKUP is that it can only search the leftmost column of the provided table array and return a value from a column to the right."
+  },
+  {
+    "id": "comp_adv_10",
+    "topic": "Microsoft Excel - Pivot Tables",
+    "question": "In an Excel Pivot Table, what is a 'Calculated Field'?",
+    "options": ["A field that groups text items together.", "A custom field created by performing mathematical calculations on existing fields.", "A summary row at the bottom of the Pivot Table.", "A field that counts the number of blank cells in the source data."],
+    "correctAnswer": "A custom field created by performing mathematical calculations on existing fields.",
+    "explanation": "A Calculated Field is a new field within a Pivot Table created by writing a formula that uses the values from other existing fields in the source data."
+  },
+  {
+    "id": "comp_adv_11",
+    "topic": "Microsoft Excel - Pivot Tables",
+    "question": "What is the primary difference between a Slicer and a Timeline in Excel Pivot Tables?",
+    "options": ["Slicers can filter any data type, while Timelines can only filter date/time fields.", "Slicers are only available in older versions of Excel.", "Timelines modify the source data, whereas Slicers only hide rows.", "There is no difference; they are just different names for the same feature."],
+    "correctAnswer": "Slicers can filter any data type, while Timelines can only filter date/time fields.",
+    "explanation": "While both are visual filtering tools, Timelines are specifically designed and optimized to filter date and time fields."
+  },
+  {
+    "id": "comp_adv_12",
+    "topic": "Microsoft Excel - Macros",
+    "question": "When recording an Excel Macro, what happens if 'Use Relative References' is turned ON?",
+    "options": ["The macro always interacts with the exact cell addresses where it was recorded.", "The macro records actions relative to the active cell's starting position.", "The macro automatically adjusts cell references across different worksheets.", "The macro prevents absolute functions like SUM from working."],
+    "correctAnswer": "The macro records actions relative to the active cell's starting position.",
+    "explanation": "Using Relative References means the macro records offsets (e.g., move down one cell) rather than fixed cell addresses (e.g., select cell A2)."
+  },
+  {
+    "id": "comp_adv_13",
+    "topic": "Microsoft Excel - Macros",
+    "question": "Where should you save a macro if you want it to be available in every Excel workbook you open on your computer?",
+    "options": ["In a standard .xlsx file.", "In the Personal Macro Workbook (Personal.xlsb).", "In a cloud-shared network folder.", "In the document properties metadata."],
+    "correctAnswer": "In the Personal Macro Workbook (Personal.xlsb).",
+    "explanation": "The Personal Macro Workbook is a hidden workbook that opens automatically with Excel, allowing macros saved within it to be accessed from any open workbook."
+  },
+  {
+    "id": "comp_adv_14",
+    "topic": "Microsoft Excel - Pivot Tables",
+    "question": "By default, what happens to an Excel Pivot Table when the underlying source data changes?",
+    "options": ["It updates automatically in real-time.", "It must be manually refreshed to display the updated data.", "It locks the source data from further changes.", "It generates a new Pivot Table on a separate sheet."],
+    "correctAnswer": "It must be manually refreshed to display the updated data.",
+    "explanation": "Pivot Tables do not dynamically update in real-time. You must right-click and select 'Refresh' or click 'Refresh All' on the ribbon to incorporate source data changes."
+  },
+  {
+    "id": "comp_adv_15",
+    "topic": "Microsoft Excel - VLOOKUP",
+    "question": "What is the purpose of the 'col_index_num' argument in a VLOOKUP formula?",
+    "options": ["It indicates the row number to search.", "It specifies the column number in the table array from which to retrieve the value.", "It defines the total number of columns in the table array.", "It indicates whether an exact or approximate match is required."],
+    "correctAnswer": "It specifies the column number in the table array from which to retrieve the value.",
+    "explanation": "The col_index_num argument tells VLOOKUP which column in the selected table_array contains the data you want to return, counting from the left."
+  },
+  {
+    "id": "comp_adv_16",
+    "topic": "Microsoft Excel - Macros",
+    "question": "Which keyboard shortcut opens the 'Macros' dialog box allowing you to run, edit, or delete a macro?",
+    "options": ["Ctrl + M", "Alt + F8", "Shift + F11", "Ctrl + Shift + M"],
+    "correctAnswer": "Alt + F8",
+    "explanation": "Alt + F8 is the standard Excel keyboard shortcut to open the Macro dialog box."
+  },
+  {
+    "id": "comp_adv_17",
+    "topic": "Microsoft PowerPoint - Advanced Animations",
+    "question": "In PowerPoint, what does an animation 'Trigger' allow you to do?",
+    "options": ["Start an animation automatically when a specific shape or object is clicked.", "Change the slide transition speed.", "Export the animation to a video format automatically.", "Trigger a macro to run before the animation starts."],
+    "correctAnswer": "Start an animation automatically when a specific shape or object is clicked.",
+    "explanation": "A trigger assigns a click event to a specific object on the slide, causing an animation sequence to start only when that specific object is clicked during the presentation."
+  },
+  {
+    "id": "comp_adv_18",
+    "topic": "Microsoft PowerPoint - Advanced Animations",
+    "question": "How can you precisely modify the path an object takes during a Motion Path animation?",
+    "options": ["By typing X and Y coordinates into the animation pane.", "By right-clicking the motion path and selecting 'Edit Points'.", "By changing the slide layout.", "Motion paths cannot be edited once applied."],
+    "correctAnswer": "By right-clicking the motion path and selecting 'Edit Points'.",
+    "explanation": "Selecting 'Edit Points' on a motion path allows you to drag the nodes and handles to create curved or custom routes for the animated object."
+  },
+  {
+    "id": "comp_adv_19",
+    "topic": "Microsoft PowerPoint - Linking Data",
+    "question": "When you paste an Excel chart into PowerPoint using the 'Keep Source Formatting & Link Data' option, what occurs when the original Excel data is modified?",
+    "options": ["The PowerPoint chart remains static and unchanging.", "The PowerPoint chart will update to reflect the changes, either automatically or when manually refreshed.", "The Excel file becomes locked and cannot be edited.", "The PowerPoint file size increases massively because the whole workbook is embedded."],
+    "correctAnswer": "The PowerPoint chart will update to reflect the changes, either automatically or when manually refreshed.",
+    "explanation": "Linking data maintains a connection to the source file. Changes in Excel will update the PowerPoint chart, keeping the data synchronized without embedding the entire workbook."
+  },
+  {
+    "id": "comp_adv_20",
+    "topic": "Microsoft PowerPoint - Advanced Animations",
+    "question": "What is the difference between setting an animation to 'Start With Previous' versus 'Start After Previous'?",
+    "options": ["'With Previous' runs the animation simultaneously with the preceding one; 'After Previous' waits for the preceding one to finish.", "'With Previous' requires a mouse click; 'After Previous' is automatic.", "'With Previous' makes the animation go backward; 'After Previous' makes it go forward.", "There is no functional difference."],
+    "correctAnswer": "'With Previous' runs the animation simultaneously with the preceding one; 'After Previous' waits for the preceding one to finish.",
+    "explanation": "'Start With Previous' groups animations to happen at the exact same time. 'Start After Previous' queues them to happen sequentially."
+  },
+  {
+    "id": "comp_adv_21",
+    "topic": "Microsoft PowerPoint - Linking Data",
+    "question": "If you break a link to an external Excel file in a PowerPoint presentation, what happens to the linked chart?",
+    "options": ["The chart is deleted from the slide.", "The chart turns into an uneditable picture.", "The chart becomes a standard PowerPoint chart using the last known data, but no longer updates from Excel.", "The PowerPoint file will crash."],
+    "correctAnswer": "The chart becomes a standard PowerPoint chart using the last known data, but no longer updates from Excel.",
+    "explanation": "Breaking a link severs the connection to the external file. The chart remains on the slide with its current data but can no longer be refreshed from the original source."
+  },
+  {
+    "id": "comp_adv_22",
+    "topic": "Microsoft PowerPoint - Advanced Animations",
+    "question": "To add a second animation (e.g., a Spin emphasis) to an object that already has an entrance animation, which button must you click?",
+    "options": ["The 'Add Animation' button in the Advanced Animation group.", "The main Animation gallery.", "The 'Animation Painter'.", "The 'Effect Options' button."],
+    "correctAnswer": "The 'Add Animation' button in the Advanced Animation group.",
+    "explanation": "If you select a new animation from the main gallery, it replaces the existing one. You must use 'Add Animation' to layer multiple animations on a single object."
+  },
+  {
+    "id": "comp_adv_23",
+    "topic": "Microsoft PowerPoint - Linking Data",
+    "question": "Compared to embedding an object, what is a primary advantage of linking an object in PowerPoint?",
+    "options": ["It guarantees the presentation will work perfectly on any offline computer.", "It significantly reduces the PowerPoint file size.", "It allows you to apply more complex PowerPoint formatting.", "It converts the object into a vector graphic."],
+    "correctAnswer": "It significantly reduces the PowerPoint file size.",
+    "explanation": "Linking points to an external file rather than storing the entire file's data within the presentation, thereby keeping the PowerPoint file size much smaller."
+  },
+  {
+    "id": "comp_adv_24",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "When granting Delegate Access in Outlook, which permission level allows the delegate to read, create, and modify all items, but NOT delete items they did not create?",
+    "options": ["Reviewer", "Author", "Editor", "Contributor"],
+    "correctAnswer": "Author",
+    "explanation": "The 'Author' permission level allows a delegate to read and create items, and modify/delete items they have created, but they cannot modify or delete items created by the mailbox owner."
+  },
+  {
+    "id": "comp_adv_25",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "What is the difference between 'Send on Behalf' and 'Send As' permissions in Outlook?",
+    "options": ["'Send on Behalf' shows both the delegate and owner names in the From field; 'Send As' shows only the owner's name.", "They are functionally identical.", "'Send As' is configured in Outlook; 'Send on Behalf' requires Exchange Admin Center access.", "'Send on Behalf' only allows sending internal emails."],
+    "correctAnswer": "'Send on Behalf' shows both the delegate and owner names in the From field; 'Send As' shows only the owner's name.",
+    "explanation": "Send on Behalf displays 'Delegate on behalf of Owner', whereas Send As makes the email appear exactly as if the Owner sent it themselves."
+  },
+  {
+    "id": "comp_adv_26",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "When you configure a delegate to receive copies of meeting-related messages, what happens by default when a new meeting invite arrives?",
+    "options": ["The invite is automatically accepted.", "The invite goes only to the delegate's inbox.", "The invite goes to the owner's inbox, and a copy goes to the delegate's inbox.", "The invite is held in a shared queue."],
+    "correctAnswer": "The invite goes to the owner's inbox, and a copy goes to the delegate's inbox.",
+    "explanation": "By default, Outlook sends the meeting request to both the principal's inbox and the delegate's inbox so either can process it, unless configured otherwise."
+  },
+  {
+    "id": "comp_adv_27",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "How can an Outlook user ensure that their delegate cannot view appointments marked as 'Private'?",
+    "options": ["Assign the 'Reviewer' permission level.", "Ensure the 'Delegate can see my private items' checkbox is unchecked.", "Mark the calendar as 'Read Only'.", "Store private items in a separate PST file."],
+    "correctAnswer": "Ensure the 'Delegate can see my private items' checkbox is unchecked.",
+    "explanation": "In the Delegate Access settings, there is a specific checkbox that controls whether a delegate can view items marked private. Leaving it unchecked hides private items."
+  },
+  {
+    "id": "comp_adv_28",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "If an executive wants their assistant to manage their calendar but NOT their email inbox, how is this accomplished?",
+    "options": ["It is impossible; delegation applies to the whole mailbox.", "Assign 'Editor' permissions for Calendar and 'None' for Inbox in the Delegate Access settings.", "Create a separate email address for the assistant.", "Give the assistant the executive's password."],
+    "correctAnswer": "Assign 'Editor' permissions for Calendar and 'None' for Inbox in the Delegate Access settings.",
+    "explanation": "Delegate Access is granular. You can specify different permission levels (None, Reviewer, Author, Editor) for different folders (Calendar, Tasks, Inbox, Contacts)."
+  },
+  {
+    "id": "comp_adv_29",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "Which built-in role gives an Outlook delegate the highest level of control, allowing them to read, create, change, and delete ALL items in a folder?",
+    "options": ["Owner", "Editor", "Author", "Reviewer"],
+    "correctAnswer": "Editor",
+    "explanation": "The 'Editor' permission level grants full rights to read, create, modify, and delete any item in the folder, regardless of who created it."
+  },
+  {
+    "id": "comp_adv_30",
+    "topic": "Microsoft Outlook - Advanced Delegation",
+    "question": "When a delegate accepts a meeting request on behalf of a manager, whose calendar is the meeting added to?",
+    "options": ["Only the delegate's calendar.", "Only the manager's calendar.", "Both the manager's and the delegate's calendars.", "A shared group calendar."],
+    "correctAnswer": "Only the manager's calendar.",
+    "explanation": "When acting as a delegate, processing a meeting request automatically updates the principal's (manager's) calendar, not the delegate's personal calendar."
+  }
+]

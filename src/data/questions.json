@@ -1,86 +1,2358 @@
 {
-  "english": [
-    {
-      "id": "eng_1",
-      "topic": "Articles",
-      "question": "Passengers must present ___ valid passport and boarding pass at the gate.",
-      "options": ["a", "an", "the", "no article"],
-      "correctAnswer": "a",
-      "explanation": "The word 'valid' starts with a consonant sound, so we use the indefinite article 'a'."
-    },
-    {
-      "id": "eng_2",
-      "topic": "Tenses",
-      "question": "The flight to London ___ at 10:30 AM every day.",
-      "options": ["depart", "is departing", "departs", "departed"],
-      "correctAnswer": "departs",
-      "explanation": "For scheduled events and timetables in the future or present, we use the present simple tense ('departs')."
-    },
-    {
-      "id": "eng_3",
-      "topic": "Job Vocabulary",
-      "question": "If a passenger's baggage exceeds the weight limit, they must pay an ___ baggage fee.",
-      "options": ["extra", "over", "excess", "additional"],
-      "correctAnswer": "excess",
-      "explanation": "The standard aviation term for baggage that is over the allowed weight or size is 'excess baggage'."
-    },
-    {
-      "id": "eng_4",
-      "topic": "Comparisons",
-      "question": "First class seats are generally much ___ than economy seats.",
-      "options": ["more wide", "wider", "widest", "more wider"],
-      "correctAnswer": "wider",
-      "explanation": "The adjective 'wide' is a one-syllable word, so its comparative form is made by adding '-r' to make 'wider'."
-    },
-    {
-      "id": "eng_5",
-      "topic": "Question Forms",
-      "question": "___ you like me to help you with your luggage?",
-      "options": ["Do", "Are", "Would", "Can"],
-      "correctAnswer": "Would",
-      "explanation": "'Would you like...' is the polite and standard way to offer help or service to a customer."
-    }
-  ],
-  "computer": [
-    {
-      "id": "comp_1",
-      "topic": "Microsoft Excel",
-      "question": "Which function in Excel is used to add all the numbers in a range of cells?",
-      "options": ["=TOTAL()", "=SUM()", "=ADD()", "=COUNT()"],
-      "correctAnswer": "=SUM()",
-      "explanation": "The =SUM() function is the standard Excel formula used to calculate the total of a given range of cells."
-    },
-    {
-      "id": "comp_2",
-      "topic": "Microsoft Word",
-      "question": "What is the keyboard shortcut to 'Undo' the last action in Microsoft Word?",
-      "options": ["Ctrl + Z", "Ctrl + Y", "Ctrl + C", "Ctrl + U"],
-      "correctAnswer": "Ctrl + Z",
-      "explanation": "Ctrl + Z is the universal shortcut in Microsoft Office to undo the previous action."
-    },
-    {
-      "id": "comp_3",
-      "topic": "Microsoft PowerPoint",
-      "question": "Which view in PowerPoint is best for sorting and rearranging the order of slides?",
-      "options": ["Normal View", "Slide Show", "Slide Sorter View", "Reading View"],
-      "correctAnswer": "Slide Sorter View",
-      "explanation": "Slide Sorter View displays all slides as thumbnails, making it easy to drag and drop them into a new sequence."
-    },
-    {
-      "id": "comp_4",
-      "topic": "Microsoft Excel",
-      "question": "How do you 'freeze' the top row in Excel so it remains visible when scrolling down a passenger manifest?",
-      "options": ["View > Freeze Panes > Freeze Top Row", "Home > Format > Lock Row", "Insert > Header", "Data > Keep Top"],
-      "correctAnswer": "View > Freeze Panes > Freeze Top Row",
-      "explanation": "To keep the header row visible while scrolling through large datasets, you use the 'Freeze Top Row' option under the View tab."
-    },
-    {
-      "id": "comp_5",
-      "topic": "Microsoft Outlook",
-      "question": "When sending an email to a large group of passengers, which field should you use to hide their email addresses from each other?",
-      "options": ["To", "Cc (Carbon Copy)", "Bcc (Blind Carbon Copy)", "Subject"],
-      "correctAnswer": "Bcc (Blind Carbon Copy)",
-      "explanation": "Bcc hides the recipients' email addresses from one another, which is crucial for privacy when emailing large groups."
-    }
-  ]
+  "english": {
+    "beginner": [
+      {
+        "id": "eng_beg_1",
+        "topic": "Articles",
+        "question": "She is ___ pilot.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "correctAnswer": "a",
+        "explanation": "Use 'a' before words starting with a consonant sound when talking about someone's job."
+      },
+      {
+        "id": "eng_beg_2",
+        "topic": "Articles",
+        "question": "Where is ___ nearest exit?",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "correctAnswer": "the",
+        "explanation": "Use 'the' before superlative adjectives like 'nearest'."
+      },
+      {
+        "id": "eng_beg_3",
+        "topic": "Articles",
+        "question": "He works for ___ airline in Egypt.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "correctAnswer": "an",
+        "explanation": "Use 'an' before words starting with a vowel sound."
+      },
+      {
+        "id": "eng_beg_4",
+        "topic": "Articles",
+        "question": "I need ___ visa to travel.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "-"
+        ],
+        "correctAnswer": "a",
+        "explanation": "Use 'a' for singular countable nouns starting with a consonant sound."
+      },
+      {
+        "id": "eng_beg_5",
+        "topic": "Tenses",
+        "question": "I ___ at the airport every day.",
+        "options": [
+          "work",
+          "works",
+          "working",
+          "worked"
+        ],
+        "correctAnswer": "work",
+        "explanation": "Use the base form of the verb for habits and routines with the pronoun 'I' (Present Simple tense)."
+      },
+      {
+        "id": "eng_beg_6",
+        "topic": "Tenses",
+        "question": "She ___ a uniform right now.",
+        "options": [
+          "wears",
+          "wearing",
+          "is wearing",
+          "wear"
+        ],
+        "correctAnswer": "is wearing",
+        "explanation": "Use the Present Continuous tense (is + verb-ing) for actions happening at the moment of speaking."
+      },
+      {
+        "id": "eng_beg_7",
+        "topic": "Tenses",
+        "question": "They ___ their bags yesterday.",
+        "options": [
+          "checked",
+          "check",
+          "checking",
+          "checks"
+        ],
+        "correctAnswer": "checked",
+        "explanation": "Use the Past Simple tense (verb+ed) for actions completed in the past ('yesterday')."
+      },
+      {
+        "id": "eng_beg_8",
+        "topic": "Tenses",
+        "question": "The flight ___ at 9:00 PM tonight.",
+        "options": [
+          "leave",
+          "leaving",
+          "leaves",
+          "left"
+        ],
+        "correctAnswer": "leaves",
+        "explanation": "Use the Present Simple tense for scheduled events in the future."
+      },
+      {
+        "id": "eng_beg_9",
+        "topic": "Comparisons",
+        "question": "First class is ___ than economy class.",
+        "options": [
+          "comfortable",
+          "more comfortable",
+          "most comfortable",
+          "comfort"
+        ],
+        "correctAnswer": "more comfortable",
+        "explanation": "Use 'more' with long adjectives when comparing two things."
+      },
+      {
+        "id": "eng_beg_10",
+        "topic": "Comparisons",
+        "question": "This suitcase is ___ than that one.",
+        "options": [
+          "heavy",
+          "heavier",
+          "heaviest",
+          "more heavy"
+        ],
+        "correctAnswer": "heavier",
+        "explanation": "For two-syllable adjectives ending in 'y', change 'y' to 'i' and add 'er' for comparisons."
+      },
+      {
+        "id": "eng_beg_11",
+        "topic": "Comparisons",
+        "question": "Cairo Airport is one of the ___ in Africa.",
+        "options": [
+          "busy",
+          "busier",
+          "busiest",
+          "more busy"
+        ],
+        "correctAnswer": "busiest",
+        "explanation": "Use the superlative form (the + adjective+est) when comparing more than two things."
+      },
+      {
+        "id": "eng_beg_12",
+        "topic": "Comparisons",
+        "question": "The morning shift is ___ than the night shift.",
+        "options": [
+          "easy",
+          "easiest",
+          "more easy",
+          "easier"
+        ],
+        "correctAnswer": "easier",
+        "explanation": "For two-syllable adjectives ending in 'y', drop the 'y' and add 'ier'."
+      },
+      {
+        "id": "eng_beg_13",
+        "topic": "Question Forms",
+        "question": "___ is your passport?",
+        "options": [
+          "Who",
+          "What",
+          "Where",
+          "When"
+        ],
+        "correctAnswer": "Where",
+        "explanation": "'Where' is used to ask about a location or place."
+      },
+      {
+        "id": "eng_beg_14",
+        "topic": "Question Forms",
+        "question": "___ bags are you checking in?",
+        "options": [
+          "How much",
+          "How many",
+          "What time",
+          "Which"
+        ],
+        "correctAnswer": "How many",
+        "explanation": "'How many' is used to ask about countable nouns like bags."
+      },
+      {
+        "id": "eng_beg_15",
+        "topic": "Question Forms",
+        "question": "___ is the departure time?",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "Why"
+        ],
+        "correctAnswer": "What",
+        "explanation": "'What' is used to ask for specific information about things."
+      },
+      {
+        "id": "eng_beg_16",
+        "topic": "Question Forms",
+        "question": "___ do you work here?",
+        "options": [
+          "Because",
+          "Who",
+          "Why",
+          "What"
+        ],
+        "correctAnswer": "Why",
+        "explanation": "'Why' is used to ask for a reason."
+      },
+      {
+        "id": "eng_beg_17",
+        "topic": "Question Forms",
+        "question": "___ is the next flight to Dubai?",
+        "options": [
+          "When",
+          "Who",
+          "Why",
+          "Which"
+        ],
+        "correctAnswer": "When",
+        "explanation": "'When' is used to ask about time."
+      },
+      {
+        "id": "eng_beg_18",
+        "topic": "Job Vocabulary",
+        "question": "A person who flies the plane is a ___.",
+        "options": [
+          "passenger",
+          "pilot",
+          "mechanic",
+          "manager"
+        ],
+        "correctAnswer": "pilot",
+        "explanation": "A pilot is the person who operates the flying controls of an aircraft."
+      },
+      {
+        "id": "eng_beg_19",
+        "topic": "Job Vocabulary",
+        "question": "The ___ checks your ticket and gives you a boarding pass.",
+        "options": [
+          "pilot",
+          "security guard",
+          "check-in agent",
+          "cleaner"
+        ],
+        "correctAnswer": "check-in agent",
+        "explanation": "A check-in agent works at the counter to register passengers for their flights."
+      },
+      {
+        "id": "eng_beg_20",
+        "topic": "Job Vocabulary",
+        "question": "The ___ serves food and drinks on the plane.",
+        "options": [
+          "flight attendant",
+          "pilot",
+          "manager",
+          "mechanic"
+        ],
+        "correctAnswer": "flight attendant",
+        "explanation": "A flight attendant's job is to ensure the safety and comfort of passengers on an aircraft."
+      },
+      {
+        "id": "eng_beg_21",
+        "topic": "Job Vocabulary",
+        "question": "A ___ keeps the airport safe.",
+        "options": [
+          "pilot",
+          "security officer",
+          "cleaner",
+          "flight attendant"
+        ],
+        "correctAnswer": "security officer",
+        "explanation": "Security officers check passengers and their luggage to maintain safety."
+      },
+      {
+        "id": "eng_beg_22",
+        "topic": "Job Vocabulary",
+        "question": "People traveling on planes are called ___.",
+        "options": [
+          "pilots",
+          "agents",
+          "passengers",
+          "workers"
+        ],
+        "correctAnswer": "passengers",
+        "explanation": "A passenger is a person traveling in a vehicle, ship, or aircraft who is not operating it."
+      },
+      {
+        "id": "eng_beg_23",
+        "topic": "Prepositions",
+        "question": "The flight departs ___ 10:00 AM.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "correctAnswer": "at",
+        "explanation": "Use 'at' for specific times on the clock."
+      },
+      {
+        "id": "eng_beg_24",
+        "topic": "Prepositions",
+        "question": "Please wait ___ the gate.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "by"
+        ],
+        "correctAnswer": "at",
+        "explanation": "Use 'at' to refer to a specific point or location."
+      },
+      {
+        "id": "eng_beg_25",
+        "topic": "Prepositions",
+        "question": "The passengers are walking ___ the plane.",
+        "options": [
+          "on",
+          "into",
+          "at",
+          "with"
+        ],
+        "correctAnswer": "into",
+        "explanation": "'Into' is used to show movement towards the inside of a place."
+      },
+      {
+        "id": "eng_beg_26",
+        "topic": "Prepositions",
+        "question": "Your bag is ___ the desk.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correctAnswer": "on",
+        "explanation": "Use 'on' to show something is resting on a surface."
+      },
+      {
+        "id": "eng_beg_27",
+        "topic": "Conjunctions",
+        "question": "I like my job, ___ it is very tiring.",
+        "options": [
+          "and",
+          "so",
+          "but",
+          "or"
+        ],
+        "correctAnswer": "but",
+        "explanation": "'But' is used to connect two contrasting ideas."
+      },
+      {
+        "id": "eng_beg_28",
+        "topic": "Conjunctions",
+        "question": "Please show your passport ___ boarding pass.",
+        "options": [
+          "and",
+          "but",
+          "so",
+          "because"
+        ],
+        "correctAnswer": "and",
+        "explanation": "'And' is used to link similar ideas or items in a list."
+      },
+      {
+        "id": "eng_beg_29",
+        "topic": "Conjunctions",
+        "question": "You can take the bus ___ the train to the terminal.",
+        "options": [
+          "and",
+          "but",
+          "or",
+          "so"
+        ],
+        "correctAnswer": "or",
+        "explanation": "'Or' is used to present an alternative or choice."
+      },
+      {
+        "id": "eng_beg_30",
+        "topic": "Conjunctions",
+        "question": "We were late ___ there was heavy traffic.",
+        "options": [
+          "so",
+          "but",
+          "because",
+          "or"
+        ],
+        "correctAnswer": "because",
+        "explanation": "'Because' is used to introduce a reason."
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "eng_int_1",
+        "topic": "Articles",
+        "question": "Could you please pass me _____ boarding pass you are holding?",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "the",
+        "explanation": "We use 'the' when referring to a specific item that both the speaker and listener are aware of."
+      },
+      {
+        "id": "eng_int_2",
+        "topic": "Articles",
+        "question": "He has been working as _____ air traffic controller for five years.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "an",
+        "explanation": "We use 'an' before singular countable nouns starting with a vowel sound, especially for jobs."
+      },
+      {
+        "id": "eng_int_3",
+        "topic": "Articles",
+        "question": "Passengers must present their passports at _____ customs.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "no article",
+        "explanation": "Normally, we don't use articles before 'customs' when referring to the checkpoint in an airport."
+      },
+      {
+        "id": "eng_int_4",
+        "topic": "Articles",
+        "question": "Cairo International Airport is _____ largest airport in Egypt.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "the",
+        "explanation": "We use 'the' before superlative adjectives like 'largest'."
+      },
+      {
+        "id": "eng_int_5",
+        "topic": "Tenses",
+        "question": "The flight to London _____ at 10:30 AM tomorrow.",
+        "options": [
+          "depart",
+          "departs",
+          "departing",
+          "has departed"
+        ],
+        "correctAnswer": "departs",
+        "explanation": "We use the present simple for scheduled events in the future, like flight times."
+      },
+      {
+        "id": "eng_int_6",
+        "topic": "Tenses",
+        "question": "I _____ for the security check when I realized my ID was missing.",
+        "options": [
+          "waited",
+          "have waited",
+          "was waiting",
+          "am waiting"
+        ],
+        "correctAnswer": "was waiting",
+        "explanation": "The past continuous 'was waiting' is used for an action in progress interrupted by another past action."
+      },
+      {
+        "id": "eng_int_7",
+        "topic": "Tenses",
+        "question": "By the time we reached the gate, the passengers _____ boarding.",
+        "options": [
+          "started",
+          "have started",
+          "will start",
+          "had started"
+        ],
+        "correctAnswer": "had started",
+        "explanation": "The past perfect 'had started' is used to show an action completed before another past action."
+      },
+      {
+        "id": "eng_int_8",
+        "topic": "Tenses",
+        "question": "She _____ at this airport since 2015.",
+        "options": [
+          "works",
+          "is working",
+          "has been working",
+          "worked"
+        ],
+        "correctAnswer": "has been working",
+        "explanation": "The present perfect continuous is used for actions that started in the past and continue up to the present."
+      },
+      {
+        "id": "eng_int_9",
+        "topic": "Comparisons",
+        "question": "The new terminal is much _____ than the old one.",
+        "options": [
+          "spacious",
+          "more spacious",
+          "most spacious",
+          "spaciouser"
+        ],
+        "correctAnswer": "more spacious",
+        "explanation": "For multi-syllable adjectives, we use 'more' to form the comparative degree."
+      },
+      {
+        "id": "eng_int_10",
+        "topic": "Comparisons",
+        "question": "This is _____ security check I have ever experienced.",
+        "options": [
+          "fast",
+          "faster",
+          "the fastest",
+          "the faster"
+        ],
+        "correctAnswer": "the fastest",
+        "explanation": "The superlative form 'the fastest' is used when comparing one thing to all others in a group."
+      },
+      {
+        "id": "eng_int_11",
+        "topic": "Comparisons",
+        "question": "Flying during the holidays is usually _____ expensive than flying off-season.",
+        "options": [
+          "as",
+          "less",
+          "least",
+          "more"
+        ],
+        "correctAnswer": "more",
+        "explanation": "We use 'more' with long adjectives in comparative sentences ending with 'than'."
+      },
+      {
+        "id": "eng_int_12",
+        "topic": "Comparisons",
+        "question": "The turbulence was not as bad _____ they predicted.",
+        "options": [
+          "than",
+          "that",
+          "as",
+          "like"
+        ],
+        "correctAnswer": "as",
+        "explanation": "We use the structure 'as ... as' to show similarity or equivalence."
+      },
+      {
+        "id": "eng_int_13",
+        "topic": "Question Forms",
+        "question": "_____ long is the layover in Dubai?",
+        "options": [
+          "What",
+          "How",
+          "Which",
+          "Why"
+        ],
+        "correctAnswer": "How",
+        "explanation": "'How long' is used to ask about the duration of time."
+      },
+      {
+        "id": "eng_int_14",
+        "topic": "Question Forms",
+        "question": "Could you tell me where _____?",
+        "options": [
+          "is the baggage claim",
+          "the baggage claim is",
+          "does the baggage claim be",
+          "the baggage claim be"
+        ],
+        "correctAnswer": "the baggage claim is",
+        "explanation": "In indirect questions, the word order is subject + verb, without the auxiliary 'do/does'."
+      },
+      {
+        "id": "eng_int_15",
+        "topic": "Question Forms",
+        "question": "_____ left their luggage unattended near the check-in desk?",
+        "options": [
+          "Who",
+          "Whose",
+          "Whom",
+          "Which"
+        ],
+        "correctAnswer": "Who",
+        "explanation": "'Who' is used as the subject of the question asking about a person."
+      },
+      {
+        "id": "eng_int_16",
+        "topic": "Question Forms",
+        "question": "What time _____ you supposed to report for your shift?",
+        "options": [
+          "do",
+          "have",
+          "are",
+          "will"
+        ],
+        "correctAnswer": "are",
+        "explanation": "The structure 'to be supposed to' requires the 'be' verb, which is 'are' for 'you'."
+      },
+      {
+        "id": "eng_int_17",
+        "topic": "Job Vocabulary",
+        "question": "The _____ is responsible for greeting passengers and serving meals on the flight.",
+        "options": [
+          "pilot",
+          "baggage handler",
+          "flight attendant",
+          "customs officer"
+        ],
+        "correctAnswer": "flight attendant",
+        "explanation": "A flight attendant's duties include passenger care and service during the flight."
+      },
+      {
+        "id": "eng_int_18",
+        "topic": "Job Vocabulary",
+        "question": "All passengers must declare goods over a certain value to the _____.",
+        "options": [
+          "security guard",
+          "travel agent",
+          "ticket agent",
+          "customs officer"
+        ],
+        "correctAnswer": "customs officer",
+        "explanation": "Customs officers handle the declaration of goods crossing borders."
+      },
+      {
+        "id": "eng_int_19",
+        "topic": "Job Vocabulary",
+        "question": "The _____ ensures the safe takeoff, navigation, and landing of the aircraft.",
+        "options": [
+          "steward",
+          "pilot",
+          "mechanic",
+          "dispatcher"
+        ],
+        "correctAnswer": "pilot",
+        "explanation": "The pilot is the person who operates the flying controls of an aircraft."
+      },
+      {
+        "id": "eng_int_20",
+        "topic": "Job Vocabulary",
+        "question": "A _____ issues boarding passes and checks in luggage at the airline desk.",
+        "options": [
+          "ramp agent",
+          "passenger service agent",
+          "air traffic controller",
+          "pilot"
+        ],
+        "correctAnswer": "passenger service agent",
+        "explanation": "A passenger service agent works at the check-in counter assisting passengers."
+      },
+      {
+        "id": "eng_int_21",
+        "topic": "Prepositions",
+        "question": "Please place your carry-on bags _____ the overhead compartment.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correctAnswer": "in",
+        "explanation": "'In' is used to indicate that something is enclosed within a space, like a compartment."
+      },
+      {
+        "id": "eng_int_22",
+        "topic": "Prepositions",
+        "question": "The flight is scheduled to arrive _____ 6:45 PM.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "correctAnswer": "at",
+        "explanation": "We use 'at' for specific times."
+      },
+      {
+        "id": "eng_int_23",
+        "topic": "Prepositions",
+        "question": "Passengers traveling _____ international destinations must arrive three hours early.",
+        "options": [
+          "for",
+          "to",
+          "at",
+          "in"
+        ],
+        "correctAnswer": "to",
+        "explanation": "'Traveling to' indicates the destination of the journey."
+      },
+      {
+        "id": "eng_int_24",
+        "topic": "Prepositions",
+        "question": "You can find the lost and found office _____ the second floor.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "correctAnswer": "on",
+        "explanation": "We use 'on' when referring to floors of a building."
+      },
+      {
+        "id": "eng_int_25",
+        "topic": "Conjunctions",
+        "question": "_____ the weather was poor, the flight departed on time.",
+        "options": [
+          "Because",
+          "Although",
+          "However",
+          "Therefore"
+        ],
+        "correctAnswer": "Although",
+        "explanation": "'Although' introduces a contrasting or unexpected result."
+      },
+      {
+        "id": "eng_int_26",
+        "topic": "Conjunctions",
+        "question": "You will not be allowed to board _____ you show a valid passport.",
+        "options": [
+          "if",
+          "unless",
+          "provided",
+          "since"
+        ],
+        "correctAnswer": "unless",
+        "explanation": "'Unless' means 'except if' and is used to state a necessary condition."
+      },
+      {
+        "id": "eng_int_27",
+        "topic": "Conjunctions",
+        "question": "Please wait in the lounge _____ your row is called.",
+        "options": [
+          "until",
+          "while",
+          "during",
+          "because"
+        ],
+        "correctAnswer": "until",
+        "explanation": "'Until' indicates the point in time when an action stops or changes."
+      },
+      {
+        "id": "eng_int_28",
+        "topic": "Conjunctions",
+        "question": "The flight was delayed _____ a technical issue.",
+        "options": [
+          "due to",
+          "because",
+          "since",
+          "as"
+        ],
+        "correctAnswer": "due to",
+        "explanation": "'Due to' is followed by a noun phrase to explain the cause of something."
+      },
+      {
+        "id": "eng_int_29",
+        "topic": "Tenses",
+        "question": "I _____ my boarding pass. I can't find it anywhere!",
+        "options": [
+          "lost",
+          "have lost",
+          "had lost",
+          "lose"
+        ],
+        "correctAnswer": "have lost",
+        "explanation": "The present perfect 'have lost' is used for a past action that has a result in the present."
+      },
+      {
+        "id": "eng_int_30",
+        "topic": "Job Vocabulary",
+        "question": "The _____ directs aircraft on the ground to prevent collisions.",
+        "options": [
+          "baggage handler",
+          "air traffic controller",
+          "customs officer",
+          "security guard"
+        ],
+        "correctAnswer": "air traffic controller",
+        "explanation": "Air traffic controllers manage the safe and orderly flow of aircraft on the ground and in the air."
+      }
+    ],
+    "advanced": [
+      {
+        "id": "eng_adv_1",
+        "topic": "Articles",
+        "question": "The committee has reached _____ consensus on the new security protocols.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "a",
+        "explanation": "The noun 'consensus' typically takes the indefinite article 'a' when referring to reaching a general agreement."
+      },
+      {
+        "id": "eng_adv_2",
+        "topic": "Articles",
+        "question": "She possesses _____ unparalleled knowledge of aviation regulations.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "an",
+        "explanation": "The word 'unparalleled' begins with a vowel sound, requiring the indefinite article 'an'."
+      },
+      {
+        "id": "eng_adv_3",
+        "topic": "Articles",
+        "question": "_____ Red Sea is a major route for international shipping and flights.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "correctAnswer": "The",
+        "explanation": "Names of seas and oceans require the definite article 'the'."
+      },
+      {
+        "id": "eng_adv_4",
+        "topic": "Articles",
+        "question": "He was appointed _____ CEO of the aviation company last year.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "no article",
+        "explanation": "When referring to a unique job title or position held by only one person at a time, no article (or sometimes 'the') is used, but 'no article' is standard in this structure."
+      },
+      {
+        "id": "eng_adv_5",
+        "topic": "Tenses",
+        "question": "By the time the aircraft touches down, the ground crew _____ all necessary preparations.",
+        "options": [
+          "will complete",
+          "completed",
+          "will have completed",
+          "are completing"
+        ],
+        "correctAnswer": "will have completed",
+        "explanation": "The future perfect tense is used for an action that will be completed before another specified time in the future."
+      },
+      {
+        "id": "eng_adv_6",
+        "topic": "Tenses",
+        "question": "The flight operations _____ heavily disrupted by the recent system outage.",
+        "options": [
+          "has been",
+          "have been",
+          "was being",
+          "is being"
+        ],
+        "correctAnswer": "have been",
+        "explanation": "'Flight operations' is plural, requiring the plural present perfect 'have been' for an action with present consequences."
+      },
+      {
+        "id": "eng_adv_7",
+        "topic": "Tenses",
+        "question": "He _____ for the airline for ten years before he was finally promoted to chief dispatcher.",
+        "options": [
+          "has worked",
+          "was working",
+          "had been working",
+          "works"
+        ],
+        "correctAnswer": "had been working",
+        "explanation": "The past perfect continuous describes an ongoing action in the past that led up to another past event."
+      },
+      {
+        "id": "eng_adv_8",
+        "topic": "Tenses",
+        "question": "If they _____ the updated maintenance manual, the mechanical failure would not have occurred.",
+        "options": [
+          "read",
+          "would read",
+          "had read",
+          "have read"
+        ],
+        "correctAnswer": "had read",
+        "explanation": "This is a third conditional sentence requiring the past perfect 'had read' in the 'if' clause."
+      },
+      {
+        "id": "eng_adv_9",
+        "topic": "Comparisons",
+        "question": "This new radar system is by far _____ of all the models we have tested this year.",
+        "options": [
+          "more efficient",
+          "the most efficient",
+          "efficient as",
+          "most efficient"
+        ],
+        "correctAnswer": "the most efficient",
+        "explanation": "The phrase 'by far' is used to emphasize a superlative adjective."
+      },
+      {
+        "id": "eng_adv_10",
+        "topic": "Comparisons",
+        "question": "The new terminal's capacity is _____ than that of the older facility.",
+        "options": [
+          "considerable larger",
+          "considerably larger",
+          "most large",
+          "more larger"
+        ],
+        "correctAnswer": "considerably larger",
+        "explanation": "'Considerably' acts as an adverb modifying the comparative adjective 'larger'."
+      },
+      {
+        "id": "eng_adv_11",
+        "topic": "Comparisons",
+        "question": "The more rigorous the training program is, _____ prepared the staff will be.",
+        "options": [
+          "the better",
+          "better",
+          "the best",
+          "as well as"
+        ],
+        "correctAnswer": "the better",
+        "explanation": "The correlative comparative structure 'the more..., the better...' is required here."
+      },
+      {
+        "id": "eng_adv_12",
+        "topic": "Comparisons",
+        "question": "Our current on-time departure rate is not quite _____ it was during the off-peak season.",
+        "options": [
+          "so high like",
+          "as high as",
+          "higher to",
+          "as higher as"
+        ],
+        "correctAnswer": "as high as",
+        "explanation": "To compare equality or inequality, the structure 'as + adjective + as' is used."
+      },
+      {
+        "id": "eng_adv_13",
+        "topic": "Question Forms",
+        "question": "Rarely _____ such a severe disruption to the international flight schedule.",
+        "options": [
+          "we have seen",
+          "have we seen",
+          "we saw",
+          "we did see"
+        ],
+        "correctAnswer": "have we seen",
+        "explanation": "When a sentence begins with a negative adverb like 'rarely', subject-auxiliary inversion is required."
+      },
+      {
+        "id": "eng_adv_14",
+        "topic": "Question Forms",
+        "question": "You wouldn't happen to know where the VIP lounge is, _____?",
+        "options": [
+          "would you",
+          "do you",
+          "wouldn't you",
+          "don't you"
+        ],
+        "correctAnswer": "would you",
+        "explanation": "A negative statement takes a positive tag question."
+      },
+      {
+        "id": "eng_adv_15",
+        "topic": "Question Forms",
+        "question": "Could you tell me exactly _____?",
+        "options": [
+          "what time the boarding starts",
+          "what time does the boarding start",
+          "when does the boarding start",
+          "what time starts the boarding"
+        ],
+        "correctAnswer": "what time the boarding starts",
+        "explanation": "Embedded questions use standard sentence word order (subject + verb) rather than question word order."
+      },
+      {
+        "id": "eng_adv_16",
+        "topic": "Question Forms",
+        "question": "Under no circumstances _____ to leave their baggage unattended in the terminal.",
+        "options": [
+          "passengers are allowed",
+          "allowed are passengers",
+          "are passengers allowed",
+          "do passengers allowed"
+        ],
+        "correctAnswer": "are passengers allowed",
+        "explanation": "The negative prepositional phrase 'Under no circumstances' at the beginning of a sentence requires inversion of subject and auxiliary verb."
+      },
+      {
+        "id": "eng_adv_17",
+        "topic": "Job Vocabulary",
+        "question": "The baggage _____ system broke down, causing widespread delays across multiple terminals.",
+        "options": [
+          "handling",
+          "managing",
+          "routing",
+          "delivering"
+        ],
+        "correctAnswer": "handling",
+        "explanation": "The standard industry term for the processing of luggage is 'baggage handling'."
+      },
+      {
+        "id": "eng_adv_18",
+        "topic": "Job Vocabulary",
+        "question": "A(n) _____ is responsible for coordinating the safe movement of aircraft on the ground and in the airspace.",
+        "options": [
+          "ground handler",
+          "dispatcher",
+          "air traffic controller",
+          "flight purser"
+        ],
+        "correctAnswer": "air traffic controller",
+        "explanation": "Air traffic controllers direct aircraft on the ground and through controlled airspace."
+      },
+      {
+        "id": "eng_adv_19",
+        "topic": "Job Vocabulary",
+        "question": "All international travelers must clear _____ before officially entering the country.",
+        "options": [
+          "security",
+          "customs",
+          "ticketing",
+          "check-in"
+        ],
+        "correctAnswer": "customs",
+        "explanation": "'Customs' is the official department that administers and collects duties levied by a government on imported goods."
+      },
+      {
+        "id": "eng_adv_20",
+        "topic": "Job Vocabulary",
+        "question": "The senior _____ ensures the safety and comfort of passengers and manages the cabin crew.",
+        "options": [
+          "purser",
+          "ramp agent",
+          "first officer",
+          "marshal"
+        ],
+        "correctAnswer": "purser",
+        "explanation": "The purser is the chief flight attendant on an aircraft, responsible for the cabin crew and passenger safety."
+      },
+      {
+        "id": "eng_adv_21",
+        "topic": "Prepositions",
+        "question": "The airline is not liable _____ any damage to fragile items packed in checked luggage.",
+        "options": [
+          "to",
+          "for",
+          "with",
+          "about"
+        ],
+        "correctAnswer": "for",
+        "explanation": "The adjective 'liable' is followed by the preposition 'for' when referring to legal responsibility."
+      },
+      {
+        "id": "eng_adv_22",
+        "topic": "Prepositions",
+        "question": "Passengers are strictly prohibited _____ carrying flammable liquids on board.",
+        "options": [
+          "to",
+          "against",
+          "from",
+          "of"
+        ],
+        "correctAnswer": "from",
+        "explanation": "The verb 'prohibit' is followed by the preposition 'from' and a gerund."
+      },
+      {
+        "id": "eng_adv_23",
+        "topic": "Prepositions",
+        "question": "The aviation authority insisted _____ reviewing the revised safety procedures personally.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
+        "correctAnswer": "on",
+        "explanation": "The verb 'insist' is always followed by the preposition 'on'."
+      },
+      {
+        "id": "eng_adv_24",
+        "topic": "Prepositions",
+        "question": "Because of the dense fog, the incoming flight was diverted _____ a secondary airport.",
+        "options": [
+          "at",
+          "towards",
+          "to",
+          "in"
+        ],
+        "correctAnswer": "to",
+        "explanation": "The verb 'divert' takes the preposition 'to' when indicating the new destination."
+      },
+      {
+        "id": "eng_adv_25",
+        "topic": "Conjunctions",
+        "question": "_____ the severe weather conditions, the airport managed to keep two runways operational.",
+        "options": [
+          "Although",
+          "Despite",
+          "However",
+          "Even though"
+        ],
+        "correctAnswer": "Despite",
+        "explanation": "'Despite' is a preposition used before a noun phrase; 'although' and 'even though' require a subject and a verb."
+      },
+      {
+        "id": "eng_adv_26",
+        "topic": "Conjunctions",
+        "question": "Passengers will not be permitted to board the aircraft _____ they present a valid boarding pass and ID.",
+        "options": [
+          "if",
+          "provided that",
+          "unless",
+          "in case"
+        ],
+        "correctAnswer": "unless",
+        "explanation": "'Unless' means 'if not' and fits the conditional logic of the sentence."
+      },
+      {
+        "id": "eng_adv_27",
+        "topic": "Conjunctions",
+        "question": "The flight was heavily overbooked; _____, the airline offered travel vouchers for volunteers.",
+        "options": [
+          "furthermore",
+          "nevertheless",
+          "therefore",
+          "whereas"
+        ],
+        "correctAnswer": "therefore",
+        "explanation": "'Therefore' is a conjunctive adverb indicating a conclusion or result."
+      },
+      {
+        "id": "eng_adv_28",
+        "topic": "Idioms",
+        "question": "Because the negotiations are still ongoing, the final timeline for the terminal expansion is completely _____.",
+        "options": [
+          "up in the air",
+          "on the fly",
+          "under the radar",
+          "in the clouds"
+        ],
+        "correctAnswer": "up in the air",
+        "explanation": "The idiom 'up in the air' means unresolved or uncertain."
+      },
+      {
+        "id": "eng_adv_29",
+        "topic": "Idioms",
+        "question": "The sudden inspection by the regulatory board caught the station manager _____.",
+        "options": [
+          "red-handed",
+          "off guard",
+          "in the dark",
+          "by the book"
+        ],
+        "correctAnswer": "off guard",
+        "explanation": "To catch someone 'off guard' means to surprise them when they are not prepared."
+      },
+      {
+        "id": "eng_adv_30",
+        "topic": "Idioms",
+        "question": "To ensure the smooth rollout of the new software, we need all departments to be _____.",
+        "options": [
+          "in the same boat",
+          "on the same page",
+          "ahead of the curve",
+          "calling the shots"
+        ],
+        "correctAnswer": "on the same page",
+        "explanation": "To be 'on the same page' means to have a shared understanding of a situation or plan."
+      }
+    ]
+  },
+  "computer": {
+    "beginner": [
+      {
+        "id": "comp_beg_1",
+        "topic": "Microsoft Word",
+        "question": "What is the keyboard shortcut for copying selected text in Microsoft Word?",
+        "options": [
+          "Ctrl + C",
+          "Ctrl + V",
+          "Ctrl + X",
+          "Ctrl + P"
+        ],
+        "correctAnswer": "Ctrl + C",
+        "explanation": "Ctrl + C is the standard shortcut to copy selected text or items."
+      },
+      {
+        "id": "comp_beg_2",
+        "topic": "Microsoft Word",
+        "question": "Which keyboard shortcut is used to paste copied text?",
+        "options": [
+          "Ctrl + C",
+          "Ctrl + P",
+          "Ctrl + V",
+          "Ctrl + X"
+        ],
+        "correctAnswer": "Ctrl + V",
+        "explanation": "Ctrl + V is the shortcut used to paste items from the clipboard."
+      },
+      {
+        "id": "comp_beg_3",
+        "topic": "Microsoft Word",
+        "question": "What is the default file extension for a modern Microsoft Word document?",
+        "options": [
+          ".txt",
+          ".docx",
+          ".pdf",
+          ".xlsx"
+        ],
+        "correctAnswer": ".docx",
+        "explanation": "Modern versions of Microsoft Word use the .docx extension by default."
+      },
+      {
+        "id": "comp_beg_4",
+        "topic": "Microsoft Word",
+        "question": "Which tool in Microsoft Word checks for spelling and grammatical errors?",
+        "options": [
+          "Format Painter",
+          "Thesaurus",
+          "Spelling & Grammar",
+          "Word Count"
+        ],
+        "correctAnswer": "Spelling & Grammar",
+        "explanation": "The Spelling & Grammar tool (often accessed via F7) helps identify and correct language errors."
+      },
+      {
+        "id": "comp_beg_5",
+        "topic": "Microsoft Word",
+        "question": "What does the 'Undo' function do?",
+        "options": [
+          "Saves the document",
+          "Deletes the entire document",
+          "Reverses the last action performed",
+          "Redoes an action"
+        ],
+        "correctAnswer": "Reverses the last action performed",
+        "explanation": "Undo (Ctrl + Z) allows you to revert your last change."
+      },
+      {
+        "id": "comp_beg_6",
+        "topic": "Microsoft Excel",
+        "question": "In Microsoft Excel, what must every formula begin with?",
+        "options": [
+          "+",
+          "-",
+          "=",
+          "*"
+        ],
+        "correctAnswer": "=",
+        "explanation": "All formulas in Excel must start with an equals sign (=) so Excel knows to calculate the result."
+      },
+      {
+        "id": "comp_beg_7",
+        "topic": "Microsoft Excel",
+        "question": "What is the intersection of a row and a column in an Excel worksheet called?",
+        "options": [
+          "Table",
+          "Cell",
+          "Grid",
+          "Box"
+        ],
+        "correctAnswer": "Cell",
+        "explanation": "A cell is the individual rectangular box where a row and column intersect."
+      },
+      {
+        "id": "comp_beg_8",
+        "topic": "Microsoft Excel",
+        "question": "Which function is used to add together a range of numbers in Excel?",
+        "options": [
+          "AVERAGE",
+          "COUNT",
+          "SUM",
+          "MAX"
+        ],
+        "correctAnswer": "SUM",
+        "explanation": "The SUM function adds all the numbers in a selected range of cells."
+      },
+      {
+        "id": "comp_beg_9",
+        "topic": "Microsoft Excel",
+        "question": "What is the default file extension for a modern Microsoft Excel workbook?",
+        "options": [
+          ".xlsx",
+          ".docx",
+          ".pptx",
+          ".csv"
+        ],
+        "correctAnswer": ".xlsx",
+        "explanation": "Modern Excel workbooks use the .xlsx extension."
+      },
+      {
+        "id": "comp_beg_10",
+        "topic": "Microsoft Excel",
+        "question": "How are columns identified in an Excel worksheet?",
+        "options": [
+          "By numbers (1, 2, 3...)",
+          "By letters (A, B, C...)",
+          "By symbols",
+          "By colors"
+        ],
+        "correctAnswer": "By letters (A, B, C...)",
+        "explanation": "In Excel, columns are labeled with letters across the top, while rows are numbered down the side."
+      },
+      {
+        "id": "comp_beg_11",
+        "topic": "Microsoft PowerPoint",
+        "question": "Which keyboard shortcut starts a PowerPoint slide show from the very first slide?",
+        "options": [
+          "F5",
+          "Shift + F5",
+          "F7",
+          "Esc"
+        ],
+        "correctAnswer": "F5",
+        "explanation": "Pressing F5 starts the presentation from the beginning."
+      },
+      {
+        "id": "comp_beg_12",
+        "topic": "Microsoft PowerPoint",
+        "question": "What is a 'Slide Transition' in PowerPoint?",
+        "options": [
+          "The way text appears on a slide",
+          "The visual effect when moving from one slide to the next",
+          "The background color of a slide",
+          "A printed handout"
+        ],
+        "correctAnswer": "The visual effect when moving from one slide to the next",
+        "explanation": "Transitions are the animation-like effects that occur in Slide Show view when you move from one slide to the next."
+      },
+      {
+        "id": "comp_beg_13",
+        "topic": "Microsoft PowerPoint",
+        "question": "What is the keyboard shortcut to insert a new slide into a presentation?",
+        "options": [
+          "Ctrl + N",
+          "Ctrl + M",
+          "Ctrl + S",
+          "Ctrl + P"
+        ],
+        "correctAnswer": "Ctrl + M",
+        "explanation": "Ctrl + M inserts a new slide, whereas Ctrl + N creates a completely new presentation file."
+      },
+      {
+        "id": "comp_beg_14",
+        "topic": "Microsoft PowerPoint",
+        "question": "What is the default file extension for a modern Microsoft PowerPoint presentation?",
+        "options": [
+          ".ptx",
+          ".docx",
+          ".pptx",
+          ".xlsx"
+        ],
+        "correctAnswer": ".pptx",
+        "explanation": "Modern PowerPoint files are saved with the .pptx extension."
+      },
+      {
+        "id": "comp_beg_15",
+        "topic": "Microsoft Outlook",
+        "question": "What is the primary function of Microsoft Outlook?",
+        "options": [
+          "Creating spreadsheets",
+          "Editing photos",
+          "Managing emails, calendars, and contacts",
+          "Building websites"
+        ],
+        "correctAnswer": "Managing emails, calendars, and contacts",
+        "explanation": "Outlook is a personal information manager mainly used as an email application, but it also includes a calendar, task manager, and contact manager."
+      },
+      {
+        "id": "comp_beg_16",
+        "topic": "Microsoft Outlook",
+        "question": "In an email, what does 'Bcc' stand for?",
+        "options": [
+          "Blind Carbon Copy",
+          "Blank Carbon Copy",
+          "Basic Carbon Copy",
+          "Backup Carbon Copy"
+        ],
+        "correctAnswer": "Blind Carbon Copy",
+        "explanation": "Bcc allows you to send an email to someone without the other recipients seeing their email address."
+      },
+      {
+        "id": "comp_beg_17",
+        "topic": "Microsoft Outlook",
+        "question": "Which action allows you to send an email you received to another person who was not originally included?",
+        "options": [
+          "Reply",
+          "Reply All",
+          "Forward",
+          "Attach"
+        ],
+        "correctAnswer": "Forward",
+        "explanation": "Forwarding an email sends the original message to a new recipient."
+      },
+      {
+        "id": "comp_beg_18",
+        "topic": "Microsoft Outlook",
+        "question": "What icon is typically used in Outlook (and most email clients) to indicate an attachment?",
+        "options": [
+          "A magnifying glass",
+          "A paperclip",
+          "A folder",
+          "A floppy disk"
+        ],
+        "correctAnswer": "A paperclip",
+        "explanation": "The paperclip icon is the universal symbol for attaching a file to an email."
+      },
+      {
+        "id": "comp_beg_19",
+        "topic": "Microsoft Word",
+        "question": "Which formatting option makes text appear thicker and darker?",
+        "options": [
+          "Italic",
+          "Underline",
+          "Bold",
+          "Strikethrough"
+        ],
+        "correctAnswer": "Bold",
+        "explanation": "Bold text is thicker and darker, typically used for emphasis."
+      },
+      {
+        "id": "comp_beg_20",
+        "topic": "Microsoft Word",
+        "question": "What is the keyboard shortcut for making selected text Italic?",
+        "options": [
+          "Ctrl + I",
+          "Ctrl + B",
+          "Ctrl + U",
+          "Ctrl + T"
+        ],
+        "correctAnswer": "Ctrl + I",
+        "explanation": "Ctrl + I applies italic formatting to the selected text."
+      },
+      {
+        "id": "comp_beg_21",
+        "topic": "Microsoft Word",
+        "question": "What is the keyboard shortcut to print a document?",
+        "options": [
+          "Ctrl + D",
+          "Ctrl + P",
+          "Ctrl + S",
+          "Ctrl + O"
+        ],
+        "correctAnswer": "Ctrl + P",
+        "explanation": "Ctrl + P opens the print dialog."
+      },
+      {
+        "id": "comp_beg_22",
+        "topic": "Microsoft Word",
+        "question": "What is the keyboard shortcut to select all text in a document?",
+        "options": [
+          "Ctrl + A",
+          "Ctrl + S",
+          "Ctrl + C",
+          "Ctrl + L"
+        ],
+        "correctAnswer": "Ctrl + A",
+        "explanation": "Ctrl + A selects everything in the active document or window."
+      },
+      {
+        "id": "comp_beg_23",
+        "topic": "Microsoft Excel",
+        "question": "Which feature in Excel allows you to quickly copy formatting from one cell to another?",
+        "options": [
+          "Format Painter",
+          "Copy Paste",
+          "AutoFill",
+          "Data Validation"
+        ],
+        "correctAnswer": "Format Painter",
+        "explanation": "Format Painter copies the formatting of a selected area to another area."
+      },
+      {
+        "id": "comp_beg_24",
+        "topic": "Microsoft Excel",
+        "question": "How are rows identified in an Excel worksheet?",
+        "options": [
+          "By letters",
+          "By numbers",
+          "By colors",
+          "By symbols"
+        ],
+        "correctAnswer": "By numbers",
+        "explanation": "Rows run horizontally and are identified by numbers (1, 2, 3...)."
+      },
+      {
+        "id": "comp_beg_25",
+        "topic": "Microsoft PowerPoint",
+        "question": "What view is best used for sorting and rearranging slides?",
+        "options": [
+          "Normal View",
+          "Slide Sorter View",
+          "Reading View",
+          "Slide Show View"
+        ],
+        "correctAnswer": "Slide Sorter View",
+        "explanation": "Slide Sorter view displays thumbnails of all slides, making it easy to rearrange them."
+      },
+      {
+        "id": "comp_beg_26",
+        "topic": "Microsoft PowerPoint",
+        "question": "Which shortcut key allows you to end a PowerPoint slide show early?",
+        "options": [
+          "Enter",
+          "Spacebar",
+          "Esc",
+          "Tab"
+        ],
+        "correctAnswer": "Esc",
+        "explanation": "Pressing the Escape (Esc) key will exit the slide show and return to the editing view."
+      },
+      {
+        "id": "comp_beg_27",
+        "topic": "Microsoft Outlook",
+        "question": "What does 'Reply All' do in an email?",
+        "options": [
+          "Replies only to the sender",
+          "Sends a reply to the sender and all other recipients in the To and Cc fields",
+          "Forwards the email to a new person",
+          "Deletes the email for everyone"
+        ],
+        "correctAnswer": "Sends a reply to the sender and all other recipients in the To and Cc fields",
+        "explanation": "Reply All ensures everyone involved in the email thread receives your response."
+      },
+      {
+        "id": "comp_beg_28",
+        "topic": "Microsoft Office Basics",
+        "question": "What is the keyboard shortcut to save a file?",
+        "options": [
+          "Ctrl + S",
+          "Ctrl + V",
+          "Ctrl + P",
+          "Ctrl + O"
+        ],
+        "correctAnswer": "Ctrl + S",
+        "explanation": "Ctrl + S is the universal shortcut to save a file in most applications."
+      },
+      {
+        "id": "comp_beg_29",
+        "topic": "Microsoft Office Basics",
+        "question": "What does the 'Find' function (Ctrl + F) do?",
+        "options": [
+          "Searches for a specific word or phrase in the document",
+          "Replaces a word with another word",
+          "Changes the font style",
+          "Finds lost files on the computer"
+        ],
+        "correctAnswer": "Searches for a specific word or phrase in the document",
+        "explanation": "Ctrl + F opens the search pane to help you find specific text within the active file."
+      },
+      {
+        "id": "comp_beg_30",
+        "topic": "Microsoft Office Basics",
+        "question": "Which tab on the ribbon usually contains the options to change font type, size, and color?",
+        "options": [
+          "Insert",
+          "Design",
+          "Home",
+          "View"
+        ],
+        "correctAnswer": "Home",
+        "explanation": "The Home tab generally contains the most commonly used formatting tools."
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "comp_int_1",
+        "topic": "Microsoft Word",
+        "question": "What is the primary benefit of using Styles in Microsoft Word?",
+        "options": [
+          "It automatically checks for grammar and spelling errors.",
+          "It allows for consistent formatting throughout a document and easy global updates.",
+          "It compresses the document size for easier sharing.",
+          "It translates the text into different languages automatically."
+        ],
+        "correctAnswer": "It allows for consistent formatting throughout a document and easy global updates.",
+        "explanation": "Styles in Word bundle formatting settings together, ensuring consistency and allowing you to change the formatting of all text using a specific style at once."
+      },
+      {
+        "id": "comp_int_2",
+        "topic": "Microsoft Word",
+        "question": "Which of the following paragraph settings prevents a paragraph from being split across two pages?",
+        "options": [
+          "Widow/Orphan control",
+          "Keep lines together",
+          "Keep with next",
+          "Page break before"
+        ],
+        "correctAnswer": "Keep lines together",
+        "explanation": "'Keep lines together' ensures that an entire paragraph stays on the same page, preventing it from breaking across a page boundary."
+      },
+      {
+        "id": "comp_int_3",
+        "topic": "Microsoft Word",
+        "question": "How do you quickly copy complex formatting from one paragraph to another?",
+        "options": [
+          "Use the Copy and Paste commands.",
+          "Use the Format Painter tool.",
+          "Save the formatting as a macro.",
+          "Export the text to a new document."
+        ],
+        "correctAnswer": "Use the Format Painter tool.",
+        "explanation": "The Format Painter lets you copy all of the formatting from one object or piece of text and apply it to another."
+      },
+      {
+        "id": "comp_int_4",
+        "topic": "Microsoft Word",
+        "question": "When creating a Table of Contents automatically in Word, what does it rely on to build the structure?",
+        "options": [
+          "Bolded text throughout the document",
+          "Bullet points and numbered lists",
+          "Heading styles (e.g., Heading 1, Heading 2)",
+          "Text highlighted in yellow"
+        ],
+        "correctAnswer": "Heading styles (e.g., Heading 1, Heading 2)",
+        "explanation": "Word automatically generates a Table of Contents based on the built-in Heading styles applied to the document's text."
+      },
+      {
+        "id": "comp_int_5",
+        "topic": "Microsoft Word",
+        "question": "What happens when you modify the 'Normal' style in a document?",
+        "options": [
+          "Only new text typed will have the new formatting.",
+          "All text that uses the 'Normal' style is automatically updated with the new formatting.",
+          "A new document template is created.",
+          "Word asks you to confirm the change for each paragraph individually."
+        ],
+        "correctAnswer": "All text that uses the 'Normal' style is automatically updated with the new formatting.",
+        "explanation": "Modifying a base style like 'Normal' updates all occurrences of that style instantly across the entire document."
+      },
+      {
+        "id": "comp_int_6",
+        "topic": "Microsoft Word",
+        "question": "Which type of break allows you to have different page orientations (e.g., one portrait, one landscape) in the same document?",
+        "options": [
+          "Page Break",
+          "Column Break",
+          "Text Wrapping Break",
+          "Section Break (Next Page)"
+        ],
+        "correctAnswer": "Section Break (Next Page)",
+        "explanation": "Section breaks divide the document into sections, allowing independent formatting like page orientation, margins, and headers/footers."
+      },
+      {
+        "id": "comp_int_7",
+        "topic": "Microsoft Word",
+        "question": "How can you update a Style to match formatting you have manually applied to selected text?",
+        "options": [
+          "Right-click the style in the gallery and choose 'Update to Match Selection'.",
+          "You cannot update styles this way; you must use the Modify Style dialog box.",
+          "Delete the style and recreate it with the new formatting.",
+          "Double-click the Format Painter while the text is selected."
+        ],
+        "correctAnswer": "Right-click the style in the gallery and choose 'Update to Match Selection'.",
+        "explanation": "This is a quick way to redefine a style based on a specific formatting combination you've just created on the page."
+      },
+      {
+        "id": "comp_int_8",
+        "topic": "Microsoft Word",
+        "question": "What is the purpose of the 'Widow/Orphan control' setting?",
+        "options": [
+          "It removes blank pages at the end of a document.",
+          "It prevents a single line of a paragraph from appearing alone at the top or bottom of a page.",
+          "It adjusts the spacing between letters in a word.",
+          "It ensures that a heading always stays with the text that follows it."
+        ],
+        "correctAnswer": "It prevents a single line of a paragraph from appearing alone at the top or bottom of a page.",
+        "explanation": "A widow is the last line of a paragraph printed alone at the top of a page. An orphan is the first line printed alone at the bottom. This setting prevents both."
+      },
+      {
+        "id": "comp_int_9",
+        "topic": "Microsoft Excel",
+        "question": "In Excel, what does the formula =$B$1+C1 do when copied down one row?",
+        "options": [
+          "It becomes =$B$2+C2",
+          "It becomes =$B$1+C2",
+          "It remains =$B$1+C1",
+          "It becomes =$C$1+D1"
+        ],
+        "correctAnswer": "It becomes =$B$1+C2",
+        "explanation": "The $ signs create an absolute reference for B1, locking both column and row. C1 is a relative reference, so its row number increases when copied down."
+      },
+      {
+        "id": "comp_int_10",
+        "topic": "Microsoft Excel",
+        "question": "Which argument in the VLOOKUP function specifies that you want an exact match?",
+        "options": [
+          "col_index_num",
+          "range_lookup = TRUE",
+          "range_lookup = FALSE",
+          "table_array"
+        ],
+        "correctAnswer": "range_lookup = FALSE",
+        "explanation": "Setting the range_lookup argument to FALSE (or 0) tells Excel to search only for an exact match."
+      },
+      {
+        "id": "comp_int_11",
+        "topic": "Microsoft Excel",
+        "question": "Which function would you use to add up values in a range only if they meet a specific criteria?",
+        "options": [
+          "SUM",
+          "COUNTIF",
+          "SUMIF",
+          "VLOOKUP"
+        ],
+        "correctAnswer": "SUMIF",
+        "explanation": "The SUMIF function is designed to sum the values in a range that meet criteria that you specify."
+      },
+      {
+        "id": "comp_int_12",
+        "topic": "Microsoft Excel",
+        "question": "When creating a chart in Excel, what is a 'secondary axis' used for?",
+        "options": [
+          "To display data series with significantly different ranges of values on the same chart.",
+          "To add a 3D effect to a 2D chart.",
+          "To display a timeline below the main category axis.",
+          "To provide a backup of the primary axis data."
+        ],
+        "correctAnswer": "To display data series with significantly different ranges of values on the same chart.",
+        "explanation": "A secondary axis is useful when comparing data series that have mixed types of data or varying scales (e.g., Total Sales in millions and Profit Margin in percentages)."
+      },
+      {
+        "id": "comp_int_13",
+        "topic": "Microsoft Excel",
+        "question": "What is the primary advantage of formatting data as an 'Excel Table'?",
+        "options": [
+          "It automatically converts text to numbers.",
+          "It allows formulas and charts to automatically expand when new rows or columns are added.",
+          "It prevents users from deleting data.",
+          "It encrypts the data within the table."
+        ],
+        "correctAnswer": "It allows formulas and charts to automatically expand when new rows or columns are added.",
+        "explanation": "Excel Tables provide dynamic ranges, so adding new data automatically incorporates it into associated formulas, charts, and PivotTables."
+      },
+      {
+        "id": "comp_int_14",
+        "topic": "Microsoft Excel",
+        "question": "Which feature would you use to highlight all cells in a range that contain a value greater than 100?",
+        "options": [
+          "Data Validation",
+          "Conditional Formatting",
+          "Format Painter",
+          "Find and Replace"
+        ],
+        "correctAnswer": "Conditional Formatting",
+        "explanation": "Conditional formatting changes the appearance of cells based on conditions or rules that you set, such as 'greater than 100'."
+      },
+      {
+        "id": "comp_int_15",
+        "topic": "Microsoft Excel",
+        "question": "What does the IF function do in Excel?",
+        "options": [
+          "It returns a value you specify if a formula evaluates to an error.",
+          "It evaluates a logical test and returns one value if true, and another value if false.",
+          "It calculates the average of cells that meet a certain condition.",
+          "It joins text strings together based on a condition."
+        ],
+        "correctAnswer": "It evaluates a logical test and returns one value if true, and another value if false.",
+        "explanation": "The IF function is the standard logical function in Excel for making decisions, returning different outcomes based on whether a condition is True or False."
+      },
+      {
+        "id": "comp_int_16",
+        "topic": "Microsoft Excel",
+        "question": "Which tool allows you to restrict the type of data or the values that users enter into a cell?",
+        "options": [
+          "Conditional Formatting",
+          "Protect Sheet",
+          "Data Validation",
+          "Consolidate"
+        ],
+        "correctAnswer": "Data Validation",
+        "explanation": "Data Validation allows you to create rules that control what can be entered into a cell, such as creating a drop-down list or limiting entries to whole numbers."
+      },
+      {
+        "id": "comp_int_17",
+        "topic": "Microsoft PowerPoint",
+        "question": "What is the primary purpose of the Slide Master in PowerPoint?",
+        "options": [
+          "To store the text of the speaker notes for the presentation.",
+          "To control the overall layout, theme, fonts, and backgrounds for all slides in the presentation.",
+          "To set up the final slide of a presentation automatically.",
+          "To view all slides simultaneously as thumbnails."
+        ],
+        "correctAnswer": "To control the overall layout, theme, fonts, and backgrounds for all slides in the presentation.",
+        "explanation": "The Slide Master is the top slide in a hierarchy that stores information about the theme and slide layouts, ensuring consistency across the entire presentation."
+      },
+      {
+        "id": "comp_int_18",
+        "topic": "Microsoft PowerPoint",
+        "question": "What is the difference between a Transition and an Animation in PowerPoint?",
+        "options": [
+          "Transitions apply to the movement between slides, while animations apply to individual objects on a slide.",
+          "Transitions apply to text, while animations apply to images.",
+          "Transitions are used in Slide Sorter view, while animations are used in Normal view.",
+          "There is no difference; they are interchangeable terms."
+        ],
+        "correctAnswer": "Transitions apply to the movement between slides, while animations apply to individual objects on a slide.",
+        "explanation": "A transition is the visual effect that occurs when you move from one slide to the next, whereas an animation dictates how individual elements appear or move on a single slide."
+      },
+      {
+        "id": "comp_int_19",
+        "topic": "Microsoft PowerPoint",
+        "question": "How can you insert a logo so that it appears in the exact same position on every slide?",
+        "options": [
+          "Copy and paste it onto each slide individually.",
+          "Insert it on the title slide and group it with the title.",
+          "Insert it into the Slide Master.",
+          "Set it as the background fill for the presentation."
+        ],
+        "correctAnswer": "Insert it into the Slide Master.",
+        "explanation": "Any object placed on the main Slide Master will automatically appear on all slides associated with that master, in the exact same position."
+      },
+      {
+        "id": "comp_int_20",
+        "topic": "Microsoft PowerPoint",
+        "question": "Which view is best for easily rearranging the order of your slides?",
+        "options": [
+          "Normal View",
+          "Slide Sorter View",
+          "Reading View",
+          "Notes Page View"
+        ],
+        "correctAnswer": "Slide Sorter View",
+        "explanation": "Slide Sorter view displays all the slides in your presentation in horizontally sequenced thumbnails, making it easy to drag and drop them to reorganize."
+      },
+      {
+        "id": "comp_int_21",
+        "topic": "Microsoft PowerPoint",
+        "question": "What does the 'Hide Background Graphics' option do on a specific slide layout?",
+        "options": [
+          "It deletes the images from the Slide Master.",
+          "It prevents graphics inserted on the Slide Master from appearing on slides using that specific layout.",
+          "It turns all images on the current slide invisible.",
+          "It compresses the background images to reduce file size."
+        ],
+        "correctAnswer": "It prevents graphics inserted on the Slide Master from appearing on slides using that specific layout.",
+        "explanation": "This feature is useful when you have a title or summary slide that needs a clean background, allowing you to hide master graphics for that layout only."
+      },
+      {
+        "id": "comp_int_22",
+        "topic": "Microsoft PowerPoint",
+        "question": "Which feature allows you to record the time spent on each slide while practicing a presentation?",
+        "options": [
+          "Presenter Coach",
+          "Record Slide Show",
+          "Rehearse Timings",
+          "Custom Slide Show"
+        ],
+        "correctAnswer": "Rehearse Timings",
+        "explanation": "Rehearse Timings lets you practice your presentation and records the amount of time you spend on each slide, which can then be used to advance slides automatically."
+      },
+      {
+        "id": "comp_int_23",
+        "topic": "Microsoft PowerPoint",
+        "question": "If you want to create a sub-presentation from a larger slide deck without deleting any slides, what feature should you use?",
+        "options": [
+          "Hidden Slides",
+          "Custom Slide Show",
+          "Sections",
+          "Slide Master"
+        ],
+        "correctAnswer": "Custom Slide Show",
+        "explanation": "A Custom Slide Show lets you select specific slides from a presentation and present them in a specific order, creating a tailored version for a specific audience."
+      },
+      {
+        "id": "comp_int_24",
+        "topic": "Microsoft Outlook",
+        "question": "What is the primary function of Rules in Microsoft Outlook?",
+        "options": [
+          "To automatically apply a specific font to all outgoing emails.",
+          "To automate actions such as moving, flagging, or forwarding incoming or outgoing messages based on specific criteria.",
+          "To block all emails from unknown senders automatically.",
+          "To enforce spelling and grammar checks before sending emails."
+        ],
+        "correctAnswer": "To automate actions such as moving, flagging, or forwarding incoming or outgoing messages based on specific criteria.",
+        "explanation": "Rules allow Outlook to automatically manage your email by performing actions like moving emails from a specific sender to a designated folder."
+      },
+      {
+        "id": "comp_int_25",
+        "topic": "Microsoft Outlook",
+        "question": "When creating a meeting request in Outlook, what feature allows you to see the availability of invitees before sending the invitation?",
+        "options": [
+          "Scheduling Assistant",
+          "Room Finder",
+          "Calendar Overlay",
+          "Tracking tab"
+        ],
+        "correctAnswer": "Scheduling Assistant",
+        "explanation": "The Scheduling Assistant shows the free/busy information for all internal attendees, helping you find a time when everyone is available."
+      },
+      {
+        "id": "comp_int_26",
+        "topic": "Microsoft Outlook",
+        "question": "What happens when you use the 'Propose New Time' feature in response to a meeting invitation?",
+        "options": [
+          "The meeting time is instantly changed for all attendees.",
+          "A notification is sent to the organizer suggesting a different time, which the organizer can accept or decline.",
+          "The meeting is declined, and a new invitation is sent by you.",
+          "The meeting is forwarded to a delegate to decide the time."
+        ],
+        "correctAnswer": "A notification is sent to the organizer suggesting a different time, which the organizer can accept or decline.",
+        "explanation": "Proposing a new time tentatively accepts or declines the meeting and sends a message to the organizer with your suggested alternative time."
+      },
+      {
+        "id": "comp_int_27",
+        "topic": "Microsoft Outlook",
+        "question": "If you are part of a long email thread that is no longer relevant to you, which Outlook feature moves current and future messages in that thread to the Deleted Items folder?",
+        "options": [
+          "Block Sender",
+          "Clean Up Conversation",
+          "Ignore Conversation",
+          "Junk Email Filter"
+        ],
+        "correctAnswer": "Ignore Conversation",
+        "explanation": "The Ignore Conversation feature deletes the current conversation and automatically deletes all future replies to that specific email thread."
+      },
+      {
+        "id": "comp_int_28",
+        "topic": "Microsoft Outlook",
+        "question": "What is the purpose of setting up an 'Automatic Reply' (Out of Office) in Outlook?",
+        "options": [
+          "To automatically forward all your emails to your personal account.",
+          "To send an automated response to people who email you while you are away, informing them of your absence.",
+          "To schedule emails to be sent at a later date.",
+          "To automatically decline any meeting invitations received."
+        ],
+        "correctAnswer": "To send an automated response to people who email you while you are away, informing them of your absence.",
+        "explanation": "Automatic Replies allow you to notify senders that you are out of the office and optionally provide alternative contact information."
+      },
+      {
+        "id": "comp_int_29",
+        "topic": "Microsoft Outlook",
+        "question": "How can you give an assistant the ability to manage your calendar and respond to meeting requests on your behalf?",
+        "options": [
+          "By sharing your calendar via an email link.",
+          "By publishing your calendar online.",
+          "By granting them Delegate Access.",
+          "By setting up a forwarding rule for all emails."
+        ],
+        "correctAnswer": "By granting them Delegate Access.",
+        "explanation": "Delegate Access goes beyond just sharing a calendar; it gives another person permission to act on your behalf, such as reading, creating, and responding to meeting requests."
+      },
+      {
+        "id": "comp_int_30",
+        "topic": "Microsoft Outlook",
+        "question": "In Outlook, what is a Contact Group (formerly known as a Distribution List)?",
+        "options": [
+          "A folder where you store contacts from a specific company.",
+          "A grouped set of email addresses saved under one name, allowing you to send an email to multiple people by typing a single name.",
+          "A rule that categorizes incoming emails from specific contacts.",
+          "A shared inbox that multiple people can access simultaneously."
+        ],
+        "correctAnswer": "A grouped set of email addresses saved under one name, allowing you to send an email to multiple people by typing a single name.",
+        "explanation": "A Contact Group allows you to bundle multiple contacts into one list, so you can email the whole group without typing each address individually."
+      }
+    ],
+    "advanced": [
+      {
+        "id": "comp_adv_1",
+        "topic": "Microsoft Word - Mail Merge",
+        "question": "When setting up a Mail Merge in Microsoft Word, which of the following rules allows you to print specific text based on a condition?",
+        "options": [
+          "Fill-in",
+          "Ask",
+          "If...Then...Else",
+          "Skip Record If"
+        ],
+        "correctAnswer": "If...Then...Else",
+        "explanation": "The 'If...Then...Else' rule in Word Mail Merge evaluates a condition in the data source and prints specified text if the condition is true, and different text if it is false."
+      },
+      {
+        "id": "comp_adv_2",
+        "topic": "Microsoft Word - Macros",
+        "question": "Which programming language is utilized behind the scenes when you record a macro in Microsoft Word?",
+        "options": [
+          "Python",
+          "Visual Basic for Applications (VBA)",
+          "C#",
+          "JavaScript"
+        ],
+        "correctAnswer": "Visual Basic for Applications (VBA)",
+        "explanation": "Microsoft Office applications use Visual Basic for Applications (VBA) to record, write, and execute macros."
+      },
+      {
+        "id": "comp_adv_3",
+        "topic": "Microsoft Word - Mail Merge",
+        "question": "What is the primary purpose of the 'Directory' document type in a Word Mail Merge?",
+        "options": [
+          "To create individual emails for each recipient",
+          "To create a single document containing a catalog or list of all records",
+          "To print labels sequentially",
+          "To generate envelopes automatically"
+        ],
+        "correctAnswer": "To create a single document containing a catalog or list of all records",
+        "explanation": "The 'Directory' type (previously called Catalog) creates a single document containing a list of items from the data source, rather than a new page or document for each record."
+      },
+      {
+        "id": "comp_adv_4",
+        "topic": "Microsoft Word - Macros",
+        "question": "How can you ensure a specific macro runs automatically every time a new document is created based on a template?",
+        "options": [
+          "Name the macro 'AutoNew'",
+          "Name the macro 'AutoOpen'",
+          "Name the macro 'AutoExec'",
+          "Name the macro 'AutoClose'"
+        ],
+        "correctAnswer": "Name the macro 'AutoNew'",
+        "explanation": "In Word, naming a macro 'AutoNew' causes it to run automatically whenever a new document is created based on the template containing the macro."
+      },
+      {
+        "id": "comp_adv_5",
+        "topic": "Microsoft Word - Mail Merge",
+        "question": "In a Mail Merge, what function does the 'Match Fields' feature serve?",
+        "options": [
+          "It matches duplicate records in the data source to delete them.",
+          "It maps custom column headers in your data source to standard Word merge fields.",
+          "It ensures font formatting matches between the source and destination.",
+          "It checks spelling based on the regional settings of the data."
+        ],
+        "correctAnswer": "It maps custom column headers in your data source to standard Word merge fields.",
+        "explanation": "Match Fields allows Word to recognize non-standard column names in your data source by mapping them to predefined standard address fields (like First Name, Last Name)."
+      },
+      {
+        "id": "comp_adv_6",
+        "topic": "Microsoft Word - Macros",
+        "question": "To edit an existing macro's code directly, which interface must you open in Microsoft Word?",
+        "options": [
+          "Macro Code Editor",
+          "Visual Basic Editor (VBE)",
+          "Developer Console",
+          "Script Manager"
+        ],
+        "correctAnswer": "Visual Basic Editor (VBE)",
+        "explanation": "The Visual Basic Editor (VBE) is the built-in development environment used to view, edit, and debug VBA code for macros."
+      },
+      {
+        "id": "comp_adv_7",
+        "topic": "Microsoft Word - Mail Merge",
+        "question": "Which of the following is NOT a valid data source for a Microsoft Word Mail Merge?",
+        "options": [
+          "An Excel Worksheet",
+          "An Access Database",
+          "An Outlook Contacts list",
+          "A PowerPoint Presentation"
+        ],
+        "correctAnswer": "A PowerPoint Presentation",
+        "explanation": "PowerPoint presentations are designed for slides and graphics; they do not have a structured tabular data format suitable for driving a mail merge."
+      },
+      {
+        "id": "comp_adv_8",
+        "topic": "Microsoft Excel - VLOOKUP",
+        "question": "What is the result if the 'range_lookup' argument in a VLOOKUP function is set to FALSE and an exact match is not found?",
+        "options": [
+          "The function returns the closest smaller value.",
+          "The function returns #N/A error.",
+          "The function returns #VALUE! error.",
+          "The function returns the closest larger value."
+        ],
+        "correctAnswer": "The function returns #N/A error.",
+        "explanation": "When range_lookup is FALSE, VLOOKUP requires an exact match. If no exact match is found, it returns the #N/A error."
+      },
+      {
+        "id": "comp_adv_9",
+        "topic": "Microsoft Excel - VLOOKUP",
+        "question": "Which of the following is a primary limitation of the standard VLOOKUP function?",
+        "options": [
+          "It can only return numeric values.",
+          "It cannot look up data across different worksheets.",
+          "It only searches for a value in the leftmost column of the table array.",
+          "It cannot handle table arrays larger than 100 rows."
+        ],
+        "correctAnswer": "It only searches for a value in the leftmost column of the table array.",
+        "explanation": "A fundamental limitation of VLOOKUP is that it can only search the leftmost column of the provided table array and return a value from a column to the right."
+      },
+      {
+        "id": "comp_adv_10",
+        "topic": "Microsoft Excel - Pivot Tables",
+        "question": "In an Excel Pivot Table, what is a 'Calculated Field'?",
+        "options": [
+          "A field that groups text items together.",
+          "A custom field created by performing mathematical calculations on existing fields.",
+          "A summary row at the bottom of the Pivot Table.",
+          "A field that counts the number of blank cells in the source data."
+        ],
+        "correctAnswer": "A custom field created by performing mathematical calculations on existing fields.",
+        "explanation": "A Calculated Field is a new field within a Pivot Table created by writing a formula that uses the values from other existing fields in the source data."
+      },
+      {
+        "id": "comp_adv_11",
+        "topic": "Microsoft Excel - Pivot Tables",
+        "question": "What is the primary difference between a Slicer and a Timeline in Excel Pivot Tables?",
+        "options": [
+          "Slicers can filter any data type, while Timelines can only filter date/time fields.",
+          "Slicers are only available in older versions of Excel.",
+          "Timelines modify the source data, whereas Slicers only hide rows.",
+          "There is no difference; they are just different names for the same feature."
+        ],
+        "correctAnswer": "Slicers can filter any data type, while Timelines can only filter date/time fields.",
+        "explanation": "While both are visual filtering tools, Timelines are specifically designed and optimized to filter date and time fields."
+      },
+      {
+        "id": "comp_adv_12",
+        "topic": "Microsoft Excel - Macros",
+        "question": "When recording an Excel Macro, what happens if 'Use Relative References' is turned ON?",
+        "options": [
+          "The macro always interacts with the exact cell addresses where it was recorded.",
+          "The macro records actions relative to the active cell's starting position.",
+          "The macro automatically adjusts cell references across different worksheets.",
+          "The macro prevents absolute functions like SUM from working."
+        ],
+        "correctAnswer": "The macro records actions relative to the active cell's starting position.",
+        "explanation": "Using Relative References means the macro records offsets (e.g., move down one cell) rather than fixed cell addresses (e.g., select cell A2)."
+      },
+      {
+        "id": "comp_adv_13",
+        "topic": "Microsoft Excel - Macros",
+        "question": "Where should you save a macro if you want it to be available in every Excel workbook you open on your computer?",
+        "options": [
+          "In a standard .xlsx file.",
+          "In the Personal Macro Workbook (Personal.xlsb).",
+          "In a cloud-shared network folder.",
+          "In the document properties metadata."
+        ],
+        "correctAnswer": "In the Personal Macro Workbook (Personal.xlsb).",
+        "explanation": "The Personal Macro Workbook is a hidden workbook that opens automatically with Excel, allowing macros saved within it to be accessed from any open workbook."
+      },
+      {
+        "id": "comp_adv_14",
+        "topic": "Microsoft Excel - Pivot Tables",
+        "question": "By default, what happens to an Excel Pivot Table when the underlying source data changes?",
+        "options": [
+          "It updates automatically in real-time.",
+          "It must be manually refreshed to display the updated data.",
+          "It locks the source data from further changes.",
+          "It generates a new Pivot Table on a separate sheet."
+        ],
+        "correctAnswer": "It must be manually refreshed to display the updated data.",
+        "explanation": "Pivot Tables do not dynamically update in real-time. You must right-click and select 'Refresh' or click 'Refresh All' on the ribbon to incorporate source data changes."
+      },
+      {
+        "id": "comp_adv_15",
+        "topic": "Microsoft Excel - VLOOKUP",
+        "question": "What is the purpose of the 'col_index_num' argument in a VLOOKUP formula?",
+        "options": [
+          "It indicates the row number to search.",
+          "It specifies the column number in the table array from which to retrieve the value.",
+          "It defines the total number of columns in the table array.",
+          "It indicates whether an exact or approximate match is required."
+        ],
+        "correctAnswer": "It specifies the column number in the table array from which to retrieve the value.",
+        "explanation": "The col_index_num argument tells VLOOKUP which column in the selected table_array contains the data you want to return, counting from the left."
+      },
+      {
+        "id": "comp_adv_16",
+        "topic": "Microsoft Excel - Macros",
+        "question": "Which keyboard shortcut opens the 'Macros' dialog box allowing you to run, edit, or delete a macro?",
+        "options": [
+          "Ctrl + M",
+          "Alt + F8",
+          "Shift + F11",
+          "Ctrl + Shift + M"
+        ],
+        "correctAnswer": "Alt + F8",
+        "explanation": "Alt + F8 is the standard Excel keyboard shortcut to open the Macro dialog box."
+      },
+      {
+        "id": "comp_adv_17",
+        "topic": "Microsoft PowerPoint - Advanced Animations",
+        "question": "In PowerPoint, what does an animation 'Trigger' allow you to do?",
+        "options": [
+          "Start an animation automatically when a specific shape or object is clicked.",
+          "Change the slide transition speed.",
+          "Export the animation to a video format automatically.",
+          "Trigger a macro to run before the animation starts."
+        ],
+        "correctAnswer": "Start an animation automatically when a specific shape or object is clicked.",
+        "explanation": "A trigger assigns a click event to a specific object on the slide, causing an animation sequence to start only when that specific object is clicked during the presentation."
+      },
+      {
+        "id": "comp_adv_18",
+        "topic": "Microsoft PowerPoint - Advanced Animations",
+        "question": "How can you precisely modify the path an object takes during a Motion Path animation?",
+        "options": [
+          "By typing X and Y coordinates into the animation pane.",
+          "By right-clicking the motion path and selecting 'Edit Points'.",
+          "By changing the slide layout.",
+          "Motion paths cannot be edited once applied."
+        ],
+        "correctAnswer": "By right-clicking the motion path and selecting 'Edit Points'.",
+        "explanation": "Selecting 'Edit Points' on a motion path allows you to drag the nodes and handles to create curved or custom routes for the animated object."
+      },
+      {
+        "id": "comp_adv_19",
+        "topic": "Microsoft PowerPoint - Linking Data",
+        "question": "When you paste an Excel chart into PowerPoint using the 'Keep Source Formatting & Link Data' option, what occurs when the original Excel data is modified?",
+        "options": [
+          "The PowerPoint chart remains static and unchanging.",
+          "The PowerPoint chart will update to reflect the changes, either automatically or when manually refreshed.",
+          "The Excel file becomes locked and cannot be edited.",
+          "The PowerPoint file size increases massively because the whole workbook is embedded."
+        ],
+        "correctAnswer": "The PowerPoint chart will update to reflect the changes, either automatically or when manually refreshed.",
+        "explanation": "Linking data maintains a connection to the source file. Changes in Excel will update the PowerPoint chart, keeping the data synchronized without embedding the entire workbook."
+      },
+      {
+        "id": "comp_adv_20",
+        "topic": "Microsoft PowerPoint - Advanced Animations",
+        "question": "What is the difference between setting an animation to 'Start With Previous' versus 'Start After Previous'?",
+        "options": [
+          "'With Previous' runs the animation simultaneously with the preceding one; 'After Previous' waits for the preceding one to finish.",
+          "'With Previous' requires a mouse click; 'After Previous' is automatic.",
+          "'With Previous' makes the animation go backward; 'After Previous' makes it go forward.",
+          "There is no functional difference."
+        ],
+        "correctAnswer": "'With Previous' runs the animation simultaneously with the preceding one; 'After Previous' waits for the preceding one to finish.",
+        "explanation": "'Start With Previous' groups animations to happen at the exact same time. 'Start After Previous' queues them to happen sequentially."
+      },
+      {
+        "id": "comp_adv_21",
+        "topic": "Microsoft PowerPoint - Linking Data",
+        "question": "If you break a link to an external Excel file in a PowerPoint presentation, what happens to the linked chart?",
+        "options": [
+          "The chart is deleted from the slide.",
+          "The chart turns into an uneditable picture.",
+          "The chart becomes a standard PowerPoint chart using the last known data, but no longer updates from Excel.",
+          "The PowerPoint file will crash."
+        ],
+        "correctAnswer": "The chart becomes a standard PowerPoint chart using the last known data, but no longer updates from Excel.",
+        "explanation": "Breaking a link severs the connection to the external file. The chart remains on the slide with its current data but can no longer be refreshed from the original source."
+      },
+      {
+        "id": "comp_adv_22",
+        "topic": "Microsoft PowerPoint - Advanced Animations",
+        "question": "To add a second animation (e.g., a Spin emphasis) to an object that already has an entrance animation, which button must you click?",
+        "options": [
+          "The 'Add Animation' button in the Advanced Animation group.",
+          "The main Animation gallery.",
+          "The 'Animation Painter'.",
+          "The 'Effect Options' button."
+        ],
+        "correctAnswer": "The 'Add Animation' button in the Advanced Animation group.",
+        "explanation": "If you select a new animation from the main gallery, it replaces the existing one. You must use 'Add Animation' to layer multiple animations on a single object."
+      },
+      {
+        "id": "comp_adv_23",
+        "topic": "Microsoft PowerPoint - Linking Data",
+        "question": "Compared to embedding an object, what is a primary advantage of linking an object in PowerPoint?",
+        "options": [
+          "It guarantees the presentation will work perfectly on any offline computer.",
+          "It significantly reduces the PowerPoint file size.",
+          "It allows you to apply more complex PowerPoint formatting.",
+          "It converts the object into a vector graphic."
+        ],
+        "correctAnswer": "It significantly reduces the PowerPoint file size.",
+        "explanation": "Linking points to an external file rather than storing the entire file's data within the presentation, thereby keeping the PowerPoint file size much smaller."
+      },
+      {
+        "id": "comp_adv_24",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "When granting Delegate Access in Outlook, which permission level allows the delegate to read, create, and modify all items, but NOT delete items they did not create?",
+        "options": [
+          "Reviewer",
+          "Author",
+          "Editor",
+          "Contributor"
+        ],
+        "correctAnswer": "Author",
+        "explanation": "The 'Author' permission level allows a delegate to read and create items, and modify/delete items they have created, but they cannot modify or delete items created by the mailbox owner."
+      },
+      {
+        "id": "comp_adv_25",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "What is the difference between 'Send on Behalf' and 'Send As' permissions in Outlook?",
+        "options": [
+          "'Send on Behalf' shows both the delegate and owner names in the From field; 'Send As' shows only the owner's name.",
+          "They are functionally identical.",
+          "'Send As' is configured in Outlook; 'Send on Behalf' requires Exchange Admin Center access.",
+          "'Send on Behalf' only allows sending internal emails."
+        ],
+        "correctAnswer": "'Send on Behalf' shows both the delegate and owner names in the From field; 'Send As' shows only the owner's name.",
+        "explanation": "Send on Behalf displays 'Delegate on behalf of Owner', whereas Send As makes the email appear exactly as if the Owner sent it themselves."
+      },
+      {
+        "id": "comp_adv_26",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "When you configure a delegate to receive copies of meeting-related messages, what happens by default when a new meeting invite arrives?",
+        "options": [
+          "The invite is automatically accepted.",
+          "The invite goes only to the delegate's inbox.",
+          "The invite goes to the owner's inbox, and a copy goes to the delegate's inbox.",
+          "The invite is held in a shared queue."
+        ],
+        "correctAnswer": "The invite goes to the owner's inbox, and a copy goes to the delegate's inbox.",
+        "explanation": "By default, Outlook sends the meeting request to both the principal's inbox and the delegate's inbox so either can process it, unless configured otherwise."
+      },
+      {
+        "id": "comp_adv_27",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "How can an Outlook user ensure that their delegate cannot view appointments marked as 'Private'?",
+        "options": [
+          "Assign the 'Reviewer' permission level.",
+          "Ensure the 'Delegate can see my private items' checkbox is unchecked.",
+          "Mark the calendar as 'Read Only'.",
+          "Store private items in a separate PST file."
+        ],
+        "correctAnswer": "Ensure the 'Delegate can see my private items' checkbox is unchecked.",
+        "explanation": "In the Delegate Access settings, there is a specific checkbox that controls whether a delegate can view items marked private. Leaving it unchecked hides private items."
+      },
+      {
+        "id": "comp_adv_28",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "If an executive wants their assistant to manage their calendar but NOT their email inbox, how is this accomplished?",
+        "options": [
+          "It is impossible; delegation applies to the whole mailbox.",
+          "Assign 'Editor' permissions for Calendar and 'None' for Inbox in the Delegate Access settings.",
+          "Create a separate email address for the assistant.",
+          "Give the assistant the executive's password."
+        ],
+        "correctAnswer": "Assign 'Editor' permissions for Calendar and 'None' for Inbox in the Delegate Access settings.",
+        "explanation": "Delegate Access is granular. You can specify different permission levels (None, Reviewer, Author, Editor) for different folders (Calendar, Tasks, Inbox, Contacts)."
+      },
+      {
+        "id": "comp_adv_29",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "Which built-in role gives an Outlook delegate the highest level of control, allowing them to read, create, change, and delete ALL items in a folder?",
+        "options": [
+          "Owner",
+          "Editor",
+          "Author",
+          "Reviewer"
+        ],
+        "correctAnswer": "Editor",
+        "explanation": "The 'Editor' permission level grants full rights to read, create, modify, and delete any item in the folder, regardless of who created it."
+      },
+      {
+        "id": "comp_adv_30",
+        "topic": "Microsoft Outlook - Advanced Delegation",
+        "question": "When a delegate accepts a meeting request on behalf of a manager, whose calendar is the meeting added to?",
+        "options": [
+          "Only the delegate's calendar.",
+          "Only the manager's calendar.",
+          "Both the manager's and the delegate's calendars.",
+          "A shared group calendar."
+        ],
+        "correctAnswer": "Only the manager's calendar.",
+        "explanation": "When acting as a delegate, processing a meeting request automatically updates the principal's (manager's) calendar, not the delegate's personal calendar."
+      }
+    ]
+  }
 }

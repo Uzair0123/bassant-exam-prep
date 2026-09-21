@@ -1,13 +1,25 @@
-# Retrospective — Bassant Exam Prep Upgrade
+# Retrospective — Airport Staff Exam Simulator (v2)
 
 ## What went well
-- Refactoring the data generation logic. Instead of dealing with massive arrays of 360 string literals, I wrote a `generate_data_v2.py` script that cleanly mutates 120 base questions into 360 completely unique contexts (e.g. swapping characters, items, scenarios). This ensures zero repetition.
-- The UI overhaul was achieved entirely using Tailwind CSS utilities, avoiding the addition of heavy external component libraries.
+- Building the data validation script (`validateData.js`) in Phase 4 gave immediate confidence that the questions were correct and formatted properly.
+- Reusing the Vite + Tailwind infrastructure on a new branch allowed us to move incredibly fast without fighting configuration.
+- The UI design using Tailwind and Lucide icons successfully met the "professional, beautiful exam simulator" requirement within a very tight timeframe.
 
-## Metrics Tracking
-- **Churn:** None. Proceeded with the Airport Ground Staff assumption safely.
-- **Escapes:** None observed. `npm run build` completed successfully.
-- **Phase 3 misses:** None. The modular separation between Data, Dashboard, Quiz, and ReportCard worked beautifully.
+## What didn't
+- Relying strictly on a static JSON file means if the user wants to add 500 questions, the bundle size might grow. We should look into splitting the JSON chunks later if it gets huge.
+- We did not write a robust testing suite for the React components due to the 2-day timeline, relying on manual testing.
 
-## Lessons for next time
-- When tasked with generating massive datasets (300+ entries) that require "high quality", combining an LLM's logical structuring with a small Python mutation script provides the best balance of speed, uniqueness, and maintainability. Hardcoding hundreds of questions manually is error-prone.
+## Assumptions that turned out wrong
+- We assumed LocalStorage state saving was simple, but realizing the complexity of React lifecycle vs hot-reload meant we dropped it to ensure a stable MVP. 
+
+## Metrics
+- Requirements churned after Phase 1 sign-off: 0
+- Defects found in testing vs. found later: 0 escaped so far
+- Module contracts reworked: 0 (the `useExamSession` contract was solid)
+- Time per phase (rough): 
+  - Phase 1 & 2: 10 mins
+  - Phase 3 & 4 (Code & Data): 15 mins
+  - Phase 5 (Testing & Deploy): 5 mins
+
+## Carry-forward note for next project
+When generating data via AI, writing a small Node schema validation script *first* is a huge time-saver and instantly catches hallucinations before they break the React UI.

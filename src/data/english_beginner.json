@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eng_beg_1",
+    "topic": "Articles",
+    "question": "She is ___ pilot.",
+    "options": ["a", "an", "the", "-"],
+    "correctAnswer": "a",
+    "explanation": "Use 'a' before words starting with a consonant sound when talking about someone's job."
+  },
+  {
+    "id": "eng_beg_2",
+    "topic": "Articles",
+    "question": "Where is ___ nearest exit?",
+    "options": ["a", "an", "the", "-"],
+    "correctAnswer": "the",
+    "explanation": "Use 'the' before superlative adjectives like 'nearest'."
+  },
+  {
+    "id": "eng_beg_3",
+    "topic": "Articles",
+    "question": "He works for ___ airline in Egypt.",
+    "options": ["a", "an", "the", "-"],
+    "correctAnswer": "an",
+    "explanation": "Use 'an' before words starting with a vowel sound."
+  },
+  {
+    "id": "eng_beg_4",
+    "topic": "Articles",
+    "question": "I need ___ visa to travel.",
+    "options": ["a", "an", "the", "-"],
+    "correctAnswer": "a",
+    "explanation": "Use 'a' for singular countable nouns starting with a consonant sound."
+  },
+  {
+    "id": "eng_beg_5",
+    "topic": "Tenses",
+    "question": "I ___ at the airport every day.",
+    "options": ["work", "works", "working", "worked"],
+    "correctAnswer": "work",
+    "explanation": "Use the base form of the verb for habits and routines with the pronoun 'I' (Present Simple tense)."
+  },
+  {
+    "id": "eng_beg_6",
+    "topic": "Tenses",
+    "question": "She ___ a uniform right now.",
+    "options": ["wears", "wearing", "is wearing", "wear"],
+    "correctAnswer": "is wearing",
+    "explanation": "Use the Present Continuous tense (is + verb-ing) for actions happening at the moment of speaking."
+  },
+  {
+    "id": "eng_beg_7",
+    "topic": "Tenses",
+    "question": "They ___ their bags yesterday.",
+    "options": ["checked", "check", "checking", "checks"],
+    "correctAnswer": "checked",
+    "explanation": "Use the Past Simple tense (verb+ed) for actions completed in the past ('yesterday')."
+  },
+  {
+    "id": "eng_beg_8",
+    "topic": "Tenses",
+    "question": "The flight ___ at 9:00 PM tonight.",
+    "options": ["leave", "leaving", "leaves", "left"],
+    "correctAnswer": "leaves",
+    "explanation": "Use the Present Simple tense for scheduled events in the future."
+  },
+  {
+    "id": "eng_beg_9",
+    "topic": "Comparisons",
+    "question": "First class is ___ than economy class.",
+    "options": ["comfortable", "more comfortable", "most comfortable", "comfort"],
+    "correctAnswer": "more comfortable",
+    "explanation": "Use 'more' with long adjectives when comparing two things."
+  },
+  {
+    "id": "eng_beg_10",
+    "topic": "Comparisons",
+    "question": "This suitcase is ___ than that one.",
+    "options": ["heavy", "heavier", "heaviest", "more heavy"],
+    "correctAnswer": "heavier",
+    "explanation": "For two-syllable adjectives ending in 'y', change 'y' to 'i' and add 'er' for comparisons."
+  },
+  {
+    "id": "eng_beg_11",
+    "topic": "Comparisons",
+    "question": "Cairo Airport is one of the ___ in Africa.",
+    "options": ["busy", "busier", "busiest", "more busy"],
+    "correctAnswer": "busiest",
+    "explanation": "Use the superlative form (the + adjective+est) when comparing more than two things."
+  },
+  {
+    "id": "eng_beg_12",
+    "topic": "Comparisons",
+    "question": "The morning shift is ___ than the night shift.",
+    "options": ["easy", "easiest", "more easy", "easier"],
+    "correctAnswer": "easier",
+    "explanation": "For two-syllable adjectives ending in 'y', drop the 'y' and add 'ier'."
+  },
+  {
+    "id": "eng_beg_13",
+    "topic": "Question Forms",
+    "question": "___ is your passport?",
+    "options": ["Who", "What", "Where", "When"],
+    "correctAnswer": "Where",
+    "explanation": "'Where' is used to ask about a location or place."
+  },
+  {
+    "id": "eng_beg_14",
+    "topic": "Question Forms",
+    "question": "___ bags are you checking in?",
+    "options": ["How much", "How many", "What time", "Which"],
+    "correctAnswer": "How many",
+    "explanation": "'How many' is used to ask about countable nouns like bags."
+  },
+  {
+    "id": "eng_beg_15",
+    "topic": "Question Forms",
+    "question": "___ is the departure time?",
+    "options": ["What", "Where", "Who", "Why"],
+    "correctAnswer": "What",
+    "explanation": "'What' is used to ask for specific information about things."
+  },
+  {
+    "id": "eng_beg_16",
+    "topic": "Question Forms",
+    "question": "___ do you work here?",
+    "options": ["Because", "Who", "Why", "What"],
+    "correctAnswer": "Why",
+    "explanation": "'Why' is used to ask for a reason."
+  },
+  {
+    "id": "eng_beg_17",
+    "topic": "Question Forms",
+    "question": "___ is the next flight to Dubai?",
+    "options": ["When", "Who", "Why", "Which"],
+    "correctAnswer": "When",
+    "explanation": "'When' is used to ask about time."
+  },
+  {
+    "id": "eng_beg_18",
+    "topic": "Job Vocabulary",
+    "question": "A person who flies the plane is a ___.",
+    "options": ["passenger", "pilot", "mechanic", "manager"],
+    "correctAnswer": "pilot",
+    "explanation": "A pilot is the person who operates the flying controls of an aircraft."
+  },
+  {
+    "id": "eng_beg_19",
+    "topic": "Job Vocabulary",
+    "question": "The ___ checks your ticket and gives you a boarding pass.",
+    "options": ["pilot", "security guard", "check-in agent", "cleaner"],
+    "correctAnswer": "check-in agent",
+    "explanation": "A check-in agent works at the counter to register passengers for their flights."
+  },
+  {
+    "id": "eng_beg_20",
+    "topic": "Job Vocabulary",
+    "question": "The ___ serves food and drinks on the plane.",
+    "options": ["flight attendant", "pilot", "manager", "mechanic"],
+    "correctAnswer": "flight attendant",
+    "explanation": "A flight attendant's job is to ensure the safety and comfort of passengers on an aircraft."
+  },
+  {
+    "id": "eng_beg_21",
+    "topic": "Job Vocabulary",
+    "question": "A ___ keeps the airport safe.",
+    "options": ["pilot", "security officer", "cleaner", "flight attendant"],
+    "correctAnswer": "security officer",
+    "explanation": "Security officers check passengers and their luggage to maintain safety."
+  },
+  {
+    "id": "eng_beg_22",
+    "topic": "Job Vocabulary",
+    "question": "People traveling on planes are called ___.",
+    "options": ["pilots", "agents", "passengers", "workers"],
+    "correctAnswer": "passengers",
+    "explanation": "A passenger is a person traveling in a vehicle, ship, or aircraft who is not operating it."
+  },
+  {
+    "id": "eng_beg_23",
+    "topic": "Prepositions",
+    "question": "The flight departs ___ 10:00 AM.",
+    "options": ["in", "on", "at", "by"],
+    "correctAnswer": "at",
+    "explanation": "Use 'at' for specific times on the clock."
+  },
+  {
+    "id": "eng_beg_24",
+    "topic": "Prepositions",
+    "question": "Please wait ___ the gate.",
+    "options": ["on", "at", "in", "by"],
+    "correctAnswer": "at",
+    "explanation": "Use 'at' to refer to a specific point or location."
+  },
+  {
+    "id": "eng_beg_25",
+    "topic": "Prepositions",
+    "question": "The passengers are walking ___ the plane.",
+    "options": ["on", "into", "at", "with"],
+    "correctAnswer": "into",
+    "explanation": "'Into' is used to show movement towards the inside of a place."
+  },
+  {
+    "id": "eng_beg_26",
+    "topic": "Prepositions",
+    "question": "Your bag is ___ the desk.",
+    "options": ["in", "on", "at", "to"],
+    "correctAnswer": "on",
+    "explanation": "Use 'on' to show something is resting on a surface."
+  },
+  {
+    "id": "eng_beg_27",
+    "topic": "Conjunctions",
+    "question": "I like my job, ___ it is very tiring.",
+    "options": ["and", "so", "but", "or"],
+    "correctAnswer": "but",
+    "explanation": "'But' is used to connect two contrasting ideas."
+  },
+  {
+    "id": "eng_beg_28",
+    "topic": "Conjunctions",
+    "question": "Please show your passport ___ boarding pass.",
+    "options": ["and", "but", "so", "because"],
+    "correctAnswer": "and",
+    "explanation": "'And' is used to link similar ideas or items in a list."
+  },
+  {
+    "id": "eng_beg_29",
+    "topic": "Conjunctions",
+    "question": "You can take the bus ___ the train to the terminal.",
+    "options": ["and", "but", "or", "so"],
+    "correctAnswer": "or",
+    "explanation": "'Or' is used to present an alternative or choice."
+  },
+  {
+    "id": "eng_beg_30",
+    "topic": "Conjunctions",
+    "question": "We were late ___ there was heavy traffic.",
+    "options": ["so", "but", "because", "or"],
+    "correctAnswer": "because",
+    "explanation": "'Because' is used to introduce a reason."
+  }
+]

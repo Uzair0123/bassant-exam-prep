@@ -3,19 +3,22 @@ import questionsData from '../data/questions.json';
 
 export function useExamSession() {
   const [examType, setExamType] = useState(null); // 'english' or 'computer'
+  const [examLevel, setExamLevel] = useState(null); // 'beginner', 'intermediate', 'advanced'
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({});
   const [status, setStatus] = useState('idle'); // 'idle' | 'running' | 'completed'
   const [timeRemaining, setTimeRemaining] = useState(0); // seconds
 
-  const startExam = useCallback((type, durationSeconds = 600) => {
-    if (!questionsData[type]) {
-      console.error(`Invalid exam type: ${type}`);
+  const startExam = useCallback((type, level, durationSeconds = 600) => {
+    const levelData = questionsData[type]?.[level];
+    if (!levelData) {
+      console.error(`Invalid exam type/level: ${type}/${level}`);
       return;
     }
     setExamType(type);
-    setQuestions(questionsData[type]);
+    setExamLevel(level);
+    setQuestions(levelData);
     setCurrentIndex(0);
     setUserAnswers({});
     setStatus('running');
@@ -41,6 +44,7 @@ export function useExamSession() {
   const reset = useCallback(() => {
     setStatus('idle');
     setExamType(null);
+    setExamLevel(null);
     setQuestions([]);
     setCurrentIndex(0);
     setUserAnswers({});
@@ -76,6 +80,7 @@ export function useExamSession() {
 
   return {
     examType,
+    examLevel,
     questions,
     currentIndex,
     currentQuestion: questions[currentIndex] || null,
